@@ -3,13 +3,7 @@ import app.database as db
 from flask import request, Response
 import app.helpers.jwt as jwt
 from json import dumps
-
-
-@app.route('/', methods=['GET'])
-@cache.cached()
-def index():
-    data = db.addUser('iresharma', '123', '78 BTN')
-    return f"hio{data}"
+import app.helpers.decorators as decorators
 
 
 @app.route('/auth', methods=['GET', 'POST'])
@@ -29,8 +23,8 @@ def auth():
             print(e)
             return Response('Internal server error', status=500)
 
-        # GET data according to BTN from userObj
         retData = {'user': userObject}
+        retData['data'] = db.sendCount(userObject["btn"])
         retData['token'] = jwt.createToken(userObject)
         try:
             del retData['user']['exp']
@@ -45,11 +39,36 @@ def auth():
             userObject = db.loginUser(json['username'], json['password'])
         except ValueError:
             return Response('Invalid credentials', status=400)
-        # GET data according to Btn
         retData = {'user': userObject}
+        retData['data'] = db.sendCount(userObject["btn"])
         retData['token'] = jwt.createToken(userObject)
         try:
             del retData['user']['exp']
         except KeyError:
             pass
         return Response(dumps(retData), status=200)
+
+# Route to get all lat longs
+
+@app.route('/geo')
+@decorators.jwtChecker
+@cache.cached()
+def geo(userObject: dict):
+    result = db.getGeoLocation(userObject["btn"])
+    return Response(dumps(result), status=200)
+
+
+# Route to get data about specific company(coy)
+@app.route('/coy/<coy>/<type>')
+@decorators.jwtChecker
+@cache.cached()
+def coy(coy: str, type: str, userObject: dict):
+    if type == 'village':
+        result = db.listVillages(coy.replace('+', ' '), userObject['btn'])
+        return Response(dumps(result), status=200)
+    elif type == 'mohalla':
+        result = db.listMohalla(coy.replace('+', ' '), userObject['btn'])
+        return Response(dumps(result), status=200)
+    elif type == 'house':
+        result = db.listHouse(coy.replace('+', ' '), userObject['btn'])
+        return Response(dumps(result), status=200)

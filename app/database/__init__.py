@@ -5,7 +5,6 @@ from hashlib import sha256
 
 client = MongoClient()
 db = client[DATABASE_NAME]
-dbUsers = db.users
 
 # iresharma, 123
 
@@ -19,11 +18,10 @@ dbUsers = db.users
 #     }
 
 #     userId = db['users'].insert_one(user)
-#     print(userId)
 #     return user
 
 def loginUser(username: str, password: str) -> dict:
-    user = dbUsers.find_one({"username": username})
+    user = db.users.find_one({"username": username})
     passW = sha256(password.encode()).hexdigest()
     if passW == user['password']:
         del user['password']
@@ -31,3 +29,39 @@ def loginUser(username: str, password: str) -> dict:
         return user
     else:
         raise ValueError
+
+def sendCount(btn: str) -> dict:
+    filter = {"btn": btn}
+    return {
+        "villages": db.villages.count_documents(filter),
+        "mohallas": db.mohallas.count_documents(filter),
+        "houses": db.houses.count_documents(filter),
+    }
+
+def getGeoLocation(btn: str) -> list:
+    def createObj(data: dict) -> dict:
+        return {
+            "houseNumber": data['house'],
+            "village": data['village'],
+            "mohalla": data['mohalla'],
+            "geo": data['geo'],
+            "head": data['husband'],
+            "colour": data['colour'],
+            "entryPoints": data['entryPoints'],
+        }
+    result = db.houses.find({"btn": btn})
+    return list(map(createObj, result))
+
+def listVillages(coy: str, btn: str) -> list:
+    result = db.villages.find({"btn": btn, "coy": coy})
+    return list(result)
+
+def listMohalla(coy: str, btn: str) -> list:
+    result = db.mohallas.find({"btn": btn, "coy": coy})
+    return list(result)
+
+def listHouse(coy: str, btn: str) -> list:
+    result = db.houses.find({"btn": btn, "coy": coy})
+    return list(result)
+
+# addUser('iresharma', '123', '78 BN')
