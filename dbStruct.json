@@ -1,0 +1,86 @@
+{
+    "houses": [
+        {
+            "_id" : "855ca1fe655042f89a2bceb3bb990bfd",
+            "house" : "Z-1",
+            "btn" : "78 BN",
+            "coy" : "A Coy",
+            "village" : "Sant",
+            "mohalla" : "Digvijay",
+            "floor" : "Single",
+            "colour" : "Red",
+            "perimeterfence" : false,
+            "cowshed" : true,
+            "entryPoints" : "2",
+            "geo" : {
+                "lat" : "28.679079",
+                "long" : "77.069710"
+            },
+            "mother" : {
+                "name" : "Oliver",
+                "age" : "33",
+                "sex" : "F",
+                "occupation" : "Teacher",
+                "tel" : "9213840102"
+            },
+            "father" : {
+                "name" : "Jack",
+                "age" : "21",
+                "sex" : "M",
+                "occupation" : "Doctor",
+                "tel" : "9213840101"
+            },
+            "daughter" : null,
+            "son" : null,
+            "husband" : {
+                "name" : "James",
+                "age" : "45",
+                "sex" : "F",
+                "occupation" : "Engineer",
+                "tel" : "9213840103"
+            },
+            "wife" : {
+                "name" : "Charlie",
+                "age" : "28",
+                "sex" : "F",
+                "occupation" : "Painter",
+                "tel" : "9213840104"
+            }
+        }
+    ],
+    "mohallas" : [
+        {
+            "_id" : "a4fec4ae107b4266a03e49d8c074b20a",
+            "btn" : "78 BN",
+            "coy" : "A Coy",
+            "village" : "Sant",
+            "mohalla" : "Digvijay",
+            "houses" : [
+                "855ca1fe655042f89a2bceb3bb990bfd",
+                "e5417cf2e997432c9751635cefcad29e"
+            ]
+        }
+    ],
+    "villages": [
+        {
+            "_id" : "c91db13f4c3f48f6a5a6ae810d03e416",
+            "btn" : "78 BN",
+            "coy" : "A Coy",
+            "village" : "Sant",
+            "houses" : [
+                "855ca1fe655042f89a2bceb3bb990bfd",
+                "46f2a666f8ac400aa07c45f37841f570",
+                "33f7b7f0150f40c39a047ff8bc90917f",
+                "ba29242c42d440969efe17fc18f842ba",
+                "7e3280ce9c124b6d9714aec4d2dd8633"
+            ],
+            "mohalla" : [
+                "a4fec4ae107b4266a03e49d8c074b20a",
+                "d3207cefa9ce4cffa9fa505fda5bff8a",
+                "a84d6178930d4e5795dca512b37e974f",
+                "aa1b638f9b3d42afa989015720dc59e4",
+                "9681b0387c804802aa8cbef867f524cd"
+            ]
+        }
+    ]
+}

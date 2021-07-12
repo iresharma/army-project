@@ -1,3 +1,6 @@
+from pymongo import MongoClient
+from uuid import uuid4
+from json import dumps
 data = []
 
 with open('DATABASE.csv', 'r') as fileData:
@@ -30,12 +33,118 @@ with open('DATABASE.csv', 'r') as fileData:
         }
         data.append(doc)
 
-print(data[0])
+houses = []
+villages = []
+mohallas = []
 
-from pymongo import MongoClient
 
-client = MongoClient()
-db = client.armyPorj
-dbData = db.data
+houseDocs = []
+mohallaDocs = []
+villageDocs = []
 
-dbData.insert_many(data)
+for i in data:
+    hid = str(uuid4()).replace('-', '')
+    mid = str(uuid4()).replace('-', '')
+    vid = str(uuid4()).replace('-', '')
+
+    print(villages)
+    print(mohallas)
+
+    # create house doc
+    if i['Hnum'] not in houses:
+        houses.append(i['Hnum'])
+        doc = {
+            "_id": hid,
+            "house": i["Hnum"],
+            "btn": i["Bn"],
+            "coy": i["coy"],
+            "village": i["village"],
+            "mohalla": i["mohalla"],
+            "floor": i['floor'],
+            "colour": i["colour"],
+            "perimeterfence": True if i["perimeterfence"] == 'Y' or i["perimeterfence"] == 'y' else False,
+            "cowshed": True if i["cowshed"] == 'Y' or i["cowshed"] == 'y' else False,
+            "entryPoints": i['entryPoints'],
+            "geo": {
+                "lat": i['geo']['lat'],
+                "long": i['geo']['long'],
+            },
+            "mother": None,
+            "father": None,
+            "daughter": None,
+            "son": None,
+            "husband": None,
+            "wife": None
+        }
+        doc[i['relation'].lower()] = {
+            "name": i['name'],
+            "age": i['age'],
+            "sex": i['sex'],
+            "occupation": i['occupation'],
+            "tel": i['tel'],
+        }
+        houseDocs.append(doc)
+
+
+        # create mohalla document
+        if i['mohalla'] not in mohallas:
+            mohallas.append(i['mohalla'])
+            doc = {
+                "_id": mid,
+                "btn": i['Bn'],
+                "coy": i['coy'],
+                "village": i['village'],
+                "mohalla": i['mohalla'],
+                "houses": [hid]
+            }
+            mohallaDocs.append(doc)
+
+            # create village document
+            if i['village'] not in villages:
+                villages.append(i['village'])
+                doc = {
+                    "_id": vid,
+                    "btn": i['Bn'],
+                    "coy": i['coy'],
+                    "village": i['village'],
+                    "houses": [hid],
+                    "mohalla": [mid]
+                }
+                villageDocs.append(doc)
+            else:
+                index = villages.index(i['village'])
+                villageDocs[index]['houses'].append(hid)
+                villageDocs[index]['mohalla'].append(vid)
+        else:
+            index = mohallas.index(i['mohalla'])
+            mohallaDocs[index]['houses'].append(hid)
+    else:
+        index = houses.index(i['Hnum'])
+        houseDocs[index][i['relation'].lower()] = {
+            "name": i['name'],
+            "age": i['age'],
+            "sex": i['sex'],
+            "occupation": i['occupation'],
+            "tel": i['tel'],
+        }
+
+
+print(f"houses - {len(houses)}")
+print(f"mohallas - {len(mohallas)}")
+print(f"villages - {len(villages)}")
+
+print("printing first elements to check db struct")
+
+# print(f"houses - {dumps(houseDocs[0], indent=4)}")
+# print(f"mohallas - {dumps(mohallaDocs[0], indent=4)}")
+# print(f"villages - {dumps(villageDocs[0], indent=4)}")
+
+db = MongoClient().armyPorj
+result = db.houses.insert_many(houseDocs)
+print(len(result.inserted_ids))
+
+result = db.mohallas.insert_many(mohallaDocs)
+print(len(result.inserted_ids))
+
+result = db.villages.insert_many(villageDocs)
+print(len(result.inserted_ids))
