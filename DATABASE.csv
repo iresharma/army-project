@@ -1,0 +1,954 @@
+Bn,COY,Village,Mohalla,House No,Name,Relation,Sex,Age,Occupation,Mob No,GR,Property,Floor,Colour,No of Rooms,Perimeter Fence,Cowshed,Entry points,LAT/LONG
+78 BN,A Coy,Sant,Digvijay,Z-1,Jack,Father,M,21,Doctor,9213840101,,1 kunal,Single,Red,2,N,Y,2,28.679079/77.069710
+78BN,A Coy,Sant,Digvijay,Z-1,Oliver,Mother,F,33,Teacher,9213840102,,2 kunal,Single,Pink,4,Y,N,1,28.679080/77.069711
+78 BN,A Coy,Sant,Digvijay,Z-1,James,Husband,F,45,Engineer,9213840103,,2 kunal,Single,Purple,5,Y,Y,2,28.679081/77.069712
+78 BN,A Coy,Sant,Digvijay,Z-1,Charlie,Wife,F,28,Painter,9213840104,,2 kunal,Single,White,2,Y,N,2,28.679079/77.069711
+78 BN,A Coy,Sant,Digvijay,Z-2,Harris,Husband,M,45,Call Centre,9213840105,,2 kunal,Single,Blue,3,Y,Y,1,28.679079/77.069712
+78 BN,A Coy,Sant,Digvijay,Z-2,Lewis,Wife,M,23,Air hostess,9213840106,,2 kunal,Single,Green,5,Y,Y,2,28.679079/77.069713
+78 BN,A Coy,Sant,Digvijay,Z-2,Leo,Daughter,M,67,Pilot,9213840107,,2 kunal,Single,Lavender,2,Y,Y,2,28.679079/77.069714
+78 BN,A Coy,Sant,Swami,Z-11,Noah,Husband,F,23,Scientist,9213840108,,2 kunal,Single,Cherry,4,N,Y,2,28.679079/77.069715
+78 BN,A Coy,Sant,Swami,Z-11,Alfie,Wife,M,56,Attender,9213840109,,2 kunal,Single,Light green,4,N,Y,2,28.679079/77.069716
+78 BN,A Coy,Sant,Swami,Z-11,Rory,Son,F,24,Buisnessman,9213840110,,1 kunal,Single,Red,3,N,Y,2,28.679079/77.069717
+78 BN,A Coy,Sant,Swami,Z-14,Alexander,Father,M,56,Technician,9213840111,,1 kunal,Single,Pink,5,N,N,2,28.679079/77.069718
+78 BN,A Coy,Sant,Swami,Z-14,Max,Mother,F,32,Shopkeeper,9213840112,,1 kunal,Single,Purple,2,N,N,2,28.679079/77.069719
+78 BN,A Coy,Sant,Swami,Z-14,Logan,Husband,M,67,Doctor,9213840113,,1 kunal,Single,White,5,Y,N,2,28.679079/77.069720
+78 BN,A Coy,Sant,Swami,Z-14,Lucas,Wife,F,89,Teacher,9213840114,,1 kunal,Single,Blue,5,N,N,1,28.679079/77.069721
+78 BN,A Coy,Sant,Samarth,Z-21,Harry,Husband,F,96,Engineer,9213840115,,1 kunal,Single,Green,5,N,N,2,28.679079/77.069722
+78 BN,A Coy,Sant,Samarth,Z-21,Theo,Wife,F,49,Painter,9213840116,,2 kunal,Single,Lavender,2,Y,Y,1,28.679079/77.069723
+78 BN,A Coy,Sant,Samarth,Z-23,Thomas,Husband ,M,60,Call Centre,9213840117,,2 kunal,Single,Cherry,5,N,N,2,28.679079/77.069724
+78 BN,A Coy,Sant,Samarth,Z-23,Brodie,Wife,F,23,Air hostess,9213840118,,2 kunal,Single,Light green,6,N,N,2,28.679079/77.069725
+78 BN,A Coy,Sant,Samarth,Z-25,Archie,Husband ,M,43,Pilot,9213840119,,2 kunal,Single,Red,3,N,Y,2,28.679079/77.069726
+78 BN,A Coy,Sant,Samarth,Z-25,Jacob,Wife,M,75,Scientist,9213840120,,2 kunal,Single,Pink,4,N,N,1,28.679079/77.069727
+78 BN,A Coy,Sant,Samarth,Z-25,Finlay,Son,F,64,Attender,9213840121,,1 kunal,Single,Purple,3,Y,N,1,28.679079/77.069728
+78 BN,A Coy,Sant,Karthik,Z-31,Finn,Husband,F,86,Buisnessman,9213840122,,1 kunal,Single,White,4,Y,N,1,28.679079/77.069729
+78 BN,A Coy,Sant,Karthik,Z-31,Daniel,Wife,M,62,Technician,9213840123,,1 kunal,Single,Blue,4,N,N,2,28.679079/77.069730
+78 BN,A Coy,Sant,Karthik,Z-31,Joshua,Son,F,98,Shopkeeper,9213840124,,1 kunal,Single,Green,2,Y,Y,1,28.679079/77.069731
+78 BN,A Coy,Sant,Karthik,Z-32,Oscar,Husband,F,21,Doctor,9213840125,,1 kunal,Single,Lavender,4,N,Y,2,28.679079/77.069732
+78 BN,A Coy,Sant,Karthik,Z-32,Arthur,Wife,M,33,Teacher,9213840126,,1 kunal,Single,Cherry,2,Y,N,1,28.679079/77.069733
+78 BN,A Coy,Sant,Karthik,Z-32,Hunter,Daughter,F,45,Engineer,9213840127,,1 kunal,Single,Light green,3,Y,Y,2,28.679079/77.069734
+78 BN,A Coy,Sant,Karthik,Z-32,Ethan,Son,M,12,Painter,9213840128,,1 kunal,Single,Red,4,Y,N,2,28.679079/77.069735
+78 BN,A Coy,Sant,Ganesh,Z-41,Mason,Father,F,45,Call Centre,9213840129,,1 kunal,Single,Pink,5,Y,Y,2,28.679079/77.069736
+78 BN,A Coy,Sant,Ganesh,Z-41,Harrison,Mother,M,23,Air hostess,9213840130,,1 kunal,Single,Purple,3,Y,Y,1,28.679079/77.069737
+78 BN,A Coy,Sant,Ganesh,Z-41,Freddie,Husband,F,67,Pilot,9213840131,,1 kunal,Single,White,3,Y,Y,2,28.679079/77.069738
+78 BN,A Coy,Sant,Ganesh,Z-41,Ollie,Wife,M,23,Scientist,9213840132,,1 kunal,Single,Blue,5,N,Y,2,28.679079/77.069739
+78 BN,A Coy,Sant,Ganesh,Z-47,Adam,Husband,M,56,Attender,9213840133,,1 kunal,Single,Green,4,N,Y,2,28.679079/77.069740
+78 BN,A Coy,Sant,Ganesh,Z-47,William,Wife,M,24,Buisnessman,9213840134,,1 kunal,Single,Lavender,2,N,Y,3,28.679079/77.069741
+78 BN,A Coy,Sant,Ganesh,Z-47,Jaxon,Daughter,F,56,Technician,9213840135,,1 kunal,Single,Cherry,3,N,N,2,28.679079/77.069742
+78 BN,A Coy,Badlapur,Zebra,Z-51,Aaron,Father,F,32,Shopkeeper,9213840136,,1 kunal,Single,Light green,5,N,N,1,28.679079/77.069743
+78 BN,A Coy,Badlapur,Zebra,Z-51,Cameron,Mother,F,67,Doctor,9213840137,,1 kunal,Single,Red,4,Y,N,2,28.679079/77.069744
+78 BN,A Coy,Badlapur,Zebra,Z-51,Liam,Husband,M,89,Teacher,9213840138,,1 kunal,Single,Pink,3,N,N,2,28.679079/77.069745
+78 BN,A Coy,Badlapur,Zebra,Z-51,George,Wife,F,96,Engineer,9213840139,,1 kunal,Single,Purple,3,N,N,2,28.679079/77.069746
+78 BN,A Coy,Badlapur,Zebra,Z-55,Jamie,Husband,M,49,Painter,9213840140,,1 kunal,Single,White,5,Y,Y,2,28.679079/77.069747
+78 BN,A Coy,Badlapur,Zebra,Z-55,Callum,Wife,F,60,Call Centre,9213840141,,2 kunal,Single,Blue,3,N,N,3,28.679079/77.069748
+78 BN,A Coy,Badlapur,Zebra,Z-55,Matthew,Daughter,M,23,Air hostess,9213840142,,2 kunal,Single,Green,4,N,N,1,28.679079/77.069749
+78 BN,A Coy,Badlapur,Raja,Z-61,Muhammad,Husband,F,43,Pilot,9213840143,,2 kunal,Single,Lavender,4,N,Y,2,28.679079/77.069750
+78 BN,A Coy,Badlapur,Raja,Z-61,Caleb,Wife,M,75,Scientist,9213840144,,2 kunal,Single,Cherry,2,N,N,2,28.679079/77.069751
+78 BN,A Coy,Badlapur,Raja,Z-63,Nathan,Husband,M,64,Attender,9213840145,,2 kunal,Single,Light green,4,Y,N,1,28.679079/77.069752
+78 BN,A Coy,Badlapur,Raja,Z-63,Tommy,Wife,M,86,Buisnessman,9213840146,,2 kunal,Single,Red,5,Y,N,2,28.679079/77.069753
+78 BN,A Coy,Badlapur,Raja,Z-63,Carter,Daughter,F,62,Technician,9213840147,,2 kunal,Single,Pink,2,N,N,2,28.679079/77.069754
+78 BN,A Coy,Badlapur,Raja,Z-66,Blake,Husband,F,98,Shopkeeper,9213840148,,2 kunal,Single,Purple,3,Y,Y,1,28.679079/77.069755
+78 BN,A Coy,Badlapur,Raja,Z-66,Andrew,Wife,F,21,Doctor,9213840149,,1 kunal,Single,White,5,N,Y,2,28.679079/77.069756
+78 BN,A Coy,Badlapur,Vijay,Z-71,Luke,Father,M,33,Teacher,9213840150,,1 kunal,Single,Blue,2,Y,N,2,28.679079/77.069757
+78 BN,A Coy,Badlapur,Vijay,Z-71,Jude,Mother,F,45,Engineer,9213840151,,1 kunal,Single,Green,4,Y,Y,2,28.679079/77.069758
+78 BN,A Coy,Badlapur,Vijay,Z-71,Angus,Husband,M,12,Painter,9213840152,,1 kunal,Single,Lavender,4,Y,N,2,28.679079/77.069759
+78 BN,A Coy,Badlapur,Vijay,Z-71,Riley,Wife,F,45,Call Centre,9213840153,,1 kunal,Single,Cherry,3,Y,Y,2,28.679079/77.069760
+78 BN,A Coy,Badlapur,Vijay,Z-75,Luca,Husband,M,23,Air hostess,9213840154,,1 kunal,Single,Light green,5,Y,Y,2,28.679079/77.069761
+78 BN,A Coy,Badlapur,Vijay,Z-75,Samuel,Wife,F,67,Pilot,9213840155,,2 kunal,Single,Red,2,Y,Y,2,28.679079/77.069762
+78 BN,A Coy,Badlapur,Vijay,Z-75,Joseph,Daughter,M,23,Scientist,9213840156,,2 kunal,Single,Pink,5,N,Y,2,28.679079/77.069763
+78 BN,A Coy,Badlapur,Gandhi,Z-78,David,Father,M,56,Attender,9213840157,,2 kunal,Single,Purple,5,N,Y,1,28.679079/77.069764
+78 BN,A Coy,Badlapur,Gandhi,Z-78,Isaac,Mother,F,24,Buisnessman,9213840158,,2 kunal,Single,White,5,N,Y,2,28.679079/77.069765
+78 BN,A Coy,Badlapur,Gandhi,Z-78,Ryan,Husband,F,56,Technician,9213840159,,2 kunal,Single,Blue,2,N,N,1,28.679079/77.069766
+78 BN,A Coy,Badlapur,Gandhi,Z-78,Hamish,Wife,F,32,Shopkeeper,9213840160,,1 kunal,Single,Green,5,N,N,2,28.679079/77.069767
+78 BN,A Coy,Badlapur,Gandhi,Z-82,Sonny,Husband,M,67,Doctor,9213840161,,1 kunal,Single,Lavender,6,Y,N,2,28.679079/77.069768
+78 BN,A Coy,Badlapur,Gandhi,Z-82,Arlo,Wife,M,89,Teacher,9213840162,,1 kunal,Single,Cherry,3,N,N,2,28.679079/77.069769
+78 BN,A Coy,Badlapur,Gandhi,Z-82,Arran,Son,M,96,Engineer,9213840163,,1 kunal,Single,Light green,4,N,N,1,28.679079/77.069770
+78 BN,A Coy,Badlapur,Bose,Z-85,Cole,Father,F,49,Painter,9213840164,,1 kunal,Single,Red,3,Y,Y,1,28.679079/77.069771
+78 BN,A Coy,Badlapur,Bose,Z-85,Robert,Mother,M,60,Call Centre,9213840165,,1 kunal,Single,Pink,4,N,N,1,28.679079/77.069772
+78 BN,A Coy,Badlapur,Bose,Z-85,Blair,Husband,F,23,Air hostess,9213840166,,1 kunal,Single,Purple,4,N,N,2,28.679079/77.069773
+78 BN,A Coy,Badlapur,Bose,Z-85,Dylan,Wife,M,43,Pilot,9213840167,,1 kunal,Single,White,2,N,Y,1,28.679079/77.069774
+78 BN,A Coy,Badlapur,Bose,Z-89,Louie,Father,F,75,Scientist,9213840168,,1 kunal,Single,Blue,4,N,N,2,28.679079/77.069775
+78 BN,A Coy,Badlapur,Bose,Z-89,Ruaridh,Mother,M,64,Attender,9213840169,,1 kunal,Single,Green,2,Y,N,1,28.679079/77.069776
+78 BN,A Coy,Badlapur,Bose,Z-89,Connor,Husband,F,86,Buisnessman,9213840170,,1 kunal,Single,Lavender,3,Y,N,2,28.679079/77.069777
+78 BN,A Coy,Badlapur,Bose,Z-89,Benjamin,Wife,F,62,Technician,9213840171,,1 kunal,Single,Cherry,4,N,N,2,28.679079/77.069778
+78 BN,A Coy,Mahatama,Subhash,Z-93,Kai,Father,F,98,Shopkeeper,9213840172,,1 kunal,Single,Light green,5,Y,Y,2,28.679079/77.069779
+78 BN,A Coy,Mahatama,Subhash,Z-93,Michael,Mother,M,21,Doctor,9213840173,,1 kunal,Single,Red,3,N,Y,1,28.679079/77.069780
+78 BN,A Coy,Mahatama,Subhash,Z-93,Jackson,Husband,F,33,Teacher,9213840174,,1 kunal,Single,Pink,3,Y,N,2,28.679079/77.069781
+78 BN,A Coy,Mahatama,Subhash,Z-93,Leon,Wife,M,45,Engineer,9213840175,,1 kunal,Single,Purple,5,Y,Y,2,28.679079/77.069782
+78 BN,A Coy,Mahatama,Subhash,Z-94,Cooper,Husband,M,12,Painter,9213840176,,1 kunal,Single,White,4,Y,N,2,28.679079/77.069783
+78 BN,A Coy,Mahatama,Subhash,Z-94,Louis,Wife,F,45,Call Centre,9213840177,,1 kunal,Single,Blue,2,Y,Y,3,28.679079/77.069784
+78 BN,A Coy,Mahatama,Subhash,Z-94,Theodore,Son,F,23,Air hostess,9213840178,,1 kunal,Single,Green,3,Y,Y,2,28.679079/77.069785
+78 BN,A Coy,Mahatama,Bhagat Singh,Z-100,Fraser,Father,M,67,Pilot,9213840179,,1 kunal,Single,Lavender,5,Y,Y,1,28.679079/77.069786
+78 BN,A Coy,Mahatama,Bhagat Singh,Z-100,Owen,Mother,F,23,Scientist,9213840180,,2 kunal,Single,Cherry,4,N,Y,2,28.679079/77.069787
+78 BN,A Coy,Mahatama,Bhagat Singh,Z-100,Reuben,Husband,F,56,Attender,9213840181,,2 kunal,Single,Light green,3,N,Y,2,28.679079/77.069788
+78 BN,A Coy,Mahatama,Bhagat Singh,Z-100,John,Wife,M,24,Buisnessman,9213840182,,2 kunal,Single,Red,3,N,Y,2,28.679079/77.069789
+78 BN,A Coy,Mahatama,Bhagat Singh,Z-101,Carson,Husband,F,56,Technician,9213840183,,2 kunal,Single,Pink,5,N,N,2,28.679079/77.069790
+78 BN,A Coy,Mahatama,Bhagat Singh,Z-101,Innes,Wife,M,32,Shopkeeper,9213840184,,2 kunal,Single,Purple,3,N,N,3,28.679079/77.069791
+78 BN,A Coy,Mahatama,Bhagat Singh,Z-101,Elijah,Son,F,67,Doctor,9213840185,,2 kunal,Single,White,4,Y,N,1,28.679079/77.069792
+78 BN,A Coy,Mahatama,Laxmi,Z-107,Murray,Father,M,89,Teacher,9213840186,,2 kunal,Single,Blue,4,N,N,2,28.679079/77.069793
+78 BN,A Coy,Mahatama,Laxmi,Z-107,Grayson,Mother,F,96,Engineer,9213840187,,2 kunal,Single,Green,2,N,N,2,28.679079/77.069794
+78 BN,A Coy,Mahatama,Laxmi,Z-107,Aiden,Husband,M,49,Painter,9213840188,,1 kunal,Single,Lavender,4,Y,Y,1,28.679079/77.069795
+78 BN,A Coy,Mahatama,Laxmi,Z-107,Aidan,Wife,M,60,Call Centre,9213840189,,1 kunal,Single,Cherry,5,N,N,2,28.679079/77.069796
+78 BN,A Coy,Mahatama,Laxmi,Z-112,Cody,Husband,M,23,Air hostess,9213840190,,1 kunal,Single,Light green,2,N,N,2,28.679079/77.069797
+78 BN,A Coy,Mahatama,Laxmi,Z-112,Elliot,Wife,F,43,Pilot,9213840191,,1 kunal,Single,Red,3,N,Y,1,28.679079/77.069798
+78 BN,A Coy,Mahatama,Laxmi,Z-112,Ben,Son,F,75,Scientist,9213840192,,1 kunal,Single,Pink,5,N,N,2,28.679079/77.069799
+78 BN,A Coy,Mahatama,Chandrashekhar,Z-114,Henry,Father,F,64,Attender,9213840193,,1 kunal,Single,Purple,2,Y,N,2,28.679079/77.069800
+78 BN,A Coy,Mahatama,Chandrashekhar,Z-114,Sam,Mother,M,86,Buisnessman,9213840194,,2 kunal,Single,White,4,Y,N,2,28.679079/77.069801
+78 BN,A Coy,Mahatama,Chandrashekhar,Z-114,Alex,Husband,F,62,Technician,9213840195,,2 kunal,Single,Blue,4,N,N,2,28.679079/77.069802
+78 BN,A Coy,Mahatama,Chandrashekhar,Z-114,Ellis,Wife,M,98,Shopkeeper,9213840196,,2 kunal,Single,Green,3,Y,Y,2,28.679079/77.069803
+78 BN,A Coy,Mahatama,Chandrashekhar,Z-115,Gabriel,Husband,F,21,Doctor,9213840197,,2 kunal,Single,Lavender,5,N,Y,2,28.679079/77.069804
+78 BN,A Coy,Mahatama,Chandrashekhar,Z-115,Jax,Wife,M,33,Teacher,9213840198,,2 kunal,Single,Cherry,2,Y,N,2,28.679079/77.069805
+78 BN,A Coy,Mahatama,Chandrashekhar,Z-115,Callan,Son,F,45,Engineer,9213840199,,1 kunal,Single,Light green,5,Y,Y,2,28.679079/77.069806
+78 BN,A Coy,Mahatama,Ram,Z-121,Ruairidh,Father,M,12,Painter,9213840200,,1 kunal,Single,Red,5,Y,N,1,28.679079/77.069807
+78 BN,A Coy,Mahatama,Ram,Z-121,Frankie,Mother,M,45,Call Centre,9213840201,,1 kunal,Single,Pink,5,Y,Y,2,28.679079/77.069808
+78 BN,A Coy,Mahatama,Ram,Z-121,Lachlan,Husband,M,23,Air hostess,9213840202,,1 kunal,Single,Purple,2,Y,Y,1,28.679079/77.069809
+78 BN,A Coy,Mahatama,Ram,Z-121,Roman,Wife,F,67,Pilot,9213840203,,1 kunal,Single,White,5,Y,Y,2,28.679079/77.069810
+78 BN,A Coy,Mahatama,Ram,Z-125,Brody,Husband,F,23,Scientist,9213840204,,1 kunal,Single,Blue,6,N,Y,2,28.679079/77.069811
+78 BN,A Coy,Mahatama,Ram,Z-125,Josh,Wife,F,56,Attender,9213840205,,1 kunal,Single,Green,3,N,Y,2,28.679079/77.069812
+78 BN,A Coy,Mahatama,Ram,Z-125,Sebastian,Daughter,M,24,Buisnessman,9213840206,,1 kunal,Single,Lavender,4,N,Y,1,28.679079/77.069813
+78 BN,A Coy,Rampur,Laxman,Z-128,Struan,Father,F,56,Technician,9213840207,,1 kunal,Single,Cherry,3,N,N,1,28.679079/77.069814
+78 BN,A Coy,Rampur,Laxman,Z-128,Evan,Mother,M,32,Shopkeeper,9213840208,,1 kunal,Single,Light green,4,N,N,1,28.679079/77.069815
+78 BN,A Coy,Rampur,Laxman,Z-128,Kyle,Husband,F,67,Doctor,9213840209,,1 kunal,Single,Red,4,Y,N,2,28.679079/77.069816
+78 BN,A Coy,Rampur,Laxman,Z-128,Myles,Wife,M,89,Teacher,9213840210,,1 kunal,Single,Pink,2,N,N,1,28.679079/77.069817
+78 BN,A Coy,Rampur,Laxman,Z-132,Calum,Husband,F,96,Engineer,9213840211,,1 kunal,Single,Purple,4,N,N,2,28.679079/77.069818
+78 BN,A Coy,Rampur,Laxman,Z-132,Lochlan,Wife,M,49,Painter,9213840212,,1 kunal,Single,White,2,Y,Y,1,28.679079/77.069819
+78 BN,A Coy,Rampur,Laxman,Z-132,Jayden,Son,M,60,Call Centre,9213840213,,1 kunal,Single,Blue,3,N,N,2,28.679079/77.069820
+78 BN,A Coy,Rampur,Sita,Z-135,Lyle,Husband,F,23,Air hostess,9213840214,,1 kunal,Single,Green,4,N,N,2,28.679079/77.069821
+78 BN,A Coy,Rampur,Sita,Z-135,Robbie,Wife,F,43,Pilot,9213840215,,1 kunal,Single,Lavender,5,N,Y,2,28.679079/77.069822
+78 BN,A Coy,Rampur,Sita,Z-137,Calvin,Husband,F,75,Scientist,9213840216,,1 kunal,Single,Cherry,3,N,N,1,28.679079/77.069823
+78 BN,A Coy,Rampur,Sita,Z-137,Corey,Wife,M,64,Attender,9213840217,,1 kunal,Single,Light green,3,Y,N,2,28.679079/77.069824
+78 BN,A Coy,Rampur,Sita,Z-139,Jaxson,Husband,M,86,Buisnessman,9213840218,,1 kunal,Single,Red,5,Y,N,2,28.679079/77.069825
+78 BN,A Coy,Rampur,Sita,Z-139,Christopher,Wife,M,62,Technician,9213840219,,2 kunal,Single,Pink,4,N,N,2,28.679079/77.069826
+78 BN,A Coy,Rampur,Sita,Z-139,Teddy,Son,F,98,Shopkeeper,9213840220,,2 kunal,Single,Purple,2,Y,Y,3,28.679079/77.069827
+78 BN,A Coy,Rampur,Bhim,Z-142,Eli,Husband,M,21,Doctor,9213840221,,2 kunal,Single,White,3,N,Y,2,28.679079/77.069828
+78 BN,A Coy,Rampur,Bhim,Z-142,Marcus,Wife,F,33,Teacher,9213840222,,2 kunal,Single,Blue,5,Y,N,1,28.679079/77.069829
+78 BN,A Coy,Rampur,Bhim,Z-142,Parker,Son,M,45,Engineer,9213840223,,2 kunal,Single,Green,4,Y,Y,2,28.679079/77.069830
+78 BN,A Coy,Rampur,Bhim,Z-145,Tyler,Husband,F,12,Painter,9213840224,,2 kunal,Single,Lavender,3,Y,N,2,28.679079/77.069831
+78 BN,A Coy,Rampur,Bhim,Z-145,Euan,Wife,M,45,Call Centre,9213840225,,2 kunal,Single,Cherry,3,Y,Y,2,28.679079/77.069832
+78 BN,A Coy,Rampur,Bhim,Z-147,Hudson,Husband,F,23,Air hostess,9213840226,,2 kunal,Single,Light green,5,Y,Y,2,28.679079/77.069833
+78 BN,A Coy,Rampur,Bhim,Z-147,Joey,Wife,F,67,Pilot,9213840227,,1 kunal,Single,Red,3,Y,Y,3,28.679079/77.069834
+78 BN,A Coy,Rampur,Arjun,Z-149,Austin,Husband,F,23,Scientist,9213840228,,1 kunal,Single,Pink,4,N,Y,1,28.679079/77.069835
+78 BN,A Coy,Rampur,Arjun,Z-149,Zac,Wife,M,56,Attender,9213840229,,1 kunal,Single,Purple,4,N,Y,2,28.679079/77.069836
+78 BN,A Coy,Rampur,Arjun,Z-149,Dominic,Son,F,24,Buisnessman,9213840230,,1 kunal,Single,White,2,N,Y,2,28.679079/77.069837
+78 BN,A Coy,Rampur,Arjun,Z-152,Kayden,Husband,M,56,Technician,9213840231,,1 kunal,Single,Blue,4,N,N,1,28.679079/77.069838
+78 BN,A Coy,Rampur,Arjun,Z-152,Zack,Wife,M,32,Shopkeeper,9213840232,,1 kunal,Single,Green,5,N,N,2,28.679079/77.069839
+78 BN,A Coy,Rampur,Arjun,Z-152,Harvey,Son,F,67,Doctor,9213840233,,2 kunal,Single,Lavender,2,Y,N,2,28.679079/77.069840
+78 BN,A Coy,Rampur,Arjun,Z-152,Rowan,Daughter,F,89,Teacher,9213840234,,2 kunal,Single,Cherry,3,N,N,1,28.679079/77.069841
+78 BN,A Coy,Rampur,Yudhishthir,Z-156,Hugo,Husband,M,96,Engineer,9213840235,,2 kunal,Single,Light green,5,N,N,2,28.679079/77.069842
+78 BN,A Coy,Rampur,Yudhishthir,Z-156,Edward,Wife,F,49,Painter,9213840236,,2 kunal,Single,Red,2,Y,Y,2,28.679079/77.069843
+78 BN,A Coy,Rampur,Yudhishthir,Z-156,Fergus,Son,F,60,Call Centre,9213840237,,2 kunal,Single,Pink,4,N,N,2,28.679079/77.069844
+78 BN,A Coy,Rampur,Yudhishthir,Z-156,Finley,Daughter,M,23,Air hostess,9213840238,,1 kunal,Single,Purple,4,N,N,2,28.679079/77.069845
+78 BN,A Coy,Rampur,Yudhishthir,Z-160,Patrick,Husband,F,43,Pilot,9213840239,,1 kunal,Single,White,3,N,Y,2,28.679079/77.069846
+78 BN,A Coy,Rampur,Yudhishthir,Z-160,Cillian,Wife,M,75,Scientist,9213840240,,1 kunal,Single,Blue,5,N,N,2,28.679079/77.069847
+78 BN,A Coy,Rampur,Yudhishthir,Z-160,Conor,Son,F,64,Attender,9213840241,,1 kunal,Single,Green,2,Y,N,2,28.679079/77.069848
+78 BN,A Coy,Ramgarh,Yudhishthir,Z-160,Ruben,Daughter,M,86,Buisnessman,9213840242,,1 kunal,Single,Lavender,5,Y,N,2,28.679079/77.069849
+78 BN,A Coy,Ramgarh,Sahdev,Z-164,Flynn,Husband,F,62,Technician,9213840243,,1 kunal,Single,Cherry,5,N,N,1,28.679079/77.069850
+78 BN,A Coy,Ramgarh,Sahdev,Z-164,Jake,Wife,M,98,Shopkeeper,9213840244,,1 kunal,Single,Light green,5,Y,Y,2,28.679079/77.069851
+78 BN,A Coy,Ramgarh,Sahdev,Z-164,Albie,Son,M,21,Doctor,9213840245,,1 kunal,Single,Red,2,N,Y,1,28.679079/77.069852
+78 BN,A Coy,Ramgarh,Sahdev,Z-164,Levi,Daughter,M,33,Teacher,9213840246,,1 kunal,Single,Pink,5,Y,N,2,28.679079/77.069853
+78 BN,A Coy,Ramgarh,Sahdev,Z-168,Mohammad,Husband,F,45,Engineer,9213840247,,1 kunal,Single,Purple,6,Y,Y,2,28.679079/77.069854
+78 BN,A Coy,Ramgarh,Sahdev,Z-168,Rhys,Wife,F,12,Painter,9213840248,,1 kunal,Single,White,3,Y,N,2,28.679079/77.069855
+78 BN,A Coy,Ramgarh,Nakul,Z-170,Ronan,Husband,F,45,Call Centre,9213840249,,1 kunal,Single,Blue,4,Y,Y,1,28.679079/77.069856
+78 BN,A Coy,Ramgarh,Nakul,Z-170,Zach,Wife,M,23,Air hostess,9213840250,,1 kunal,Single,Green,3,Y,Y,1,28.679079/77.069857
+78 BN,A Coy,Ramgarh,Nakul,Z-170,Zachary,Son,F,67,Pilot,9213840251,,1 kunal,Single,Lavender,4,Y,Y,1,28.679079/77.069858
+78 BN,A Coy,Ramgarh,Nakul,Z-170,Ezra,Daughter,M,23,Scientist,9213840252,,1 kunal,Single,Cherry,4,N,Y,2,28.679079/77.069859
+78 BN,A Coy,Ramgarh,Nakul,Z-170,Charles,Husband,F,56,Attender,9213840253,,1 kunal,Single,Light green,2,N,Y,1,28.679079/77.069860
+78 BN,A Coy,Ramgarh,Nakul,Z-170,Kian,Wife,M,24,Buisnessman,9213840254,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.069861
+78 BN,A Coy,Ramgarh,Nakul,Z-170,Kieran,Daughter,F,56,Technician,9213840255,,1 kunal,Single,Pink,2,N,N,1,28.679079/77.069862
+78 BN,A Coy,Ramgarh,Hanuman,Z-177,Mohammed,Husband,M,32,Shopkeeper,9213840256,,1 kunal,Single,Purple,3,N,N,2,28.679079/77.069863
+78 BN,A Coy,Ramgarh,Hanuman,Z-177,Zak,Wife,M,67,Doctor,9213840257,,1 kunal,Single,White,4,Y,N,2,28.679079/77.069864
+78 BN,A Coy,Ramgarh,Hanuman,Z-177,Anthony,Daughter,M,89,Teacher,9213840258,,2 kunal,Single,Blue,5,N,N,2,28.679079/77.069865
+78 BN,A Coy,Ramgarh,Hanuman,Z-177,Bradley,Husband,F,96,Engineer,9213840259,,2 kunal,Single,Green,3,N,N,1,28.679079/77.069866
+78 BN,A Coy,Ramgarh,Hanuman,Z-177,Elliott,Wife,F,49,Painter,9213840260,,2 kunal,Single,Lavender,3,Y,Y,2,28.679079/77.069867
+78 BN,A Coy,Ramgarh,Hanuman,Z-177,Mark,Daughter,F,60,Call Centre,9213840261,,2 kunal,Single,Cherry,5,N,N,2,28.679079/77.069868
+78 BN,A Coy,Ramgarh,Hanuman,Z-177,Miller,Son,M,23,Air hostess,9213840262,,2 kunal,Single,Light green,4,N,N,2,28.679079/77.069869
+78 BN,A Coy,Ramgarh,Krishna,Z-184,Felix,Husband,F,43,Pilot,9213840263,,2 kunal,Single,Red,2,N,Y,3,28.679079/77.069870
+78 BN,A Coy,Ramgarh,Krishna,Z-184,Harley,Wife,M,75,Scientist,9213840264,,2 kunal,Single,Pink,3,N,N,2,28.679079/77.069871
+78 BN,A Coy,Ramgarh,Krishna,Z-184,Jay,Daughter,F,64,Attender,9213840265,,2 kunal,Single,Purple,5,Y,N,1,28.679079/77.069872
+78 BN,A Coy,Ramgarh,Krishna,Z-187,Jordan,Husband,M,86,Buisnessman,9213840266,,1 kunal,Single,White,4,Y,N,2,28.679079/77.069873
+78 BN,A Coy,Ramgarh,Krishna,Z-187,Milo,Wife,F,62,Technician,9213840267,,1 kunal,Single,Blue,3,N,N,2,28.679079/77.069874
+78 BN,A Coy,Ramgarh,Krishna,Z-187,Oran,Daughter,M,98,Shopkeeper,9213840268,,1 kunal,Single,Green,3,Y,Y,2,28.679079/77.069875
+78 BN,A Coy,Ramgarh,Krishna,Z-187,Peter,Son,M,21,Doctor,9213840269,,1 kunal,Single,Lavender,5,N,Y,2,28.679079/77.069876
+78 BN,A Coy,Ramgarh,Dhanush,Z-191,Sean,Husband,F,33,Teacher,9213840270,,1 kunal,Single,Cherry,3,Y,N,3,28.679079/77.069877
+78 BN,A Coy,Ramgarh,Dhanush,Z-191,Ciaran,Wife,F,45,Engineer,9213840271,,1 kunal,Single,Light green,4,Y,Y,1,28.679079/77.069878
+78 BN,A Coy,Ramgarh,Dhanush,Z-193,Jasper,Husband,F,12,Painter,9213840272,,2 kunal,Single,Red,4,Y,N,2,28.679079/77.069879
+78 BN,A Coy,Ramgarh,Dhanush,Z-193,Kaiden,Wife,M,45,Call Centre,9213840273,,2 kunal,Single,Pink,2,Y,Y,2,28.679079/77.069880
+78 BN,A Coy,Ramgarh,Dhanush,Z-195,Robin,Husband,M,23,Air hostess,9213840274,,2 kunal,Single,Purple,4,Y,Y,1,28.679079/77.069881
+78 BN,A Coy,Ramgarh,Dhanush,Z-195,Caelan,Wife,M,67,Pilot,9213840275,,2 kunal,Single,White,5,Y,Y,2,28.679079/77.069882
+78 BN,A Coy,Ramgarh,Dhanush,Z-198,Cohen,Husband,F,23,Scientist,9213840276,,2 kunal,Single,Blue,2,N,Y,2,28.679079/77.069883
+78 BN,A Coy,Ahmednagar,Shivaji,Z-198,Magnus,Wife,M,56,Attender,9213840277,,1 kunal,Single,Green,3,N,Y,1,28.679079/77.069884
+78 BN,A Coy,Ahmednagar,Shivaji,Z-198,Xander,Daughter,F,24,Buisnessman,9213840278,,1 kunal,Single,Lavender,5,N,Y,2,28.679079/77.069885
+78 BN,A Coy,Ahmednagar,Shivaji,Z-198,Jason,Son,M,56,Technician,9213840279,,1 kunal,Single,Cherry,2,N,N,2,28.679079/77.069886
+78 BN,A Coy,Ahmednagar,Shivaji,Z-201,Reece,Father,F,32,Shopkeeper,9213840280,,1 kunal,Single,Light green,4,N,N,2,28.679079/77.069887
+78 BN,A Coy,Ahmednagar,Shivaji,Z-201,Ruairi,Mother,M,67,Doctor,9213840281,,1 kunal,Single,Red,4,Y,N,2,28.679079/77.069888
+78 BN,A Coy,Ahmednagar,Shivaji,Z-201,Scott,Husband,F,89,Teacher,9213840282,,1 kunal,Single,Pink,3,N,N,2,28.679079/77.069889
+78 BN,A Coy,Ahmednagar,Shivaji,Z-201,Cian,Wife,F,96,Engineer,9213840283,,1 kunal,Single,Purple,5,N,N,2,28.679079/77.069890
+78 BN,A Coy,Ahmednagar,Sambhaji,Z-202,Filip,Father,F,49,Painter,9213840284,,1 kunal,Single,White,2,Y,Y,2,28.679079/77.069891
+78 BN,A Coy,Ahmednagar,Sambhaji,Z-202,Nico,Mother,M,60,Call Centre,9213840285,,1 kunal,Single,Blue,5,N,N,2,28.679079/77.069892
+78 BN,A Coy,Ahmednagar,Sambhaji,Z-202,Olly,Husband,F,23,Air hostess,9213840286,,1 kunal,Single,Green,5,N,N,1,28.679079/77.069893
+78 BN,A Coy,Ahmednagar,Sambhaji,Z-202,Gregor,Wife,M,43,Pilot,9213840287,,1 kunal,Single,Lavender,5,N,Y,2,28.679079/77.069894
+78 BN,A Coy,Ahmednagar,Sambhaji,Z-203,Junior,Husband,M,75,Scientist,9213840288,,1 kunal,Single,Cherry,2,N,N,1,28.679079/77.069895
+78 BN,A Coy,Ahmednagar,Sambhaji,Z-203,Antoni,Wife,F,64,Attender,9213840289,,1 kunal,Single,Light green,5,Y,N,2,28.679079/77.069896
+78 BN,A Coy,Ahmednagar,Sambhaji,Z-203,Colton,Daughter,F,86,Buisnessman,9213840290,,1 kunal,Single,Red,6,Y,N,2,28.679079/77.069897
+78 BN,A Coy,Ahmednagar,Sanjay,Z-204,Jenson,Father,M,62,Technician,9213840291,,1 kunal,Single,Pink,3,N,N,2,28.679079/77.069898
+78 BN,A Coy,Ahmednagar,Sanjay,Z-204,Layton,Mother,F,98,Shopkeeper,9213840292,,1 kunal,Single,Purple,4,Y,Y,1,28.679079/77.069899
+78 BN,A Coy,Ahmednagar,Sanjay,Z-204,Ross,Husband,F,21,Doctor,9213840293,,1 kunal,Single,White,3,N,Y,1,28.679079/77.069900
+78 BN,A Coy,Ahmednagar,Sanjay,Z-204,Frederick,Wife,M,33,Teacher,9213840294,,1 kunal,Single,Blue,4,Y,N,1,28.679079/77.069901
+78 BN,A Coy,Ahmednagar,Sanjay,Z-205,Maxwell,Husband,F,45,Engineer,9213840295,,1 kunal,Single,Green,4,Y,Y,2,28.679079/77.069902
+78 BN,A Coy,Ahmednagar,Sanjay,Z-205,Nicholas,Wife,M,12,Painter,9213840296,,1 kunal,Single,Lavender,2,Y,N,1,28.679079/77.069903
+78 BN,A Coy,Ahmednagar,Sanjay,Z-205,Danny,Daughter,F,45,Call Centre,9213840297,,2 kunal,Single,Cherry,4,Y,Y,2,28.679079/77.069904
+78 BN,A Coy,Ahmednagar,Bhuj,Z-206,Declan,Father,M,23,Air hostess,9213840298,,2 kunal,Single,Light green,2,Y,Y,1,28.679079/77.069905
+78 BN,A Coy,Ahmednagar,Bhuj,Z-206,Ibrahim,Mother,F,67,Pilot,9213840299,,2 kunal,Single,Red,3,Y,Y,2,28.679079/77.069906
+78 BN,A Coy,Ahmednagar,Bhuj,Z-206,Oskar,Husband,M,23,Scientist,9213840300,,2 kunal,Single,Pink,4,N,Y,2,28.679079/77.069907
+78 BN,A Coy,Ahmednagar,Bhuj,Z-206,Reggie,Wife,M,56,Attender,9213840301,,2 kunal,Single,Purple,5,N,Y,2,28.679079/77.069908
+78 BN,A Coy,Ahmednagar,Bhuj,Z-207,Shay,Husband,M,24,Buisnessman,9213840302,,2 kunal,Single,White,3,N,Y,1,28.679079/77.069909
+78 BN,A Coy,Ahmednagar,Bhuj,Z-207,Zander,Wife,F,56,Technician,9213840303,,2 kunal,Single,Blue,3,N,N,2,28.679079/77.069910
+78 BN,A Coy,Ahmednagar,Bhuj,Z-207,Alasdair,Daughter,F,32,Shopkeeper,9213840304,,2 kunal,Single,Green,5,N,N,2,28.679079/77.069911
+78 BN,A Coy,Ahmednagar,Dorji,Z-208,Ashton,Father,F,67,Doctor,9213840305,,1 kunal,Single,Lavender,4,Y,N,2,28.679079/77.069912
+78 BN,A Coy,Ahmednagar,Dorji,Z-208,Cruz,Mother,M,89,Teacher,9213840306,,1 kunal,Single,Cherry,2,N,N,3,28.679079/77.069913
+78 BN,A Coy,Ahmednagar,Dorji,Z-208,Findlay,Husband,F,96,Engineer,9213840307,,1 kunal,Single,Light green,3,N,N,2,28.679079/77.069914
+78 BN,A Coy,Ahmednagar,Dorji,Z-208,Hayden,Wife,M,49,Painter,9213840308,,1 kunal,Single,Red,5,Y,Y,1,28.679079/77.069915
+78 BN,A Coy,Ahmednagar,Dorji,Z-209,Jace,Husband,F,60,Call Centre,9213840309,,1 kunal,Single,Pink,4,N,N,2,28.679079/77.069916
+78 BN,A Coy,Ahmednagar,Dorji,Z-209,Kerr,Wife,M,23,Air hostess,9213840310,,1 kunal,Single,Purple,3,N,N,2,28.679079/77.069917
+78 BN,A Coy,Ahmednagar,Dorji,Z-209,Rio,Daughter,F,43,Pilot,9213840311,,2 kunal,Single,White,3,N,Y,2,28.679079/77.069918
+78 BN,A Coy,Nashik,Alinagar,Z-210,Rudi,Father,M,75,Scientist,9213840312,,2 kunal,Single,Blue,5,N,N,2,28.679079/77.069919
+78 BN,A Coy,Nashik,Alinagar,Z-210,Spencer,Mother,M,64,Attender,9213840313,,2 kunal,Single,Green,3,Y,N,3,28.679079/77.069920
+78 BN,A Coy,Nashik,Alinagar,Z-210,Taylor,Husband,M,86,Buisnessman,9213840314,,2 kunal,Single,Lavender,4,Y,N,1,28.679079/77.069921
+78 BN,A Coy,Nashik,Alinagar,Z-210,Toby,Wife,F,62,Technician,9213840315,,2 kunal,Single,Cherry,4,N,N,2,28.679079/77.069922
+78 BN,A Coy,Nashik,Alinagar,Z-211,Joel,Husband,F,98,Shopkeeper,9213840316,,1 kunal,Single,Light green,2,Y,Y,2,28.679079/77.069923
+78 BN,A Coy,Nashik,Alinagar,Z-211,Keir,Wife,F,21,Doctor,9213840317,,1 kunal,Single,Red,4,N,Y,1,28.679079/77.069924
+78 BN,A Coy,Nashik,Alinagar,Z-211,Paul,Daughter,M,33,Teacher,9213840318,,1 kunal,Single,Pink,5,Y,N,2,28.679079/77.069925
+78 BN,A Coy,Nashik,Anghora,Z-212,Bobby,Father,F,45,Engineer,9213840319,,1 kunal,Single,Purple,2,Y,Y,2,28.679079/77.069926
+78 BN,A Coy,Nashik,Anghora,Z-212,Campbell,Mother,M,12,Painter,9213840320,,1 kunal,Single,White,3,Y,N,1,28.679079/77.069927
+78 BN,A Coy,Nashik,Anghora,Z-212,Kacper,Husband,F,45,Call Centre,9213840321,,1 kunal,Single,Blue,5,Y,Y,2,28.679079/77.069928
+78 BN,A Coy,Nashik,Anghora,Z-212,Miles,Wife,M,23,Air hostess,9213840322,,1 kunal,Single,Green,2,Y,Y,2,28.679079/77.069929
+78 BN,A Coy,Nashik,Anghora,Z-213,Otis,Husband,F,67,Pilot,9213840323,,1 kunal,Single,Lavender,4,Y,Y,2,28.679079/77.069930
+78 BN,A Coy,Nashik,Anghora,Z-213,Travis,Wife,M,23,Scientist,9213840324,,1 kunal,Single,Cherry,4,N,Y,2,28.679079/77.069931
+78 BN,A Coy,Nashik,Anghora,Z-213,Alan,Daughter,M,56,Attender,9213840325,,1 kunal,Single,Light green,3,N,Y,2,28.679079/77.069932
+78 BN,A Coy,Nashik,Panchshil,Z-214,Alfred,Father,F,24,Buisnessman,9213840326,,1 kunal,Single,Red,5,N,Y,2,28.679079/77.069933
+78 BN,A Coy,Nashik,Panchshil,Z-214,Erik,Mother,F,56,Technician,9213840327,,1 kunal,Single,Pink,2,N,N,2,28.679079/77.069934
+78 BN,A Coy,Nashik,Panchshil,Z-214,Kevin,Husband,F,32,Shopkeeper,9213840328,,1 kunal,Single,Purple,5,N,N,2,28.679079/77.069935
+78 BN,A Coy,Nashik,Panchshil,Z-214,Marcel,Wife,M,67,Doctor,9213840329,,1 kunal,Single,White,5,Y,N,1,28.679079/77.069936
+78 BN,A Coy,Nashik,Panchshil,Z-215,Nathaniel,Husband,M,89,Teacher,9213840330,,1 kunal,Single,Blue,5,N,N,2,28.679079/77.069937
+78 BN,A Coy,Nashik,Panchshil,Z-215,Quinn,Wife,M,96,Engineer,9213840331,,1 kunal,Single,Green,2,N,N,1,28.679079/77.069938
+78 BN,A Coy,Nashik,Panchshil,Z-215,Yusuf,Daughter,F,49,Painter,9213840332,,1 kunal,Single,Lavender,5,Y,Y,2,28.679079/77.069939
+78 BN,A Coy,Nashik,Alodi,Z-216,Billy,Father,M,60,Call Centre,9213840333,,1 kunal,Single,Cherry,6,N,N,2,28.679079/77.069940
+78 BN,A Coy,Nashik,Alodi,Z-216,Douglas,Mother,F,23,Air hostess,9213840334,,1 kunal,Single,Light green,3,N,N,2,28.679079/77.069941
+78 BN,A Coy,Nashik,Alodi,Z-216,Eden,Husband,M,43,Pilot,9213840335,,1 kunal,Single,Red,4,N,Y,1,28.679079/77.069942
+78 BN,A Coy,Nashik,Alodi,Z-216,Ewan,Wife,F,75,Scientist,9213840336,,2 kunal,Single,Pink,3,N,N,1,28.679079/77.069943
+78 BN,A Coy,Nashik,Alodi,Z-217,Jakub,Husband,M,64,Attender,9213840337,,2 kunal,Single,Purple,4,Y,N,1,28.679079/77.069944
+78 BN,A Coy,Nashik,Alodi,Z-217,Jonah,Wife,F,86,Buisnessman,9213840338,,2 kunal,Single,White,4,Y,N,2,28.679079/77.069945
+78 BN,A Coy,Nashik,Alodi,Z-217,Leonardo,Daughter,F,62,Technician,9213840339,,2 kunal,Single,Blue,2,N,N,1,28.679079/77.069946
+78 BN,A Coy,Nashik,Irli,Z-218,Mac,Father,F,98,Shopkeeper,9213840340,,2 kunal,Single,Green,4,Y,Y,2,28.679079/77.069947
+78 BN,A Coy,Nashik,Irli,Z-218,Murdo,Mother,M,21,Doctor,9213840341,,2 kunal,Single,Lavender,2,N,Y,1,28.679079/77.069948
+78 BN,A Coy,Nashik,Irli,Z-218,Ronnie,Husband,F,33,Teacher,9213840342,,2 kunal,Single,Cherry,3,Y,N,2,28.679079/77.069949
+78 BN,A Coy,Nashik,Irli,Z-218,Vincent,Wife,M,45,Engineer,9213840343,,2 kunal,Single,Light green,4,Y,Y,2,28.679079/77.069950
+78 BN,A Coy,Nashik,Irli,Z-219,Ali,Husband,M,12,Painter,9213840344,,1 kunal,Single,Red,5,Y,N,2,28.679079/77.069951
+78 BN,A Coy,Nashik,Irli,Z-219,Asher,Wife,F,45,Call Centre,9213840345,,1 kunal,Single,Pink,3,Y,Y,1,28.679079/77.069952
+78 BN,A Coy,Nashik,Irli,Z-219,Bailey,Daughter,F,23,Air hostess,9213840346,,1 kunal,Single,Purple,3,Y,Y,2,28.679079/77.069953
+78 BN,A Coy,Pune,Kamath,Z-220,Enzo,Father,M,67,Pilot,9213840347,,1 kunal,Single,White,5,Y,Y,2,28.679079/77.069954
+78 BN,A Coy,Pune,Kamath,Z-220,Lennox,Mother,F,23,Scientist,9213840348,,1 kunal,Single,Blue,4,N,Y,2,28.679079/77.069955
+78 BN,A Coy,Pune,Kamath,Z-220,Niall,Husband,F,56,Attender,9213840349,,1 kunal,Single,Green,2,N,Y,3,28.679079/77.069956
+78 BN,A Coy,Pune,Kamath,Z-220,Alistair,Wife,M,24,Buisnessman,9213840350,,2 kunal,Single,Lavender,3,N,Y,2,28.679079/77.069957
+78 BN,A Coy,Pune,Kamath,Z-221,Colby,Husband,F,56,Technician,9213840351,,2 kunal,Single,Cherry,5,N,N,1,28.679079/77.069958
+78 BN,A Coy,Pune,Kamath,Z-221,Francis,Wife,M,32,Shopkeeper,9213840352,,2 kunal,Single,Light green,4,N,N,2,28.679079/77.069959
+78 BN,A Coy,Pune,Kamath,Z-221,Julian,Daughter,F,67,Doctor,9213840353,,2 kunal,Single,Red,3,Y,N,2,28.679079/77.069960
+78 BN,A Coy,Pune,Rahat,Z-222,Keegan,Father,M,89,Teacher,9213840354,,2 kunal,Single,Pink,3,N,N,2,28.679079/77.069961
+78 BN,A Coy,Pune,Rahat,Z-222,Luka,Mother,F,96,Engineer,9213840355,,1 kunal,Single,Purple,5,N,N,2,28.679079/77.069962
+78 BN,A Coy,Pune,Rahat,Z-222,Odin,Husband,M,49,Painter,9213840356,,1 kunal,Single,White,3,Y,Y,3,28.679079/77.069963
+78 BN,A Coy,Pune,Rahat,Z-222,Steven,Wife,M,60,Call Centre,9213840357,,1 kunal,Single,Blue,4,N,N,1,28.679079/77.069964
+78 BN,A Coy,Pune,Rahat,Z-279,Duncan,Husband,M,23,Air hostess,9213840358,,1 kunal,Single,Green,4,N,N,2,28.679079/77.069965
+78 BN,A Coy,Pune,Rahat,Z-279,Kade,Wife,F,43,Pilot,9213840359,,1 kunal,Single,Lavender,2,N,Y,2,28.679079/77.069966
+78 BN,A Coy,Pune,Rahat,Z-279,Musa,Daughter,F,75,Scientist,9213840360,,1 kunal,Single,Cherry,4,N,N,1,28.679079/77.069967
+78 BN,A Coy,Pune,Samrat,Z-282,Mustafa,Father,F,64,Attender,9213840361,,1 kunal,Single,Light green,5,Y,N,2,28.679079/77.069968
+78 BN,A Coy,Pune,Samrat,Z-282,Oakley,Mother,M,86,Buisnessman,9213840362,,1 kunal,Single,Red,2,Y,N,2,28.679079/77.069969
+78 BN,A Coy,Pune,Samrat,Z-282,Rex,Husband,F,62,Technician,9213840363,,1 kunal,Single,Pink,3,N,N,1,28.679079/77.069970
+78 BN,A Coy,Pune,Samrat,Z-282,Archer,Wife,M,98,Shopkeeper,9213840364,,1 kunal,Single,Purple,5,Y,Y,2,28.679079/77.069971
+78 BN,A Coy,Pune,Samrat,Z-286,Axel,Husband,F,21,Doctor,9213840365,,1 kunal,Single,White,2,Y,Y,2,28.679079/77.069972
+78 BN,A Coy,Pune,Samrat,Z-286,Ayden,Wife,M,33,Teacher,9213840366,,1 kunal,Single,Blue,4,Y,N,2,28.679079/77.069973
+78 BN,A Coy,Pune,Samrat,Z-286,Caiden,Daughter,F,45,Engineer,9213840367,,1 kunal,Single,Green,4,Y,Y,2,28.679079/77.069974
+78 BN,A Coy,Pune,Kodkya,Z-289,Craig,Father,M,12,Painter,9213840368,,1 kunal,Single,Lavender,3,Y,N,2,28.679079/77.069975
+78 BN,A Coy,Pune,Kodkya,Z-289,Lauchlan,Mother,M,45,Call Centre,9213840369,,1 kunal,Single,Cherry,5,Y,Y,2,28.679079/77.069976
+78 BN,A Coy,Pune,Kodkya,Z-289,Lennon,Husband,M,23,Air hostess,9213840370,,1 kunal,Single,Light green,2,N,Y,2,28.679079/77.069977
+78 BN,A Coy,Pune,Kodkya,Z-289,Lukas,Wife,F,67,Pilot,9213840371,,1 kunal,Single,Red,5,N,Y,2,28.679079/77.069978
+78 BN,A Coy,Pune,Kodkya,Z-293,Maximilian,Husband,F,23,Scientist,9213840372,,1 kunal,Single,Pink,5,N,Y,1,28.679079/77.069979
+78 BN,A Coy,Pune,Kodkya,Z-293,Mylo,Wife,F,56,Attender,9213840373,,1 kunal,Single,Purple,5,N,Y,2,28.679079/77.069980
+78 BN,A Coy,Pune,Kodkya,Z-293,Nikodem,Daughter,M,24,Buisnessman,9213840374,,1 kunal,Single,White,2,N,Y,1,28.679079/77.069981
+78 BN,A Coy,Pune,Sarthak,Z-296,Rocco,Father,F,56,Technician,9213840375,,2 kunal,Single,Blue,5,Y,N,2,28.679079/77.069982
+78 BN,A Coy,Pune,Sarthak,Z-296,Rohan,Mother,M,32,Shopkeeper,9213840376,,2 kunal,Single,Green,6,N,N,2,28.679079/77.069983
+78 BN,A Coy,Pune,Sarthak,Z-296,Xavier,Husband,F,67,Doctor,9213840377,,2 kunal,Single,Lavender,3,N,N,2,28.679079/77.069984
+78 BN,A Coy,Pune,Sarthak,Z-296,Abel,Wife,M,89,Teacher,9213840378,,2 kunal,Single,Cherry,4,Y,N,1,28.679079/77.069985
+78 BN,A Coy,Pune,Sarthak,Z-300,Elias,Husband,F,96,Engineer,9213840379,,2 kunal,Single,Light green,3,N,N,1,28.679079/77.069986
+78 BN,A Coy,Pune,Sarthak,Z-300,Eric,Wife,M,49,Painter,9213840380,,2 kunal,Single,Red,4,N,Y,1,28.679079/77.069987
+78 BN,A Coy,Pune,Sarthak,Z-300,Franciszek,Son,M,60,Call Centre,9213840381,,2 kunal,Single,Pink,4,N,N,2,28.679079/77.069988
+78 BN,A Coy,Shrirampur,Durga,Z-303,Kaleb,Father,F,23,Air hostess,9213840382,,2 kunal,Single,Purple,2,N,N,1,28.679079/77.069989
+78 BN,A Coy,Shrirampur,Durga,Z-303,Karson,Mother,F,43,Pilot,9213840383,,1 kunal,Single,White,4,Y,Y,2,28.679079/77.069990
+78 BN,A Coy,Shrirampur,Durga,Z-303,Kody,Husband,F,75,Scientist,9213840384,,1 kunal,Single,Blue,2,Y,N,1,28.679079/77.069991
+78 BN,A Coy,Shrirampur,Durga,Z-303,Lincoln,Wife,M,64,Attender,9213840385,,1 kunal,Single,Green,3,N,N,2,28.679079/77.069992
+78 BN,A Coy,Shrirampur,Durga,Z-307,Phoenix,Husband,M,86,Buisnessman,9213840386,,1 kunal,Single,Lavender,4,Y,N,2,28.679079/77.069993
+78 BN,A Coy,Shrirampur,Durga,Z-307,Stephen,Wife,M,62,Technician,9213840387,,1 kunal,Single,Cherry,5,N,N,2,28.679079/77.069994
+78 BN,A Coy,Shrirampur,Durga,Z-307,Tristan,Son,F,98,Shopkeeper,9213840388,,1 kunal,Single,Light green,3,Y,Y,1,28.679079/77.069995
+78 BN,A Coy,Shrirampur,Balram,Z-310,Abdullah,Father,M,21,Doctor,9213840389,,2 kunal,Single,Red,3,Y,Y,2,28.679079/77.069996
+78 BN,A Coy,Shrirampur,Balram,Z-310,Dexter,Mother,F,33,Teacher,9213840390,,2 kunal,Single,Pink,5,Y,N,2,28.679079/77.069997
+78 BN,A Coy,Shrirampur,Balram,Z-310,Ian,Husband,M,45,Engineer,9213840391,,2 kunal,Single,Purple,4,Y,Y,2,28.679079/77.069998
+78 BN,A Coy,Shrirampur,Balram,Z-310,Jensen,Wife,F,12,Painter,9213840392,,2 kunal,Single,White,2,Y,N,3,28.679079/77.069999
+78 BN,A Coy,Shrirampur,Balram,Z-314,Jonathan,Husband,M,45,Call Centre,9213840393,,2 kunal,Single,Blue,3,Y,Y,2,28.679079/77.070000
+78 BN,A Coy,Shrirampur,Balram,Z-314,Richard,Wife,F,23,Air hostess,9213840394,,1 kunal,Single,Green,5,N,Y,1,28.679079/77.070001
+78 BN,A Coy,Shrirampur,Balram,Z-314,Zayn,Son,F,67,Pilot,9213840395,,1 kunal,Single,Lavender,4,N,Y,2,28.679079/77.070002
+78 BN,A Coy,Shrirampur,Duryodhan,Z-317,Adrian,Father,F,23,Scientist,9213840396,,1 kunal,Single,Cherry,3,N,Y,2,28.679079/77.070003
+78 BN,A Coy,Shrirampur,Duryodhan,Z-317,Aleksander,Mother,M,56,Attender,9213840397,,1 kunal,Single,Light green,3,N,Y,2,28.679079/77.070004
+78 BN,A Coy,Shrirampur,Duryodhan,Z-317,Ayaan,Husband,F,24,Buisnessman,9213840398,,1 kunal,Single,Red,5,N,Y,2,28.679079/77.070005
+78 BN,A Coy,Shrirampur,Duryodhan,Z-317,Bruno,Wife,M,56,Technician,9213840399,,1 kunal,Single,Pink,3,Y,N,3,28.679079/77.070006
+78 BN,A Coy,Shrirampur,Duryodhan,Z-321,Cailean,Husband,M,32,Shopkeeper,9213840400,,1 kunal,Single,Purple,4,N,N,1,28.679079/77.070007
+78 BN,A Coy,Shrirampur,Duryodhan,Z-321,Christian,Wife,F,67,Doctor,9213840401,,1 kunal,Single,White,4,N,N,2,28.679079/77.070008
+78 BN,A Coy,Shrirampur,Duryodhan,Z-321,Coby,Daughter,F,89,Teacher,9213840402,,1 kunal,Single,Blue,2,Y,N,2,28.679079/77.070009
+78 BN,A Coy,Shrirampur,Dushasan,Z-324,Conall,Husband,M,96,Engineer,9213840403,,1 kunal,Single,Green,4,N,N,1,28.679079/77.070010
+78 BN,A Coy,Shrirampur,Dushasan,Z-324,Haris,Wife,F,49,Painter,9213840404,,1 kunal,Single,Lavender,5,N,Y,2,28.679079/77.070011
+78 BN,A Coy,Shrirampur,Dushasan,Z-326,Ivor,Husband,F,60,Call Centre,9213840405,,1 kunal,Single,Cherry,2,N,N,2,28.679079/77.070012
+78 BN,A Coy,Shrirampur,Dushasan,Z-326,Kit,Wife,M,23,Air hostess,9213840406,,1 kunal,Single,Light green,3,N,N,1,28.679079/77.070013
+78 BN,A Coy,Shrirampur,Dushasan,Z-328,Lawson,Husband,F,43,Pilot,9213840407,,1 kunal,Single,Red,5,Y,Y,2,28.679079/77.070014
+78 BN,A Coy,Shrirampur,Dushasan,Z-328,Lee,Wife,M,75,Scientist,9213840408,,1 kunal,Single,Pink,2,Y,N,2,28.679079/77.070015
+78 BN,A Coy,Shrirampur,Dushasan,Z-328,Marco,Daughter,F,64,Attender,9213840409,,1 kunal,Single,Purple,4,N,N,2,28.679079/77.070016
+78 BN,A Coy,Shrirampur,Karna,Z-331,Martin,Husband,M,86,Buisnessman,9213840410,,1 kunal,Single,White,4,Y,N,2,28.679079/77.070017
+78 BN,A Coy,Shrirampur,Karna,Z-331,Matei,Wife,F,62,Technician,9213840411,,1 kunal,Single,Blue,3,N,N,2,28.679079/77.070018
+78 BN,A Coy,Shrirampur,Karna,Z-333,Munro,Husband,M,98,Shopkeeper,9213840412,,1 kunal,Single,Green,5,Y,Y,2,28.679079/77.070019
+78 BN,A Coy,Shrirampur,Karna,Z-333,Oliwier,Wife,M,21,Doctor,9213840413,,1 kunal,Single,Lavender,2,Y,Y,2,28.679079/77.070020
+78 BN,A Coy,Shrirampur,Karna,Z-335,River,Husband,M,33,Teacher,9213840414,,2 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070021
+78 BN,A Coy,Shrirampur,Karna,Z-335,Ruari,Wife,F,45,Engineer,9213840415,,2 kunal,Single,Light green,5,Y,Y,1,28.679079/77.070022
+78 BN,A Coy,Shrirampur,Karna,Z-335,Stanley,Daughter,F,12,Painter,9213840416,,2 kunal,Single,Red,5,Y,N,2,28.679079/77.070023
+78 BN,B COY,Aurangabad,Ayodhya,Z-338,Szymon,Husband,F,45,Call Centre,9213840417,,2 kunal,Single,Pink,2,Y,Y,1,28.679079/77.070024
+78 BN,B COY,Aurangabad,Ayodhya,Z-338,Tom,Wife,M,23,Air hostess,9213840418,,2 kunal,Single,Purple,5,N,Y,2,28.679079/77.070025
+78 BN,B COY,Aurangabad,Ayodhya,Z-340,Tymon,Husband,F,67,Pilot,9213840419,,2 kunal,Single,White,6,N,Y,2,28.679079/77.070026
+78 BN,B COY,Aurangabad,Ayodhya,Z-340,Bruce,Wife,M,23,Scientist,9213840420,,2 kunal,Single,Blue,3,N,Y,2,28.679079/77.070027
+78 BN,B COY,Aurangabad,Ayodhya,Z-342,Darragh,Husband,F,56,Attender,9213840421,,2 kunal,Single,Green,4,N,Y,1,28.679079/77.070028
+78 BN,B COY,Aurangabad,Ayodhya,Z-342,Dean,Wife,M,24,Buisnessman,9213840422,,1 kunal,Single,Lavender,3,N,Y,1,28.679079/77.070029
+78 BN,B COY,Aurangabad,Ayodhya,Z-342,Idris,Daughter,F,56,Technician,9213840423,,1 kunal,Single,Cherry,4,Y,N,1,28.679079/77.070030
+78 BN,B COY,Aurangabad,Ramgiri,Z-345,Jesse,Husband,M,32,Shopkeeper,9213840424,,1 kunal,Single,Light green,4,N,N,2,28.679079/77.070031
+78 BN,B COY,Aurangabad,Ramgiri,Z-345,Malcolm,Wife,M,67,Doctor,9213840425,,1 kunal,Single,Red,2,N,N,1,28.679079/77.070032
+78 BN,B COY,Aurangabad,Ramgiri,Z-347,Mateo,Husband,M,89,Teacher,9213840426,,1 kunal,Single,Pink,4,Y,N,2,28.679079/77.070033
+78 BN,B COY,Aurangabad,Ramgiri,Z-347,Mikey,Wife,F,96,Engineer,9213840427,,1 kunal,Single,Purple,2,N,N,1,28.679079/77.070034
+78 BN,B COY,Aurangabad,Ramgiri,Z-349,Nate,Husband,F,49,Painter,9213840428,,2 kunal,Single,White,3,N,Y,2,28.679079/77.070035
+78 BN,B COY,Aurangabad,Ramgiri,Z-349,Omar,Wife,F,60,Call Centre,9213840429,,2 kunal,Single,Blue,4,N,N,2,28.679079/77.070036
+78 BN,B COY,Aurangabad,Ramgiri,Z-349,Preston,Daughter,M,23,Air hostess,9213840430,,2 kunal,Single,Green,5,N,N,2,28.679079/77.070037
+78 BN,B COY,Aurangabad,Ramsarovar,Z-352,Ruaraidh,Husband,F,43,Pilot,9213840431,,2 kunal,Single,Lavender,3,Y,Y,1,28.679079/77.070038
+78 BN,B COY,Aurangabad,Ramsarovar,Z-352,Rudy,Wife,M,75,Scientist,9213840432,,2 kunal,Single,Cherry,3,Y,N,2,28.679079/77.070039
+78 BN,B COY,Aurangabad,Ramsarovar,Z-354,Vinnie,Husband,F,64,Attender,9213840433,,1 kunal,Single,Light green,5,N,N,2,28.679079/77.070040
+78 BN,B COY,Aurangabad,Ramsarovar,Z-354,Alec,Wife,M,86,Buisnessman,9213840434,,1 kunal,Single,Red,4,Y,N,2,28.679079/77.070041
+78 BN,B COY,Aurangabad,Ramsarovar,Z-356,Allan,Husband,F,62,Technician,9213840435,,1 kunal,Single,Pink,2,N,N,3,28.679079/77.070042
+78 BN,B COY,Aurangabad,Ramsarovar,Z-356,Callen,Wife,M,98,Shopkeeper,9213840436,,1 kunal,Single,Purple,3,Y,Y,2,28.679079/77.070043
+78 BN,B COY,Aurangabad,Ramsarovar,Z-356,Colin,Daughter,M,21,Doctor,9213840437,,1 kunal,Single,White,5,Y,Y,1,28.679079/77.070044
+78 BN,B COY,Aurangabad,Somsarovar,Z-359,Conlan,Husband,F,33,Teacher,9213840438,,1 kunal,Single,Blue,4,Y,N,2,28.679079/77.070045
+78 BN,B COY,Aurangabad,Somsarovar,Z-359,Curtis,Wife,F,45,Engineer,9213840439,,1 kunal,Single,Green,3,Y,Y,2,28.679079/77.070046
+78 BN,B COY,Aurangabad,Somsarovar,Z-361,Dawson,Husband,F,12,Painter,9213840440,,1 kunal,Single,Lavender,3,Y,N,2,28.679079/77.070047
+78 BN,B COY,Aurangabad,Somsarovar,Z-361,Dominik,Wife,M,45,Call Centre,9213840441,,1 kunal,Single,Cherry,5,Y,Y,2,28.679079/77.070048
+78 BN,B COY,Aurangabad,Somsarovar,Z-363,Eddie,Husband,M,23,Air hostess,9213840442,,1 kunal,Single,Light green,3,N,Y,3,28.679079/77.070049
+78 BN,B COY,Aurangabad,Somsarovar,Z-363,Greyson,Wife,M,67,Pilot,9213840443,,1 kunal,Single,Red,4,N,Y,1,28.679079/77.070050
+78 BN,B COY,Aurangabad,Somsarovar,Z-363,Jaxx,Daughter,F,23,Scientist,9213840444,,1 kunal,Single,Pink,4,N,Y,2,28.679079/77.070051
+78 BN,B COY,Aurangabad,Somnath,Z-366,Kobi,Husband,M,56,Attender,9213840445,,1 kunal,Single,Purple,2,N,Y,2,28.679079/77.070052
+78 BN,B COY,Aurangabad,Somnath,Z-366,Leyton,Wife,F,24,Buisnessman,9213840446,,1 kunal,Single,White,4,N,Y,1,28.679079/77.070053
+78 BN,B COY,Aurangabad,Somnath,Z-368,Nairn,Husband,M,56,Technician,9213840447,,1 kunal,Single,Blue,5,Y,N,2,28.679079/77.070054
+78 BN,B COY,Aurangabad,Somnath,Z-368,Nicolas,Wife,F,32,Shopkeeper,9213840448,,1 kunal,Single,Green,2,N,N,2,28.679079/77.070055
+78 BN,B COY,Aurangabad,Somnath,Z-370,Ralph,Husband,M,67,Doctor,9213840449,,1 kunal,Single,Lavender,3,N,N,1,28.679079/77.070056
+78 BN,B COY,Aurangabad,Somnath,Z-370,Seth,Wife,F,89,Teacher,9213840450,,1 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070057
+78 BN,B COY,Aurangabad,Somnath,Z-370,Shaun,Daughter,F,96,Engineer,9213840451,,1 kunal,Single,Light green,2,N,N,2,28.679079/77.070058
+78 BN,B COY,Phaltan,Somsath,Z-373,Tobias,Husband,F,49,Painter,9213840452,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.070059
+78 BN,B COY,Phaltan,Somsath,Z-373,Victor,Wife,M,60,Call Centre,9213840453,,2 kunal,Single,Pink,4,N,N,2,28.679079/77.070060
+78 BN,B COY,Phaltan,Somsath,Z-375,Wiktor,Husband,F,23,Air hostess,9213840454,,2 kunal,Single,Purple,3,N,N,2,28.679079/77.070061
+78 BN,B COY,Phaltan,Somsath,Z-375,Ahmed,Wife,M,43,Pilot,9213840455,,2 kunal,Single,White,5,Y,Y,2,28.679079/77.070062
+78 BN,B COY,Phaltan,Somsath,Z-377,Albert,Husband,M,75,Scientist,9213840456,,2 kunal,Single,Blue,2,Y,N,2,28.679079/77.070063
+78 BN,B COY,Phaltan,Somsath,Z-377,Archibald,Wife,F,64,Attender,9213840457,,2 kunal,Single,Green,5,N,N,2,28.679079/77.070064
+78 BN,B COY,Phaltan,Somsath,Z-377,Aron,Daughter,F,86,Buisnessman,9213840458,,2 kunal,Single,Lavender,5,Y,N,1,28.679079/77.070065
+78 BN,B COY,Phaltan,Murg,Z-380,Azaan,Father,M,62,Technician,9213840459,,2 kunal,Single,Cherry,5,N,N,2,28.679079/77.070066
+78 BN,B COY,Phaltan,Murg,Z-380,Bear,Mother,F,98,Shopkeeper,9213840460,,2 kunal,Single,Light green,2,Y,Y,1,28.679079/77.070067
+78 BN,B COY,Phaltan,Murg,Z-382,Beau,Husband,F,21,Doctor,9213840461,,1 kunal,Single,Red,5,Y,Y,2,28.679079/77.070068
+78 BN,B COY,Phaltan,Murg,Z-382,Bodhi,Wife,M,33,Teacher,9213840462,,1 kunal,Single,Pink,6,Y,N,2,28.679079/77.070069
+78 BN,B COY,Phaltan,Murg,Z-384,Brady,Husband,F,45,Engineer,9213840463,,1 kunal,Single,Purple,3,Y,Y,2,28.679079/77.070070
+78 BN,B COY,Phaltan,Murg,Z-384,Brandon,Wife,M,12,Painter,9213840464,,1 kunal,Single,White,4,Y,N,1,28.679079/77.070071
+78 BN,B COY,Phaltan,Murg,Z-384,Cairn,Daughter,F,45,Call Centre,9213840465,,1 kunal,Single,Blue,3,Y,Y,1,28.679079/77.070072
+78 BN,B COY,Phaltan,Burj Khalifa,Z-387,Chester,Husband,M,23,Air hostess,9213840466,,1 kunal,Single,Green,4,N,Y,1,28.679079/77.070073
+78 BN,B COY,Phaltan,Burj Khalifa,Z-387,Clark,Wife,F,67,Pilot,9213840467,,2 kunal,Single,Lavender,4,N,Y,2,28.679079/77.070074
+78 BN,B COY,Phaltan,Burj Khalifa,Z-389,Coen,Husband,M,23,Scientist,9213840468,,2 kunal,Single,Cherry,2,N,Y,1,28.679079/77.070075
+78 BN,B COY,Phaltan,Burj Khalifa,Z-389,Damian,Wife,M,56,Attender,9213840469,,2 kunal,Single,Light green,4,N,Y,2,28.679079/77.070076
+78 BN,B COY,Phaltan,Burj Khalifa,Z-391,Donald,Mother,M,24,Buisnessman,9213840470,,2 kunal,Single,Red,2,N,Y,1,28.679079/77.070077
+78 BN,B COY,Phaltan,Burj Khalifa,Z-391,Drew,Husband,F,56,Technician,9213840471,,2 kunal,Single,Pink,3,Y,N,2,28.679079/77.070078
+78 BN,B COY,Phaltan,Burj Khalifa,Z-391,Fabian,Wife,F,32,Shopkeeper,9213840472,,1 kunal,Single,Purple,4,N,N,2,28.679079/77.070079
+78 BN,B COY,Phaltan,Ramnath,Z-394,Fletcher,Husband,F,67,Doctor,9213840473,,1 kunal,Single,White,5,N,N,2,28.679079/77.070080
+78 BN,B COY,Phaltan,Ramnath,Z-394,Hugh,Wife,M,89,Teacher,9213840474,,1 kunal,Single,Blue,3,Y,N,1,28.679079/77.070081
+78 BN,B COY,Phaltan,Ramnath,Z-396,Jan,Husband ,F,96,Engineer,9213840475,,1 kunal,Single,Green,3,N,N,2,28.679079/77.070082
+78 BN,B COY,Phaltan,Ramnath,Z-396,Joe,Wife,M,49,Painter,9213840476,,1 kunal,Single,Lavender,5,N,Y,2,28.679079/77.070083
+78 BN,B COY,Phaltan,Ramnath,Z-398,Kalvin,Husband ,F,60,Call Centre,9213840477,,1 kunal,Single,Cherry,4,N,N,2,28.679079/77.070084
+78 BN,B COY,Phaltan,Ramnath,Z-398,Karter,Wife,M,23,Air hostess,9213840478,,1 kunal,Single,Light green,2,N,N,3,28.679079/77.070085
+78 BN,B COY,Phaltan,Ramnath,Z-398,Kayson,Son,F,43,Pilot,9213840479,,1 kunal,Single,Red,3,Y,Y,2,28.679079/77.070086
+78 BN,B COY,Phaltan,Kamnath,Z-401,Leonard,Husband,M,75,Scientist,9213840480,,1 kunal,Single,Pink,5,Y,N,1,28.679079/77.070087
+78 BN,B COY,Phaltan,Kamnath,Z-401,Lyall,Wife,M,64,Attender,9213840481,,1 kunal,Single,Purple,4,N,N,2,28.679079/77.070088
+78 BN,B COY,Phaltan,Kamnath,Z-403,Mack,Husband,M,86,Buisnessman,9213840482,,1 kunal,Single,White,3,Y,N,2,28.679079/77.070089
+78 BN,B COY,Phaltan,Kamnath,Z-403,Marley,Wife,F,62,Technician,9213840483,,1 kunal,Single,Blue,3,N,N,2,28.679079/77.070090
+78 BN,B COY,Phaltan,Kamnath,Z-404,Marshall,Husband,F,98,Shopkeeper,9213840484,,1 kunal,Single,Green,5,Y,Y,2,28.679079/77.070091
+78 BN,B COY,Phaltan,Kamnath,Z-404,Micah,Wife,F,21,Doctor,9213840485,,1 kunal,Single,Lavender,3,Y,Y,3,28.679079/77.070092
+78 BN,B COY,Phaltan,Kamnath,Z-404,Muhammed,Son,M,33,Teacher,9213840486,,1 kunal,Single,Cherry,4,Y,N,1,28.679079/77.070093
+78 BN,B COY,Nanded,Karthik,Z-408,Nikolas,Father,F,45,Engineer,9213840487,,1 kunal,Single,Light green,4,Y,Y,2,28.679079/77.070094
+78 BN,B COY,Nanded,Karthik,Z-408,Philip,Mother,M,12,Painter,9213840488,,1 kunal,Single,Red,2,Y,N,2,28.679079/77.070095
+78 BN,B COY,Nanded,Karthik,Z-408,Rafael,Husband,F,45,Call Centre,9213840489,,1 kunal,Single,Pink,4,Y,Y,1,28.679079/77.070096
+78 BN,B COY,Nanded,Karthik,Z-408,Stefan,Wife,M,23,Air hostess,9213840490,,1 kunal,Single,Purple,5,N,Y,2,28.679079/77.070097
+78 BN,B COY,Nanded,Karthik,Z-412,Stewart,Husband,F,67,Pilot,9213840491,,1 kunal,Single,White,2,N,Y,2,28.679079/77.070098
+78 BN,B COY,Nanded,Karthik,Z-412,Torin,Wife,M,23,Scientist,9213840492,,2 kunal,Single,Blue,3,N,Y,1,28.679079/77.070099
+78 BN,B COY,Nanded,Karthik,Z-412,Will,Daughter,M,56,Attender,9213840493,,2 kunal,Single,Green,5,N,Y,2,28.679079/77.070100
+78 BN,B COY,Nanded,Saraswat,Z-415,Abdul,Father,F,24,Buisnessman,9213840494,,2 kunal,Single,Lavender,2,N,Y,2,28.679079/77.070101
+78 BN,B COY,Nanded,Saraswat,Z-415,Ahmad,Mother,F,56,Technician,9213840495,,2 kunal,Single,Cherry,4,Y,N,2,28.679079/77.070102
+78 BN,B COY,Nanded,Saraswat,Z-415,Amir,Husband,F,32,Shopkeeper,9213840496,,2 kunal,Single,Light green,4,N,N,2,28.679079/77.070103
+78 BN,B COY,Nanded,Saraswat,Z-415,Ari,Wife,M,67,Doctor,9213840497,,2 kunal,Single,Red,3,N,N,2,28.679079/77.070104
+78 BN,B COY,Nanded,Saraswat,Z-419,Blaine,Husband,M,89,Teacher,9213840498,,2 kunal,Single,Pink,5,Y,N,2,28.679079/77.070105
+78 BN,B COY,Nanded,Saraswat,Z-419,Bryce,Wife,M,96,Engineer,9213840499,,2 kunal,Single,Purple,2,N,N,2,28.679079/77.070106
+78 BN,B COY,Nanded,Saraswat,Z-419,Cade,Daughter,F,49,Painter,9213840500,,1 kunal,Single,White,5,N,Y,2,28.679079/77.070107
+78 BN,B COY,Nanded,Saras nagar,Z-422,Casey,Husband,M,60,Call Centre,9213840501,,1 kunal,Single,Blue,5,N,N,1,28.679079/77.070108
+78 BN,B COY,Nanded,Saras nagar,Z-422,Clayton,Wife,F,23,Air hostess,9213840502,,1 kunal,Single,Green,5,N,N,2,28.679079/77.070109
+78 BN,B COY,Nanded,Saras nagar,Z-424,Denis,Husband,M,43,Pilot,9213840503,,1 kunal,Single,Lavender,2,Y,Y,1,28.679079/77.070110
+78 BN,B COY,Nanded,Saras nagar,Z-424,Eesa,Wife,F,75,Scientist,9213840504,,1 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070111
+78 BN,B COY,Nanded,Saras nagar,Z-426,Eoin,Daughter,M,64,Attender,9213840505,,1 kunal,Single,Light green,6,N,N,2,28.679079/77.070112
+78 BN,B COY,Nanded,Saras nagar,Z-426,Frank,Husband,F,86,Buisnessman,9213840506,,2 kunal,Single,Red,3,Y,N,2,28.679079/77.070113
+78 BN,B COY,Nanded,Saras nagar,Z-426,Freddy,Wife,F,62,Technician,9213840507,,2 kunal,Single,Pink,4,N,N,1,28.679079/77.070114
+78 BN,B COY,Nanded,Vastav,Z-429,Gary,Father,F,98,Shopkeeper,9213840508,,2 kunal,Single,Purple,3,Y,Y,1,28.679079/77.070115
+78 BN,B COY,Nanded,Vastav,Z-429,Glen,Mother,M,21,Doctor,9213840509,,2 kunal,Single,White,4,Y,Y,1,28.679079/77.070116
+78 BN,B COY,Nanded,Vastav,Z-429,Hamza,Husband,F,33,Teacher,9213840510,,2 kunal,Single,Blue,4,Y,N,2,28.679079/77.070117
+78 BN,B COY,Nanded,Vastav,Z-429,Hassan,Wife,M,45,Engineer,9213840511,,1 kunal,Single,Green,2,Y,Y,1,28.679079/77.070118
+78 BN,B COY,Nanded,Vastav,Z-433,Hector,Husband,M,12,Painter,9213840512,,1 kunal,Single,Lavender,4,Y,N,2,28.679079/77.070119
+78 BN,B COY,Nanded,Vastav,Z-433,Ismaeel,Wife,F,45,Call Centre,9213840513,,1 kunal,Single,Cherry,2,Y,Y,1,28.679079/77.070120
+78 BN,B COY,Nanded,Vastav,Z-433,Ivan,Daughter,F,23,Air hostess,9213840514,,1 kunal,Single,Light green,3,N,Y,2,28.679079/77.070121
+78 BN,B COY,Nanded,Ashram,Z-436,Ivar,Father,M,67,Pilot,9213840515,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.070122
+78 BN,B COY,Nanded,Ashram,Z-436,Kenzie,Mother,F,23,Scientist,9213840516,,1 kunal,Single,Pink,5,N,Y,2,28.679079/77.070123
+78 BN,B COY,Nanded,Ashram,Z-436,Killian,Husband,F,56,Attender,9213840517,,1 kunal,Single,Purple,3,N,Y,1,28.679079/77.070124
+78 BN,B COY,Nanded,Ashram,Z-436,Koby,Wife,M,24,Buisnessman,9213840518,,1 kunal,Single,White,3,N,Y,2,28.679079/77.070125
+78 BN,B COY,Nanded,Ashram,Z-440,Kole,Husband,F,56,Technician,9213840519,,1 kunal,Single,Blue,5,Y,N,2,28.679079/77.070126
+78 BN,B COY,Nanded,Ashram,Z-440,Leighton,Wife,M,32,Shopkeeper,9213840520,,1 kunal,Single,Green,4,N,N,2,28.679079/77.070127
+78 BN,B COY,Nanded,Ashram,Z-440,Matteo,Son,F,67,Doctor,9213840521,,1 kunal,Single,Lavender,2,N,N,3,28.679079/77.070128
+78 BN,B COY,Nilgiri,Eagle,Z-443,Mikolaj,Father,M,89,Teacher,9213840522,,1 kunal,Single,Cherry,3,Y,N,2,28.679079/77.070129
+78 BN,B COY,Nilgiri,Eagle,Z-443,Millar,Mother,F,96,Engineer,9213840523,,1 kunal,Single,Light green,5,N,N,1,28.679079/77.070130
+78 BN,B COY,Nilgiri,Eagle,Z-443,Mitchell,Husband,M,49,Painter,9213840524,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.070131
+78 BN,B COY,Nilgiri,Eagle,Z-443,Nolan,Wife,M,60,Call Centre,9213840525,,1 kunal,Single,Pink,3,N,N,2,28.679079/77.070132
+78 BN,B COY,Nilgiri,Eagle,Z-447,Rayyan,Husband,M,23,Air hostess,9213840526,,1 kunal,Single,Purple,3,N,N,2,28.679079/77.070133
+78 BN,B COY,Nilgiri,Eagle,Z-447,Rogan,Wife,F,43,Pilot,9213840527,,1 kunal,Single,White,5,Y,Y,2,28.679079/77.070134
+78 BN,B COY,Nilgiri,Eagle,Z-447,Saul,Daughter,F,75,Scientist,9213840528,,1 kunal,Single,Blue,3,Y,N,3,28.679079/77.070135
+78 BN,B COY,Nilgiri,Bhind,Z-450,Syed,Father,F,64,Attender,9213840529,,1 kunal,Single,Green,4,N,N,1,28.679079/77.070136
+78 BN,B COY,Nilgiri,Bhind,Z-450,Tate,Mother,M,86,Buisnessman,9213840530,,1 kunal,Single,Lavender,4,Y,N,2,28.679079/77.070137
+78 BN,B COY,Nilgiri,Bhind,Z-450,Ace,Husband,F,62,Technician,9213840531,,2 kunal,Single,Cherry,2,N,N,2,28.679079/77.070138
+78 BN,B COY,Nilgiri,Bhind,Z-450,Ajay,Wife,M,98,Shopkeeper,9213840532,,2 kunal,Single,Light green,4,Y,Y,1,28.679079/77.070139
+78 BN,B COY,Nilgiri,Bhind,Z-454,Albi,Daughter,F,21,Doctor,9213840533,,2 kunal,Single,Red,5,Y,Y,2,28.679079/77.070140
+78 BN,B COY,Nilgiri,Bhind,Z-454,Aydin,Husband,M,33,Teacher,9213840534,,2 kunal,Single,Pink,2,Y,N,2,28.679079/77.070141
+78 BN,B COY,Nilgiri,Bhind,Z-454,Borys,Wife,F,45,Engineer,9213840535,,2 kunal,Single,Purple,3,Y,Y,1,28.679079/77.070142
+78 BN,B COY,Nilgiri,Berlin,Z-457,Brayden,Father,M,12,Painter,9213840536,,2 kunal,Single,White,5,Y,N,2,28.679079/77.070143
+78 BN,B COY,Nilgiri,Berlin,Z-457,Conan,Mother,M,45,Call Centre,9213840537,,2 kunal,Single,Blue,2,Y,Y,2,28.679079/77.070144
+78 BN,B COY,Nilgiri,Berlin,Z-457,Cory,Husband,M,23,Air hostess,9213840538,,2 kunal,Single,Green,4,N,Y,2,28.679079/77.070145
+78 BN,B COY,Nilgiri,Berlin,Z-457,Edan,Wife,F,67,Pilot,9213840539,,1 kunal,Single,Lavender,4,N,Y,2,28.679079/77.070146
+78 BN,B COY,Nilgiri,Berlin,Z-461,Fynn,Husband,F,23,Scientist,9213840540,,1 kunal,Single,Cherry,3,N,Y,2,28.679079/77.070147
+78 BN,B COY,Nilgiri,Berlin,Z-461,Gordon,Wife,F,56,Attender,9213840541,,1 kunal,Single,Light green,5,N,Y,2,28.679079/77.070148
+78 BN,B COY,Nilgiri,Berlin,Z-461,Hughie,Daughter,M,24,Buisnessman,9213840542,,1 kunal,Single,Red,2,N,Y,2,28.679079/77.070149
+78 BN,B COY,Nilgiri,Smile,Z-464,Ismail,Father,F,56,Technician,9213840543,,1 kunal,Single,Pink,5,Y,N,2,28.679079/77.070150
+78 BN,B COY,Nilgiri,Smile,Z-464,Jaiden,Mother,M,32,Shopkeeper,9213840544,,1 kunal,Single,Purple,5,N,N,1,28.679079/77.070151
+78 BN,B COY,Nilgiri,Smile,Z-464,Lenny,Husband,F,67,Doctor,9213840545,,2 kunal,Single,White,5,N,N,2,28.679079/77.070152
+78 BN,B COY,Nilgiri,Smile,Z-464,Lockie,Wife,M,89,Teacher,9213840546,,2 kunal,Single,Blue,2,Y,N,1,28.679079/77.070153
+78 BN,B COY,Nilgiri,Smile,Z-468,Loki,Husband,F,96,Engineer,9213840547,,2 kunal,Single,Green,5,N,N,2,28.679079/77.070154
+78 BN,B COY,Nilgiri,Smile,Z-468,Mackenzie,Wife,M,49,Painter,9213840548,,2 kunal,Single,Lavender,6,N,Y,2,28.679079/77.070155
+78 BN,B COY,Nilgiri,Smile,Z-468,Malachy,Daughter,M,60,Call Centre,9213840549,,2 kunal,Single,Cherry,3,N,N,2,28.679079/77.070156
+78 BN,B COY,Nilgiri,Red,Z-471,Mohamed,Father,F,23,Air hostess,9213840550,,1 kunal,Single,Light green,4,N,N,1,28.679079/77.070157
+78 BN,B COY,Nilgiri,Red,Z-471,Olivier,Mother,F,43,Pilot,9213840551,,1 kunal,Single,Red,3,Y,Y,1,28.679079/77.070158
+78 BN,B COY,Nilgiri,Red,Z-471,Otto,Husband,F,75,Scientist,9213840552,,1 kunal,Single,Pink,4,Y,N,1,28.679079/77.070159
+78 BN,B COY,Nilgiri,Red,Z-471,Ramsay,Wife,M,64,Attender,9213840553,,1 kunal,Single,Purple,4,N,N,2,28.679079/77.070160
+78 BN,B COY,Nilgiri,Red,Z-475,Rayan,Husband,M,86,Buisnessman,9213840554,,1 kunal,Single,White,2,Y,N,1,28.679079/77.070161
+78 BN,B COY,Nilgiri,Red,Z-475,Remy,Wife,M,62,Technician,9213840555,,1 kunal,Single,Blue,4,N,N,2,28.679079/77.070162
+78 BN,B COY,Nilgiri,Red,Z-475,Romeo,Son,F,98,Shopkeeper,9213840556,,1 kunal,Single,Green,2,Y,Y,1,28.679079/77.070163
+78 BN,B COY,Agadgaon,Violet,Z-478,Sami,Father,M,21,Doctor,9213840557,,1 kunal,Single,Lavender,3,Y,Y,2,28.679079/77.070164
+78 BN,B COY,Agadgaon,Violet,Z-478,Sandy,Mother,F,33,Teacher,9213840558,,1 kunal,Single,Cherry,4,Y,N,2,28.679079/77.070165
+78 BN,B COY,Agadgaon,Violet,Z-478,Shae,Husband,M,45,Engineer,9213840559,,1 kunal,Single,Light green,5,Y,Y,2,28.679079/77.070166
+78 BN,B COY,Agadgaon,Violet,Z-478,Shane,Wife,F,12,Painter,9213840560,,1 kunal,Single,Red,3,Y,N,1,28.679079/77.070167
+78 BN,B COY,Agadgaon,Violet,Z-482,Stuart,Husband,M,45,Call Centre,9213840561,,1 kunal,Single,Pink,3,Y,Y,2,28.679079/77.070168
+78 BN,B COY,Agadgaon,Violet,Z-482,Wyatt,Wife,F,23,Air hostess,9213840562,,1 kunal,Single,Purple,5,N,Y,2,28.679079/77.070169
+78 BN,B COY,Agadgaon,Violet,Z-482,Zakariya,Son,F,67,Pilot,9213840563,,1 kunal,Single,White,4,N,Y,2,28.679079/77.070170
+78 BN,B COY,Agadgaon,Sitara,Z-485,Alastair,Father,F,23,Scientist,9213840564,,1 kunal,Single,Blue,2,N,Y,3,28.679079/77.070171
+78 BN,B COY,Agadgaon,Sitara,Z-485,Ally,Mother,M,56,Attender,9213840565,,1 kunal,Single,Green,3,N,Y,2,28.679079/77.070172
+78 BN,B COY,Agadgaon,Sitara,Z-485,Anton,Husband,F,24,Buisnessman,9213840566,,1 kunal,Single,Lavender,5,N,Y,1,28.679079/77.070173
+78 BN,B COY,Agadgaon,Sitara,Z-485,Avery,Wife,M,56,Technician,9213840567,,1 kunal,Single,Cherry,4,Y,N,2,28.679079/77.070174
+78 BN,B COY,Agadgaon,Sitara,Z-489,Ayan,Husband,M,32,Shopkeeper,9213840568,,1 kunal,Single,Light green,3,N,N,2,28.679079/77.070175
+78 BN,B COY,Agadgaon,Sitara,Z-489,Barclay,Wife,F,67,Doctor,9213840569,,1 kunal,Single,Red,3,N,N,2,28.679079/77.070176
+78 BN,B COY,Agadgaon,Sitara,Z-489,Bjorn,Son,F,89,Teacher,9213840570,,2 kunal,Single,Pink,5,Y,N,2,28.679079/77.070177
+78 BN,B COY,Agadgaon,Moon,Z-492,Cayden,Father,M,96,Engineer,9213840571,,2 kunal,Single,Purple,3,N,N,3,28.679079/77.070178
+78 BN,B COY,Agadgaon,Moon,Z-492,Colt,Mother,F,49,Painter,9213840572,,2 kunal,Single,White,4,N,Y,1,28.679079/77.070179
+78 BN,B COY,Agadgaon,Moon,Z-492,Corran,Husband,F,60,Call Centre,9213840573,,2 kunal,Single,Blue,4,N,N,2,28.679079/77.070180
+78 BN,B COY,Agadgaon,Moon,Z-492,Dawid,Wife,M,23,Air hostess,9213840574,,2 kunal,Single,Green,2,N,N,2,28.679079/77.070181
+78 BN,B COY,Agadgaon,Moon,Z-496,Emmanuel,Husband,F,43,Pilot,9213840575,,2 kunal,Single,Lavender,4,Y,Y,1,28.679079/77.070182
+78 BN,B COY,Agadgaon,Moon,Z-496,Forrest,Wife,M,75,Scientist,9213840576,,2 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070183
+78 BN,B COY,Agadgaon,Moon,Z-496,Gavin,Daughter,F,64,Attender,9213840577,,2 kunal,Single,Light green,2,N,N,2,28.679079/77.070184
+78 BN,B COY,Agadgaon,Star,Z-499,Grant,Husband,M,86,Buisnessman,9213840578,,1 kunal,Single,Red,3,Y,N,1,28.679079/77.070185
+78 BN,B COY,Agadgaon,Star,Z-499,Hubert,Wife,F,62,Technician,9213840579,,1 kunal,Single,Pink,5,N,N,2,28.679079/77.070186
+78 BN,B COY,Agadgaon,Star,Z-501,Ignacy,Husband,M,98,Shopkeeper,9213840580,,1 kunal,Single,Purple,2,Y,Y,2,28.679079/77.070187
+78 BN,B COY,Agadgaon,Star,Z-501,Jaden,Wife,M,21,Doctor,9213840581,,1 kunal,Single,White,4,Y,Y,2,28.679079/77.070188
+78 BN,B COY,Agadgaon,Star,Z-503,Jakob,Husband,M,33,Teacher,9213840582,,1 kunal,Single,Blue,4,Y,N,2,28.679079/77.070189
+78 BN,B COY,Agadgaon,Star,Z-503,Johnny,Wife,F,45,Engineer,9213840583,,1 kunal,Single,Green,3,Y,Y,2,28.679079/77.070190
+78 BN,B COY,Agadgaon,Star,Z-503,Justin,Daughter,F,12,Painter,9213840584,,2 kunal,Single,Lavender,5,Y,N,2,28.679079/77.070191
+78 BN,B COY,Agadgaon,Asteroid,Z-506,Kane,Husband,F,45,Call Centre,9213840585,,2 kunal,Single,Cherry,2,Y,Y,2,28.679079/77.070192
+78 BN,B COY,Agadgaon,Asteroid,Z-506,Kilian,Wife,M,23,Air hostess,9213840586,,2 kunal,Single,Light green,5,N,Y,2,28.679079/77.070193
+78 BN,B COY,Agadgaon,Asteroid,Z-508,Kodi,Husband,F,67,Pilot,9213840587,,2 kunal,Single,Red,5,N,Y,1,28.679079/77.070194
+78 BN,B COY,Agadgaon,Asteroid,Z-508,Korey,Wife,M,23,Scientist,9213840588,,2 kunal,Single,Pink,5,N,Y,2,28.679079/77.070195
+78 BN,B COY,Agadgaon,Asteroid,Z-510,Kylo,Husband,F,56,Attender,9213840589,,1 kunal,Single,Purple,2,N,Y,1,28.679079/77.070196
+78 BN,B COY,Agadgaon,Asteroid,Z-510,Kyran,Wife,M,24,Buisnessman,9213840590,,1 kunal,Single,White,5,N,Y,2,28.679079/77.070197
+78 BN,B COY,Agadgaon,Asteroid,Z-510,Lachlann,Daughter,F,56,Technician,9213840591,,1 kunal,Single,Blue,6,Y,N,2,28.679079/77.070198
+78 BN,B COY,Planet,Saturn,Z-513,Maksymilian,Husband,M,32,Shopkeeper,9213840592,,1 kunal,Single,Green,3,N,N,2,28.679079/77.070199
+78 BN,B COY,Planet,Saturn,Z-513,Marc,Wife,M,67,Doctor,9213840593,,1 kunal,Single,Lavender,4,N,N,1,28.679079/77.070200
+78 BN,B COY,Planet,Saturn,Z-515,Maximus,Husband,M,89,Teacher,9213840594,,1 kunal,Single,Cherry,3,Y,N,1,28.679079/77.070201
+78 BN,B COY,Planet,Saturn,Z-515,Niven,Wife,F,96,Engineer,9213840595,,1 kunal,Single,Light green,4,N,N,1,28.679079/77.070202
+78 BN,B COY,Planet,Saturn,Z-518,Noel,Husband,F,49,Painter,9213840596,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.070203
+78 BN,B COY,Planet,Saturn,Z-518,Odhran,Wife,F,60,Call Centre,9213840597,,1 kunal,Single,Pink,2,N,N,1,28.679079/77.070204
+78 BN,B COY,Planet,Saturn,Z-518,Oisin,Daughter,M,23,Air hostess,9213840598,,1 kunal,Single,Purple,4,N,N,2,28.679079/77.070205
+78 BN,B COY,Planet,Mercury,Z-520,Ralphie,Husband,F,43,Pilot,9213840599,,1 kunal,Single,White,2,Y,Y,1,28.679079/77.070206
+78 BN,B COY,Planet,Mercury,Z-520,Ritchie,Wife,M,75,Scientist,9213840600,,1 kunal,Single,Blue,3,Y,N,2,28.679079/77.070207
+78 BN,B COY,Planet,Mercury,Z-522,Roan,Husband,F,64,Attender,9213840601,,1 kunal,Single,Green,4,N,N,2,28.679079/77.070208
+78 BN,B COY,Planet,Mercury,Z-522,Roddy,Wife,M,86,Buisnessman,9213840602,,1 kunal,Single,Lavender,5,Y,N,2,28.679079/77.070209
+78 BN,B COY,Planet,Mercury,Z-524,Rueben,Husband,F,62,Technician,9213840603,,1 kunal,Single,Cherry,3,N,N,1,28.679079/77.070210
+78 BN,B COY,Planet,Mercury,Z-524,Rupert,Wife,M,98,Shopkeeper,9213840604,,1 kunal,Single,Light green,3,Y,Y,2,28.679079/77.070211
+78 BN,B COY,Planet,Mercury,Z-524,Ryley,Daughter,M,21,Doctor,9213840605,,1 kunal,Single,Red,5,Y,Y,2,28.679079/77.070212
+78 BN,B COY,Planet,Venus,Z-527,Santiago,Husband,F,33,Teacher,9213840606,,1 kunal,Single,Pink,4,Y,N,2,28.679079/77.070213
+78 BN,B COY,Planet,Venus,Z-527,Seamus,Wife,F,45,Engineer,9213840607,,1 kunal,Single,Purple,2,Y,Y,3,28.679079/77.070214
+78 BN,B COY,Planet,Venus,Z-529,Simon,Husband,F,12,Painter,9213840608,,1 kunal,Single,White,3,Y,N,2,28.679079/77.070215
+78 BN,B COY,Planet,Venus,Z-529,Stanislaw,Wife,M,45,Call Centre,9213840609,,2 kunal,Single,Blue,5,Y,Y,1,28.679079/77.070216
+78 BN,B COY,Planet,Venus,Z-531,Tymoteusz,Husband,M,23,Air hostess,9213840610,,2 kunal,Single,Green,4,N,Y,2,28.679079/77.070217
+78 BN,B COY,Planet,Venus,Z-531,Vinny,Wife,M,67,Pilot,9213840611,,2 kunal,Single,Lavender,3,N,Y,2,28.679079/77.070218
+78 BN,B COY,Planet,Venus,Z-531,Walter,Daughter,F,23,Scientist,9213840612,,2 kunal,Single,Cherry,3,N,Y,2,28.679079/77.070219
+78 BN,B COY,Planet,Earth,Z-534,Wren,Husband,M,56,Attender,9213840613,,2 kunal,Single,Light green,5,N,Y,2,28.679079/77.070220
+78 BN,B COY,Planet,Earth,Z-534,Yahya,Wife,F,24,Buisnessman,9213840614,,2 kunal,Single,Red,3,N,Y,3,28.679079/77.070221
+78 BN,B COY,Planet,Earth,Z-536,Zain,Husband,M,56,Technician,9213840615,,2 kunal,Single,Pink,4,Y,N,1,28.679079/77.070222
+78 BN,B COY,Planet,Earth,Z-536,Ailbe,Wife,F,32,Shopkeeper,9213840616,,2 kunal,Single,Purple,4,N,N,2,28.679079/77.070223
+78 BN,B COY,Planet,Earth,Z-538,Anderson,Husband,M,67,Doctor,9213840617,,1 kunal,Single,White,2,N,N,2,28.679079/77.070224
+78 BN,B COY,Planet,Earth,Z-538,Andy,Wife,F,89,Teacher,9213840618,,1 kunal,Single,Blue,4,Y,N,1,28.679079/77.070225
+78 BN,B COY,Planet,Earth,Z-538,Antonio,Daughter,F,96,Engineer,9213840619,,1 kunal,Single,Green,5,N,N,2,28.679079/77.070226
+78 BN,B COY,Planet,Mars,Z-541,Aodhan,Husband,F,49,Painter,9213840620,,1 kunal,Single,Lavender,2,N,Y,2,28.679079/77.070227
+78 BN,B COY,Planet,Mars,Z-541,Arjan,Wife,M,60,Call Centre,9213840621,,1 kunal,Single,Cherry,3,N,N,1,28.679079/77.070228
+78 BN,B COY,Planet,Mars,Z-543,Artur,Husband,F,23,Air hostess,9213840622,,1 kunal,Single,Light green,5,N,N,2,28.679079/77.070229
+78 BN,B COY,Planet,Mars,Z-543,Aryan,Wife,M,43,Pilot,9213840623,,2 kunal,Single,Red,2,Y,Y,2,28.679079/77.070230
+78 BN,B COY,Planet,Mars,Z-545,Ashley,Husband,M,75,Scientist,9213840624,,2 kunal,Single,Pink,4,Y,N,2,28.679079/77.070231
+78 BN,B COY,Planet,Mars,Z-545,August,Wife,F,64,Attender,9213840625,,2 kunal,Single,Purple,4,N,N,2,28.679079/77.070232
+78 BN,B COY,Planet,Mars,Z-545,Aulay,Daughter,F,86,Buisnessman,9213840626,,2 kunal,Single,White,3,Y,N,2,28.679079/77.070233
+78 BN,B COY,Bhopal,Jupiter,Z-548,Ayman,Husband,M,62,Technician,9213840627,,2 kunal,Single,Blue,5,Y,N,2,28.679079/77.070234
+78 BN,B COY,Bhopal,Jupiter,Z-548,Brendan,Wife,F,98,Shopkeeper,9213840628,,1 kunal,Single,Green,2,Y,Y,2,28.679079/77.070235
+78 BN,B COY,Bhopal,Jupiter,Z-550,Brian,Husband,F,21,Doctor,9213840629,,1 kunal,Single,Lavender,5,Y,Y,2,28.679079/77.070236
+78 BN,B COY,Bhopal,Jupiter,Z-550,Caden,Wife,M,33,Teacher,9213840630,,1 kunal,Single,Cherry,5,Y,N,1,28.679079/77.070237
+78 BN,B COY,Bhopal,Jupiter,Z-552,Cailen,Husband,F,45,Engineer,9213840631,,1 kunal,Single,Light green,5,Y,Y,2,28.679079/77.070238
+78 BN,B COY,Bhopal,Jupiter,Z-552,Calder,Wife,M,12,Painter,9213840632,,1 kunal,Single,Red,2,N,N,1,28.679079/77.070239
+78 BN,B COY,Bhopal,Jupiter,Z-552,Carlos,Daughter,F,45,Call Centre,9213840633,,1 kunal,Single,Pink,5,N,Y,2,28.679079/77.070240
+78 BN,B COY,Bhopal,Uranus,Z-555,Casper,Father,M,23,Air hostess,9213840634,,1 kunal,Single,Purple,6,N,Y,2,28.679079/77.070241
+78 BN,B COY,Bhopal,Uranus,Z-555,Conlyn,Mother,F,67,Pilot,9213840635,,1 kunal,Single,White,3,N,Y,2,28.679079/77.070242
+78 BN,B COY,Bhopal,Uranus,Z-555,Cormac,Husband,M,23,Scientist,9213840636,,1 kunal,Single,Blue,4,N,Y,1,28.679079/77.070243
+78 BN,B COY,Bhopal,Uranus,Z-555,Dale,Wife,M,56,Attender,9213840637,,1 kunal,Single,Green,3,Y,Y,1,28.679079/77.070244
+78 BN,B COY,Bhopal,Uranus,Z-559,Dalton,Husband,M,24,Buisnessman,9213840638,,1 kunal,Single,Lavender,4,N,Y,1,28.679079/77.070245
+78 BN,B COY,Bhopal,Uranus,Z-559,Damon,Wife,F,56,Technician,9213840639,,1 kunal,Single,Cherry,4,N,N,2,28.679079/77.070246
+78 BN,B COY,Bhopal,Uranus,Z-559,Danish,Daughter,F,32,Shopkeeper,9213840640,,1 kunal,Single,Light green,2,Y,N,1,28.679079/77.070247
+78 BN,B COY,Bhopal,Neptune,Z-562,Dante,Husband,F,67,Doctor,9213840641,,1 kunal,Single,Red,4,N,N,2,28.679079/77.070248
+78 BN,B COY,Bhopal,Neptune,Z-562,Darius,Wife,M,89,Teacher,9213840642,,1 kunal,Single,Pink,2,N,N,1,28.679079/77.070249
+78 BN,B COY,Bhopal,Neptune,Z-562,Darren,Son,F,96,Engineer,9213840643,,1 kunal,Single,Purple,3,N,N,2,28.679079/77.070250
+78 BN,B COY,Bhopal,Neptune,Z-565,Daryl,Father,M,49,Painter,9213840644,,1 kunal,Single,White,4,N,Y,2,28.679079/77.070251
+78 BN,B COY,Bhopal,Neptune,Z-565,Deacon,Mother,F,60,Call Centre,9213840645,,1 kunal,Single,Blue,5,Y,N,2,28.679079/77.070252
+78 BN,B COY,Bhopal,Neptune,Z-565,Dennis,Husband,M,23,Air hostess,9213840646,,1 kunal,Single,Green,3,Y,N,1,28.679079/77.070253
+78 BN,B COY,Bhopal,Neptune,Z-565,Dougal,Wife,F,43,Pilot,9213840647,,1 kunal,Single,Lavender,3,N,Y,2,28.679079/77.070254
+78 BN,B COY,Bhopal,Pluto,Z-569,Eoghan,Husband,M,75,Scientist,9213840648,,2 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070255
+78 BN,B COY,Bhopal,Pluto,Z-569,Ernest,Wife,M,64,Attender,9213840649,,2 kunal,Single,Light green,4,N,N,2,28.679079/77.070256
+78 BN,B COY,Bhopal,Pluto,Z-571,Franklin,Husband ,M,86,Buisnessman,9213840650,,2 kunal,Single,Red,2,Y,N,3,28.679079/77.070257
+78 BN,B COY,Bhopal,Pluto,Z-571,Georgie,Wife,F,62,Technician,9213840651,,2 kunal,Single,Pink,3,Y,N,2,28.679079/77.070258
+78 BN,B COY,Bhopal,Pluto,Z-573,Gray,Husband ,F,98,Shopkeeper,9213840652,,2 kunal,Single,Purple,5,Y,Y,1,28.679079/77.070259
+78 BN,B COY,Bhopal,Pluto,Z-573,Haider,Wife,F,21,Doctor,9213840653,,2 kunal,Single,White,4,Y,Y,2,28.679079/77.070260
+78 BN,B COY,Bhopal,Pluto,Z-573,Harper,Son,M,33,Teacher,9213840654,,2 kunal,Single,Blue,3,Y,N,2,28.679079/77.070261
+78 BN,B COY,Bhopal,Sun,Z-576,Iain,Husband,F,45,Engineer,9213840655,,2 kunal,Single,Green,3,Y,Y,2,28.679079/77.070262
+78 BN,B COY,Bhopal,Sun,Z-576,Ianis,Wife,M,12,Painter,9213840656,,1 kunal,Single,Lavender,5,N,N,2,28.679079/77.070263
+78 BN,B COY,Bhopal,Sun,Z-576,Igor,Son,F,45,Call Centre,9213840657,,1 kunal,Single,Cherry,3,N,Y,3,28.679079/77.070264
+78 BN,B COY,Bhopal,Sun,Z-579,Isaiah,Husband,M,23,Air hostess,9213840658,,1 kunal,Single,Light green,4,N,Y,1,28.679079/77.070265
+78 BN,B COY,Bhopal,Sun,Z-579,Issac,Wife,F,67,Pilot,9213840659,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.070266
+78 BN,B COY,Bhopal,Sun,Z-579,Jai,Daughter,M,23,Scientist,9213840660,,1 kunal,Single,Pink,2,N,Y,2,28.679079/77.070267
+78 BN,B COY,Bhopal,Sun,Z-579,Jonas,Son,M,56,Attender,9213840661,,1 kunal,Single,Purple,4,Y,Y,1,28.679079/77.070268
+78 BN,B COY,Aligarh,Ganga,Z-583,Kaden,Father,F,24,Buisnessman,9213840662,,2 kunal,Single,White,5,N,Y,2,28.679079/77.070269
+78 BN,B COY,Aligarh,Ganga,Z-583,Kailen,Mother,F,56,Technician,9213840663,,2 kunal,Single,Blue,2,N,N,2,28.679079/77.070270
+78 BN,B COY,Aligarh,Ganga,Z-583,Keanu,Husband,F,32,Shopkeeper,9213840664,,2 kunal,Single,Green,3,Y,N,1,28.679079/77.070271
+78 BN,B COY,Aligarh,Ganga,Z-583,Kingsley,Wife,M,67,Doctor,9213840665,,2 kunal,Single,Lavender,5,N,N,2,28.679079/77.070272
+78 BN,B COY,Aligarh,Ganga,Z-587,Knox,Husband,M,89,Teacher,9213840666,,2 kunal,Single,Cherry,2,N,N,2,28.679079/77.070273
+78 BN,B COY,Aligarh,Ganga,Z-587,Kobe,Wife,M,96,Engineer,9213840667,,1 kunal,Single,Light green,4,N,N,2,28.679079/77.070274
+78 BN,B COY,Aligarh,Ganga,Z-587,Koen,Daughter,F,49,Painter,9213840668,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.070275
+78 BN,B COY,Aligarh,Yamuna,Z-590,Kolby,Father,M,60,Call Centre,9213840669,,1 kunal,Single,Pink,3,Y,N,2,28.679079/77.070276
+78 BN,B COY,Aligarh,Yamuna,Z-590,Kolton,Mother,F,23,Air hostess,9213840670,,1 kunal,Single,Purple,5,Y,N,2,28.679079/77.070277
+78 BN,B COY,Aligarh,Yamuna,Z-590,Krystian,Husband,M,43,Pilot,9213840671,,1 kunal,Single,White,2,N,Y,2,28.679079/77.070278
+78 BN,B COY,Aligarh,Yamuna,Z-590,Kyron,Wife,F,75,Scientist,9213840672,,1 kunal,Single,Blue,5,Y,N,2,28.679079/77.070279
+78 BN,B COY,Aligarh,Yamuna,Z-594,Laith,Husband,M,64,Attender,9213840673,,1 kunal,Single,Green,5,N,N,1,28.679079/77.070280
+78 BN,B COY,Aligarh,Yamuna,Z-594,Laurie,Wife,F,86,Buisnessman,9213840674,,1 kunal,Single,Lavender,5,Y,N,2,28.679079/77.070281
+78 BN,B COY,Aligarh,Yamuna,Z-594,Leland,Daughter,F,62,Technician,9213840675,,1 kunal,Single,Cherry,2,Y,N,1,28.679079/77.070282
+78 BN,B COY,Aligarh,Saraswati,Z-597,Lleyton,Husband,F,98,Shopkeeper,9213840676,,1 kunal,Single,Light green,5,Y,Y,2,28.679079/77.070283
+78 BN,B COY,Aligarh,Saraswati,Z-597,Loui,Wife,M,21,Doctor,9213840677,,1 kunal,Single,Red,6,Y,Y,2,28.679079/77.070284
+78 BN,B COY,Aligarh,Saraswati,Z-599,Maddox,Husband,F,33,Teacher,9213840678,,1 kunal,Single,Pink,3,Y,N,2,28.679079/77.070285
+78 BN,B COY,Aligarh,Saraswati,Z-599,Markus,Wife,M,45,Engineer,9213840679,,1 kunal,Single,Purple,4,Y,Y,1,28.679079/77.070286
+78 BN,B COY,Aligarh,Saraswati,Z-601,Mateusz,Daughter,M,12,Painter,9213840680,,1 kunal,Single,White,3,N,N,1,28.679079/77.070287
+78 BN,B COY,Aligarh,Saraswati,Z-601,Mathew,Husband,F,45,Call Centre,9213840681,,1 kunal,Single,Blue,4,N,Y,1,28.679079/77.070288
+78 BN,B COY,Aligarh,Saraswati,Z-601,Natan,Wife,F,23,Air hostess,9213840682,,1 kunal,Single,Green,4,N,Y,2,28.679079/77.070289
+78 BN,B COY,Aligarh,Mandakini,Z-604,Oli,Father,M,67,Pilot,9213840683,,1 kunal,Single,Lavender,2,N,Y,1,28.679079/77.070290
+78 BN,B COY,Aligarh,Mandakini,Z-604,Orion,Mother,F,23,Scientist,9213840684,,1 kunal,Single,Cherry,4,N,Y,2,28.679079/77.070291
+78 BN,B COY,Aligarh,Mandakini,Z-604,Orrin,Husband,F,56,Attender,9213840685,,1 kunal,Single,Light green,2,Y,Y,1,28.679079/77.070292
+78 BN,B COY,Aligarh,Mandakini,Z-604,Orson,Wife,M,24,Buisnessman,9213840686,,1 kunal,Single,Red,3,N,Y,2,28.679079/77.070293
+78 BN,B COY,Aligarh,Mandakini,Z-608,Patryk,Husband,F,56,Technician,9213840687,,2 kunal,Single,Pink,4,N,N,2,28.679079/77.070294
+78 BN,B COY,Aligarh,Mandakini,Z-608,Rafe,Wife,M,32,Shopkeeper,9213840688,,2 kunal,Single,Purple,5,Y,N,2,28.679079/77.070295
+78 BN,B COY,Aligarh,Mandakini,Z-608,Raphael,Daughter,F,67,Doctor,9213840689,,2 kunal,Single,White,3,N,N,1,28.679079/77.070296
+78 BN,B COY,Aligarh,Narmada,Z-611,Ray,Father,M,89,Teacher,9213840690,,2 kunal,Single,Blue,3,N,N,2,28.679079/77.070297
+78 BN,B COY,Aligarh,Narmada,Z-611,Raymond,Mother,F,96,Engineer,9213840691,,2 kunal,Single,Green,5,N,N,2,28.679079/77.070298
+78 BN,B COY,Aligarh,Narmada,Z-611,Seumas,Husband,M,49,Painter,9213840692,,2 kunal,Single,Lavender,4,N,Y,2,28.679079/77.070299
+78 BN,B COY,Aligarh,Narmada,Z-611,Solomon,Wife,M,60,Call Centre,9213840693,,2 kunal,Single,Cherry,2,Y,N,3,28.679079/77.070300
+78 BN,B COY,Aligarh,Narmada,Z-615,Tadhg,Husband,M,23,Air hostess,9213840694,,2 kunal,Single,Light green,3,Y,N,2,28.679079/77.070301
+78 BN,B COY,Aligarh,Narmada,Z-615,Ted,Wife,F,43,Pilot,9213840695,,1 kunal,Single,Red,5,N,Y,1,28.679079/77.070302
+78 BN,B COY,Aligarh,Narmada,Z-615,Teddie,Son,F,75,Scientist,9213840696,,1 kunal,Single,Pink,4,Y,N,2,28.679079/77.070303
+78 BN,B COY,Ramgarh,Tapi,Z-618,Tiernan,Father,F,64,Attender,9213840697,,1 kunal,Single,Purple,3,N,N,2,28.679079/77.070304
+78 BN,B COY,Ramgarh,Tapi,Z-618,Tierney,Mother,M,86,Buisnessman,9213840698,,1 kunal,Single,White,3,Y,N,2,28.679079/77.070305
+78 BN,B COY,Ramgarh,Tapi,Z-618,Timothy,Husband,F,62,Technician,9213840699,,1 kunal,Single,Blue,5,Y,N,2,28.679079/77.070306
+78 BN,B COY,Ramgarh,Tapi,Z-618,Torrin,Wife,M,98,Shopkeeper,9213840700,,1 kunal,Single,Green,3,Y,Y,3,28.679079/77.070307
+78 BN,B COY,Ramgarh,Tapi,Z-622,Wallace,Husband,F,21,Doctor,9213840701,,2 kunal,Single,Lavender,4,Y,Y,1,28.679079/77.070308
+78 BN,B COY,Ramgarh,Tapi,Z-622,Wesley,Wife,M,33,Teacher,9213840702,,2 kunal,Single,Cherry,4,Y,N,2,28.679079/77.070309
+78 BN,B COY,Ramgarh,Tapi,Z-622,Yousaf,Son,F,45,Engineer,9213840703,,2 kunal,Single,Light green,2,Y,Y,2,28.679079/77.070310
+78 BN,B COY,Ramgarh,Dudhganga,Z-625,Yousef,Father,M,12,Painter,9213840704,,2 kunal,Single,Red,4,N,N,1,28.679079/77.070311
+78 BN,B COY,Ramgarh,Dudhganga,Z-625,Yousif,Mother,M,45,Call Centre,9213840705,,2 kunal,Single,Pink,5,N,Y,2,28.679079/77.070312
+78 BN,B COY,Ramgarh,Dudhganga,Z-625,Alejandro,Husband,M,23,Air hostess,9213840706,,1 kunal,Single,Purple,2,N,Y,2,28.679079/77.070313
+78 BN,B COY,Ramgarh,Dudhganga,Z-625,Alessandro,Wife,F,67,Pilot,9213840707,,1 kunal,Single,White,3,N,Y,1,28.679079/77.070314
+78 BN,B COY,Ramgarh,Dudhganga,Z-629,Alexandros,Husband,F,23,Scientist,9213840708,,1 kunal,Single,Blue,5,N,Y,2,28.679079/77.070315
+78 BN,B COY,Ramgarh,Dudhganga,Z-629,Aonghas,Wife,F,56,Attender,9213840709,,1 kunal,Single,Green,2,Y,Y,2,28.679079/77.070316
+78 BN,B COY,Ramgarh,Dudhganga,Z-629,Archy,Son,M,24,Buisnessman,9213840710,,1 kunal,Single,Lavender,4,N,Y,2,28.679079/77.070317
+78 BN,B COY,Ramgarh,Bramhaptura,Z-632,Ares,Husband,F,56,Technician,9213840711,,1 kunal,Single,Cherry,4,N,N,2,28.679079/77.070318
+78 BN,B COY,Ramgarh,Bramhaptura,Z-632,Armaan,Wife,M,32,Shopkeeper,9213840712,,1 kunal,Single,Light green,3,Y,N,2,28.679079/77.070319
+78 BN,B COY,Ramgarh,Bramhaptura,Z-634,Aydan,Husband,F,67,Doctor,9213840713,,1 kunal,Single,Red,5,N,N,2,28.679079/77.070320
+78 BN,B COY,Ramgarh,Bramhaptura,Z-634,Baxter,Wife,M,89,Teacher,9213840714,,1 kunal,Single,Pink,2,N,N,2,28.679079/77.070321
+78 BN,B COY,Ramgarh,Bramhaptura,Z-636,Beauden,Husband,F,96,Engineer,9213840715,,1 kunal,Single,Purple,5,N,N,2,28.679079/77.070322
+78 BN,B COY,Ramgarh,Bramhaptura,Z-636,Benedict,Wife,M,49,Painter,9213840716,,1 kunal,Single,White,5,N,Y,1,28.679079/77.070323
+78 BN,B COY,Ramgarh,Bramhaptura,Z-636,Bertie,Son,M,60,Call Centre,9213840717,,1 kunal,Single,Blue,5,Y,N,2,28.679079/77.070324
+78 BN,B COY,Ramgarh,Indus,Z-639,Blayne,Husband,F,23,Air hostess,9213840718,,1 kunal,Single,Green,2,Y,N,1,28.679079/77.070325
+78 BN,B COY,Ramgarh,Indus,Z-639,Bowie,Wife,F,43,Pilot,9213840719,,1 kunal,Single,Lavender,5,N,Y,2,28.679079/77.070326
+78 BN,B COY,Ramgarh,Indus,Z-639,Broden,Son,F,75,Scientist,9213840720,,1 kunal,Single,Cherry,6,Y,N,2,28.679079/77.070327
+78 BN,B COY,Ramgarh,Indus,Z-642,Bryan,Husband,M,64,Attender,9213840721,,1 kunal,Single,Light green,3,N,N,2,28.679079/77.070328
+78 BN,B COY,Ramgarh,Indus,Z-642,Buddy,Wife,M,86,Buisnessman,9213840722,,1 kunal,Single,Red,4,Y,N,1,28.679079/77.070329
+78 BN,B COY,Ramgarh,Indus,Z-644,Caolan,Husband,M,62,Technician,9213840723,,1 kunal,Single,Pink,3,Y,N,1,28.679079/77.070330
+78 BN,B COY,Ramgarh,Indus,Z-644,Cayde,Wife,F,98,Shopkeeper,9213840724,,1 kunal,Single,Purple,4,Y,Y,1,28.679079/77.070331
+78 BN,B COY,Ramgarh,Himalaya,Z-646,Chase,Husband,M,21,Doctor,9213840725,,1 kunal,Single,White,4,Y,Y,2,28.679079/77.070332
+78 BN,B COY,Ramgarh,Himalaya,Z-646,Che,Wife,F,33,Teacher,9213840726,,2 kunal,Single,Blue,2,Y,N,1,28.679079/77.070333
+78 BN,B COY,Ramgarh,Himalaya,Z-646,Coll,Son,M,45,Engineer,9213840727,,2 kunal,Single,Green,4,Y,Y,2,28.679079/77.070334
+78 BN,B COY,Ramgarh,Himalaya,Z-649,Colson,Husband,F,12,Painter,9213840728,,2 kunal,Single,Lavender,2,N,N,1,28.679079/77.070335
+78 BN,B COY,Ramgarh,Himalaya,Z-649,Conner,Wife,M,45,Call Centre,9213840729,,2 kunal,Single,Cherry,3,N,Y,2,28.679079/77.070336
+78 BN,B COY,Ramgarh,Himalaya,Z-649,Corrie,Son,F,23,Air hostess,9213840730,,2 kunal,Single,Light green,4,N,Y,2,28.679079/77.070337
+78 BN,B COY,Ramgarh,Himalaya,Z-649,Damien,Daughter,F,67,Pilot,9213840731,,2 kunal,Single,Red,5,N,Y,2,28.679079/77.070338
+78 BN,C COY,Devgarh,Shiv,Z-653,Daniyal,Husband,F,23,Scientist,9213840732,,2 kunal,Single,Pink,3,N,Y,1,28.679079/77.070339
+78 BN,C COY,Devgarh,Shiv,Z-653,Danyal,Wife,M,56,Attender,9213840733,,2 kunal,Single,Purple,3,Y,Y,2,28.679079/77.070340
+78 BN,C COY,Devgarh,Shiv,Z-653,Dario,Son,F,24,Buisnessman,9213840734,,1 kunal,Single,White,5,N,Y,2,28.679079/77.070341
+78 BN,C COY,Devgarh,Shiv,Z-656,Devlin,Daughter,M,56,Technician,9213840735,,1 kunal,Single,Blue,4,N,N,2,28.679079/77.070342
+78 BN,C COY,Devgarh,Shiv,Z-656,Dillon,Husband,M,32,Shopkeeper,9213840736,,1 kunal,Single,Green,2,Y,N,3,28.679079/77.070343
+78 BN,C COY,Devgarh,Shiv,Z-656,Dorian,Wife,F,67,Doctor,9213840737,,1 kunal,Single,Lavender,3,N,N,2,28.679079/77.070344
+78 BN,C COY,Devgarh,Shiv,Z-656,Eamon,Son,F,89,Teacher,9213840738,,1 kunal,Single,Cherry,5,N,N,1,28.679079/77.070345
+78 BN,C COY,Devgarh,Parvati,Z-660,Edmund,Daughter,M,96,Engineer,9213840739,,1 kunal,Single,Light green,4,N,N,2,28.679079/77.070346
+78 BN,C COY,Devgarh,Parvati,Z-660,Emil,Husband,F,49,Painter,9213840740,,2 kunal,Single,Red,3,N,Y,2,28.679079/77.070347
+78 BN,C COY,Devgarh,Parvati,Z-660,Emmett,Wife,F,60,Call Centre,9213840741,,2 kunal,Single,Pink,3,Y,N,2,28.679079/77.070348
+78 BN,C COY,Devgarh,Parvati,Z-660,Ewen,Son,M,23,Air hostess,9213840742,,2 kunal,Single,Purple,5,Y,N,2,28.679079/77.070349
+78 BN,C COY,Devgarh,Parvati,Z-660,Finnlay,Daughter,F,43,Pilot,9213840743,,2 kunal,Single,White,3,N,Y,3,28.679079/77.070350
+78 BN,C COY,Devgarh,Parvati,Z-664,Forbes,Husband,M,75,Scientist,9213840744,,2 kunal,Single,Blue,4,Y,N,1,28.679079/77.070351
+78 BN,C COY,Devgarh,Parvati,Z-664,Francesco,Wife,F,64,Attender,9213840745,,1 kunal,Single,Green,4,N,N,2,28.679079/77.070352
+78 BN,C COY,Devgarh,Indra,Z-667,Franco,Husband,M,86,Buisnessman,9213840746,,1 kunal,Single,Lavender,2,Y,N,2,28.679079/77.070353
+78 BN,C COY,Devgarh,Indra,Z-667,Gerard,Wife,F,62,Technician,9213840747,,1 kunal,Single,Cherry,4,Y,N,1,28.679079/77.070354
+78 BN,C COY,Devgarh,Indra,Z-667,Giovanni,Son,M,98,Shopkeeper,9213840748,,1 kunal,Single,Light green,5,Y,Y,2,28.679079/77.070355
+78 BN,C COY,Devgarh,Indra,Z-667,Grey,Daughter,M,21,Doctor,9213840749,,1 kunal,Single,Red,2,Y,Y,2,28.679079/77.070356
+78 BN,C COY,Devgarh,Indra,Z-671,Hadley,Husband,M,33,Teacher,9213840750,,1 kunal,Single,Pink,3,Y,N,1,28.679079/77.070357
+78 BN,C COY,Devgarh,Indra,Z-671,Harlow,Wife,F,45,Engineer,9213840751,,1 kunal,Single,Purple,5,Y,Y,2,28.679079/77.070358
+78 BN,C COY,Devgarh,Indra,Z-671,Haydn,Daughter,F,12,Painter,9213840752,,1 kunal,Single,White,2,N,N,2,28.679079/77.070359
+78 BN,C COY,Devgarh,Bramha,Z-674,Heath,Husband,F,45,Call Centre,9213840753,,1 kunal,Single,Blue,4,N,Y,2,28.679079/77.070360
+78 BN,C COY,Devgarh,Bramha,Z-674,Howie,Wife,M,23,Air hostess,9213840754,,1 kunal,Single,Green,4,N,Y,2,28.679079/77.070361
+78 BN,C COY,Devgarh,Bramha,Z-674,Ibraheem,Daughter,F,67,Pilot,9213840755,,1 kunal,Single,Lavender,3,N,Y,2,28.679079/77.070362
+78 BN,C COY,Devgarh,Bramha,Z-677,Jameson,Husband,M,23,Scientist,9213840756,,1 kunal,Single,Cherry,5,N,Y,2,28.679079/77.070363
+78 BN,C COY,Devgarh,Bramha,Z-677,Jayce,Wife,F,56,Attender,9213840757,,1 kunal,Single,Light green,2,Y,Y,2,28.679079/77.070364
+78 BN,C COY,Devgarh,Bramha,Z-677,Jonny,Daughter,M,24,Buisnessman,9213840758,,1 kunal,Single,Red,5,N,Y,2,28.679079/77.070365
+78 BN,C COY,Devgarh,Bramha,Z-677,Judah,Son,F,56,Technician,9213840759,,1 kunal,Single,Pink,5,N,N,1,28.679079/77.070366
+78 BN,C COY,Devgarh,Rishi,Z-681,Jura,Husband,M,32,Shopkeeper,9213840760,,1 kunal,Single,Purple,5,Y,N,2,28.679079/77.070367
+78 BN,C COY,Devgarh,Rishi,Z-681,Kaelan,Wife,M,67,Doctor,9213840761,,1 kunal,Single,White,2,N,N,1,28.679079/77.070368
+78 BN,C COY,Devgarh,Rishi,Z-681,Kelvin,Daughter,M,89,Teacher,9213840762,,1 kunal,Single,Blue,5,N,N,2,28.679079/77.070369
+78 BN,C COY,Devgarh,Rishi,Z-684,Khalid,Husband,F,96,Engineer,9213840763,,1 kunal,Single,Green,6,N,N,2,28.679079/77.070370
+78 BN,C COY,Devgarh,Rishi,Z-684,Kurtis,Wife,F,49,Painter,9213840764,,1 kunal,Single,Lavender,3,N,Y,2,28.679079/77.070371
+78 BN,C COY,Devgarh,Rishi,Z-684,Kyan,Daughter,F,60,Call Centre,9213840765,,2 kunal,Single,Cherry,4,Y,N,1,28.679079/77.070372
+78 BN,C COY,Devgarh,Rishi,Z-684,Laurence,Son,M,23,Air hostess,9213840766,,2 kunal,Single,Light green,3,Y,N,1,28.679079/77.070373
+78 BN,C COY,Jabalpur,Dronacharya,Z-688,Leonidas,Husband,F,43,Pilot,9213840767,,2 kunal,Single,Red,4,N,Y,1,28.679079/77.070374
+78 BN,C COY,Jabalpur,Dronacharya,Z-688,Lomond,Wife,M,75,Scientist,9213840768,,2 kunal,Single,Pink,4,Y,N,2,28.679079/77.070375
+78 BN,C COY,Jabalpur,Dronacharya,Z-690,Lorcan,Husband,F,64,Attender,9213840769,,2 kunal,Single,Purple,2,N,N,1,28.679079/77.070376
+78 BN,C COY,Jabalpur,Dronacharya,Z-690,Lorenzo,Wife,M,86,Buisnessman,9213840770,,2 kunal,Single,White,4,Y,N,2,28.679079/77.070377
+78 BN,C COY,Jabalpur,Dronacharya,Z-692,Luis,Husband,F,62,Technician,9213840771,,2 kunal,Single,Blue,2,Y,N,1,28.679079/77.070378
+78 BN,C COY,Jabalpur,Dronacharya,Z-692,Maison,Wife,M,98,Shopkeeper,9213840772,,2 kunal,Single,Green,3,Y,Y,2,28.679079/77.070379
+78 BN,C COY,Jabalpur,Dronacharya,Z-692,Mayson,Daughter,M,21,Doctor,9213840773,,1 kunal,Single,Lavender,4,Y,Y,2,28.679079/77.070380
+78 BN,C COY,Jabalpur,Bhishma,Z-695,Michal,Husband,F,33,Teacher,9213840774,,1 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070381
+78 BN,C COY,Jabalpur,Bhishma,Z-695,Milosz,Wife,F,45,Engineer,9213840775,,1 kunal,Single,Light green,3,Y,Y,1,28.679079/77.070382
+78 BN,C COY,Jabalpur,Bhishma,Z-695,Morgan,Son,F,12,Painter,9213840776,,1 kunal,Single,Red,3,N,N,2,28.679079/77.070383
+78 BN,C COY,Jabalpur,Bhishma,Z-698,Murphy,Father,M,45,Call Centre,9213840777,,1 kunal,Single,Pink,5,N,Y,2,28.679079/77.070384
+78 BN,C COY,Jabalpur,Bhishma,Z-698,Ossian,Mother,M,23,Air hostess,9213840778,,1 kunal,Single,Purple,4,N,Y,2,28.679079/77.070385
+78 BN,C COY,Jabalpur,Bhishma,Z-698,Ozzy,Husband,M,67,Pilot,9213840779,,2 kunal,Single,White,2,N,Y,3,28.679079/77.070386
+78 BN,C COY,Jabalpur,Bhishma,Z-698,Pearse,Wife,F,23,Scientist,9213840780,,2 kunal,Single,Blue,3,N,Y,2,28.679079/77.070387
+78 BN,C COY,Jabalpur,Devavrath,Z-702,Raheem,Father,M,56,Attender,9213840781,,2 kunal,Single,Green,5,Y,Y,1,28.679079/77.070388
+78 BN,C COY,Jabalpur,Devavrath,Z-702,Rehan,Mother,F,24,Buisnessman,9213840782,,2 kunal,Single,Lavender,4,N,Y,2,28.679079/77.070389
+78 BN,C COY,Jabalpur,Devavrath,Z-702,Ronald,Husband,M,56,Technician,9213840783,,2 kunal,Single,Cherry,3,N,N,2,28.679079/77.070390
+78 BN,C COY,Jabalpur,Devavrath,Z-702,Santino,Wife,F,32,Shopkeeper,9213840784,,1 kunal,Single,Light green,3,Y,N,2,28.679079/77.070391
+78 BN,C COY,Jabalpur,Devavrath,Z-706,Sawyer,Husband,M,67,Doctor,9213840785,,1 kunal,Single,Red,5,N,N,2,28.679079/77.070392
+78 BN,C COY,Jabalpur,Devavrath,Z-706,Seonaidh,Wife,F,89,Teacher,9213840786,,1 kunal,Single,Pink,3,N,N,3,28.679079/77.070393
+78 BN,C COY,Jabalpur,Devavrath,Z-706,Shaye,Daughter,F,96,Engineer,9213840787,,1 kunal,Single,Purple,4,N,N,1,28.679079/77.070394
+78 BN,C COY,Jabalpur,Amba,Z-709,Soren,Father,F,49,Painter,9213840788,,1 kunal,Single,White,4,N,Y,2,28.679079/77.070395
+78 BN,C COY,Jabalpur,Amba,Z-709,Sulaiman,Mother,M,60,Call Centre,9213840789,,1 kunal,Single,Blue,2,Y,N,2,28.679079/77.070396
+78 BN,C COY,Jabalpur,Amba,Z-709,Sullivan,Husband,F,23,Air hostess,9213840790,,1 kunal,Single,Green,4,Y,N,1,28.679079/77.070397
+78 BN,C COY,Jabalpur,Amba,Z-709,Tomas,Wife,M,43,Pilot,9213840791,,1 kunal,Single,Lavender,5,N,Y,2,28.679079/77.070398
+78 BN,C COY,Jabalpur,Amba,Z-713,Tommie,Husband,M,75,Scientist,9213840792,,1 kunal,Single,Cherry,2,Y,N,2,28.679079/77.070399
+78 BN,C COY,Jabalpur,Amba,Z-713,Vivaan,Wife,F,64,Attender,9213840793,,1 kunal,Single,Light green,3,N,N,1,28.679079/77.070400
+78 BN,C COY,Jabalpur,Amba,Z-713,Wilfred,Daughter,F,86,Buisnessman,9213840794,,1 kunal,Single,Red,5,Y,N,2,28.679079/77.070401
+78 BN,C COY,Jabalpur,Ambika,Z-716,Yunus,Father,M,62,Technician,9213840795,,1 kunal,Single,Pink,2,Y,N,2,28.679079/77.070402
+78 BN,C COY,Jabalpur,Ambika,Z-716,Zachariah,Mother,F,98,Shopkeeper,9213840796,,1 kunal,Single,Purple,4,Y,Y,2,28.679079/77.070403
+78 BN,C COY,Jabalpur,Ambika,Z-716,Zakaria,Husband,F,21,Doctor,9213840797,,1 kunal,Single,White,4,Y,Y,2,28.679079/77.070404
+78 BN,C COY,Jabalpur,Ambika,Z-716,Aahil,Wife,M,33,Teacher,9213840798,,1 kunal,Single,Blue,3,Y,N,2,28.679079/77.070405
+78 BN,C COY,Jabalpur,Ambika,Z-720,Aaran,Husband,F,45,Engineer,9213840799,,1 kunal,Single,Green,5,Y,Y,2,28.679079/77.070406
+78 BN,C COY,Jabalpur,Ambika,Z-720,Aarav,Wife,M,12,Painter,9213840800,,1 kunal,Single,Lavender,2,N,N,2,28.679079/77.070407
+78 BN,C COY,Jabalpur,Ambika,Z-720,Aayansh,Daughter,F,45,Call Centre,9213840801,,1 kunal,Single,Cherry,5,N,Y,2,28.679079/77.070408
+78 BN,C COY,Jodhpur,Ambalika,Z-723,Abdallah,Father,M,23,Air hostess,9213840802,,1 kunal,Single,Light green,5,N,Y,1,28.679079/77.070409
+78 BN,C COY,Jodhpur,Ambalika,Z-723,Abe,Mother,F,67,Pilot,9213840803,,1 kunal,Single,Red,5,N,Y,2,28.679079/77.070410
+78 BN,C COY,Jodhpur,Ambalika,Z-723,Abraham,Husband,M,23,Scientist,9213840804,,2 kunal,Single,Pink,2,N,Y,1,28.679079/77.070411
+78 BN,C COY,Jodhpur,Ambalika,Z-723,Alexandru,Wife,M,56,Attender,9213840805,,2 kunal,Single,Purple,5,Y,Y,2,28.679079/77.070412
+78 BN,C COY,Jodhpur,Ambalika,Z-727,Amos,Husband,M,24,Buisnessman,9213840806,,2 kunal,Single,White,6,N,Y,2,28.679079/77.070413
+78 BN,C COY,Jodhpur,Ambalika,Z-727,Aonghus,Wife,F,56,Technician,9213840807,,2 kunal,Single,Blue,3,N,N,2,28.679079/77.070414
+78 BN,C COY,Jodhpur,Ambalika,Z-727,Apollo,Daughter,F,32,Shopkeeper,9213840808,,2 kunal,Single,Green,4,Y,N,1,28.679079/77.070415
+78 BN,C COY,Jodhpur,Indraprasth,Z-730,Arham,Father,F,67,Doctor,9213840809,,2 kunal,Single,Lavender,3,N,N,1,28.679079/77.070416
+78 BN,C COY,Jodhpur,Indraprasth,Z-730,Arjun,Mother,M,89,Teacher,9213840810,,2 kunal,Single,Cherry,4,N,N,1,28.679079/77.070417
+78 BN,C COY,Jodhpur,Indraprasth,Z-730,Armando,Husband,F,96,Engineer,9213840811,,2 kunal,Single,Light green,4,N,N,2,28.679079/77.070418
+78 BN,C COY,Jodhpur,Indraprasth,Z-730,Arron,Wife,M,49,Painter,9213840812,,1 kunal,Single,Red,2,N,Y,1,28.679079/77.070419
+78 BN,C COY,Jodhpur,Indraprasth,Z-734,Arryn,Husband,F,60,Call Centre,9213840813,,1 kunal,Single,Pink,4,Y,N,2,28.679079/77.070420
+78 BN,C COY,Jodhpur,Indraprasth,Z-734,Asa,Wife,M,23,Air hostess,9213840814,,1 kunal,Single,Purple,2,Y,N,1,28.679079/77.070421
+78 BN,C COY,Jodhpur,Indraprasth,Z-734,Ash,Daughter,F,43,Pilot,9213840815,,1 kunal,Single,White,3,N,Y,2,28.679079/77.070422
+78 BN,C COY,Jodhpur,Narayan,Z-737,Austen,Father,M,75,Scientist,9213840816,,1 kunal,Single,Blue,4,Y,N,2,28.679079/77.070423
+78 BN,C COY,Jodhpur,Narayan,Z-737,Baillie,Mother,M,64,Attender,9213840817,,1 kunal,Single,Green,5,N,N,2,28.679079/77.070424
+78 BN,C COY,Jodhpur,Narayan,Z-737,Bentley,Husband,M,86,Buisnessman,9213840818,,2 kunal,Single,Lavender,3,Y,N,1,28.679079/77.070425
+78 BN,C COY,Jodhpur,Narayan,Z-737,Bo,Wife,F,62,Technician,9213840819,,2 kunal,Single,Cherry,3,Y,N,2,28.679079/77.070426
+78 BN,C COY,Jodhpur,Narayan,Z-741,Bowen,Husband,F,98,Shopkeeper,9213840820,,2 kunal,Single,Light green,5,Y,Y,2,28.679079/77.070427
+78 BN,C COY,Jodhpur,Narayan,Z-741,Braxton,Wife,F,21,Doctor,9213840821,,2 kunal,Single,Red,4,Y,Y,2,28.679079/77.070428
+78 BN,C COY,Jodhpur,Narayan,Z-741,Brooklyn,Daughter,M,33,Teacher,9213840822,,2 kunal,Single,Pink,2,Y,N,3,28.679079/77.070429
+78 BN,C COY,Jodhpur,Gadra,Z-744,Caelen,Father,F,45,Engineer,9213840823,,1 kunal,Single,Purple,3,Y,Y,2,28.679079/77.070430
+78 BN,C COY,Jodhpur,Gadra,Z-744,Caelin,Mother,M,12,Painter,9213840824,,1 kunal,Single,White,5,N,N,1,28.679079/77.070431
+78 BN,C COY,Jodhpur,Gadra,Z-744,Cai,Husband,F,45,Call Centre,9213840825,,1 kunal,Single,Blue,4,N,Y,2,28.679079/77.070432
+78 BN,C COY,Jodhpur,Gadra,Z-744,Cairo,Wife,M,23,Air hostess,9213840826,,1 kunal,Single,Green,3,N,Y,2,28.679079/77.070433
+78 BN,C COY,Jodhpur,Gadra,Z-748,Cal,Husband,F,67,Pilot,9213840827,,1 kunal,Single,Lavender,3,N,Y,2,28.679079/77.070434
+78 BN,C COY,Jodhpur,Gadra,Z-748,Camden,Wife,M,23,Scientist,9213840828,,1 kunal,Single,Cherry,5,N,Y,2,28.679079/77.070435
+78 BN,C COY,Jodhpur,Gadra,Z-748,Carter-James,Daughter,M,56,Attender,9213840829,,1 kunal,Single,Light green,3,Y,Y,3,28.679079/77.070436
+78 BN,C COY,Jodhpur,Mohenjodaro,Z-751,Cassius,Father,F,24,Buisnessman,9213840830,,1 kunal,Single,Red,4,N,Y,1,28.679079/77.070437
+78 BN,C COY,Jodhpur,Mohenjodaro,Z-751,Cayson,Mother,F,56,Technician,9213840831,,1 kunal,Single,Pink,4,N,N,2,28.679079/77.070438
+78 BN,C COY,Jodhpur,Mohenjodaro,Z-751,Cezary,Husband,F,32,Shopkeeper,9213840832,,1 kunal,Single,Purple,2,Y,N,2,28.679079/77.070439
+78 BN,C COY,Jodhpur,Mohenjodaro,Z-751,Chay,Wife,M,67,Doctor,9213840833,,1 kunal,Single,White,4,N,N,1,28.679079/77.070440
+78 BN,C COY,Jodhpur,Mohenjodaro,Z-755,Cjay,Husband,M,89,Teacher,9213840834,,1 kunal,Single,Blue,5,N,N,2,28.679079/77.070441
+78 BN,C COY,Jodhpur,Mohenjodaro,Z-755,Clyde,Wife,M,96,Engineer,9213840835,,1 kunal,Single,Green,2,N,N,2,28.679079/77.070442
+78 BN,C COY,Jodhpur,Mohenjodaro,Z-755,Cobie,Daughter,F,49,Painter,9213840836,,1 kunal,Single,Lavender,3,N,Y,1,28.679079/77.070443
+78 BN,C COY,Jaipur,Harrappa,Z-758,Cobyn,Father,M,60,Call Centre,9213840837,,1 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070444
+78 BN,C COY,Jaipur,Harrappa,Z-758,Copland,Mother,F,23,Air hostess,9213840838,,1 kunal,Single,Light green,2,Y,N,2,28.679079/77.070445
+78 BN,C COY,Jaipur,Harrappa,Z-758,Cullen,Husband,M,43,Pilot,9213840839,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.070446
+78 BN,C COY,Jaipur,Harrappa,Z-758,Damir,Wife,F,75,Scientist,9213840840,,1 kunal,Single,Pink,4,Y,N,2,28.679079/77.070447
+78 BN,C COY,Jaipur,Harrappa,Z-762,Dara,Husband,M,64,Attender,9213840841,,1 kunal,Single,Purple,3,N,N,2,28.679079/77.070448
+78 BN,C COY,Jaipur,Harrappa,Z-762,Dax,Wife,F,86,Buisnessman,9213840842,,1 kunal,Single,White,5,Y,N,2,28.679079/77.070449
+78 BN,C COY,Jaipur,Harrappa,Z-762,Denver,Daughter,F,62,Technician,9213840843,,2 kunal,Single,Blue,2,Y,N,2,28.679079/77.070450
+78 BN,C COY,Jaipur,Ashwini,Z-765,Devon,Father,F,98,Shopkeeper,9213840844,,2 kunal,Single,Green,5,Y,Y,2,28.679079/77.070451
+78 BN,C COY,Jaipur,Ashwini,Z-765,Dhruv,Mother,M,21,Doctor,9213840845,,2 kunal,Single,Lavender,5,Y,Y,1,28.679079/77.070452
+78 BN,C COY,Jaipur,Ashwini,Z-765,Diego,Husband,F,33,Teacher,9213840846,,2 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070453
+78 BN,C COY,Jaipur,Ashwini,Z-765,Dilan,Wife,M,45,Engineer,9213840847,,2 kunal,Single,Light green,2,Y,Y,1,28.679079/77.070454
+78 BN,C COY,Jaipur,Ashwini,Z-769,Elis,Husband,M,12,Painter,9213840848,,2 kunal,Single,Red,5,N,N,2,28.679079/77.070455
+78 BN,C COY,Jaipur,Ashwini,Z-769,Emilio,Wife,F,45,Call Centre,9213840849,,2 kunal,Single,Pink,6,N,Y,2,28.679079/77.070456
+78 BN,C COY,Jaipur,Ashwini,Z-769,Emin,Daughter,F,23,Air hostess,9213840850,,2 kunal,Single,Purple,3,N,Y,2,28.679079/77.070457
+78 BN,C COY,Jaipur,Tirath,Z-772,Ernie,Father,M,67,Pilot,9213840851,,1 kunal,Single,White,4,N,Y,1,28.679079/77.070458
+78 BN,C COY,Jaipur,Tirath,Z-772,Finnley,Mother,F,23,Scientist,9213840852,,1 kunal,Single,Blue,3,N,Y,1,28.679079/77.070459
+78 BN,C COY,Jaipur,Tirath,Z-772,Franky,Husband,F,56,Attender,9213840853,,1 kunal,Single,Green,4,Y,Y,1,28.679079/77.070460
+78 BN,C COY,Jaipur,Tirath,Z-772,Frazer,Wife,M,24,Buisnessman,9213840854,,1 kunal,Single,Lavender,4,N,Y,2,28.679079/77.070461
+78 BN,C COY,Jaipur,Tirath,Z-776,Fred,Daughter,F,56,Technician,9213840855,,1 kunal,Single,Cherry,2,N,N,1,28.679079/77.070462
+78 BN,C COY,Jaipur,Tirath,Z-776,Gene,Husband,M,32,Shopkeeper,9213840856,,1 kunal,Single,Light green,4,Y,N,2,28.679079/77.070463
+78 BN,C COY,Jaipur,Tirath,Z-776,Gethin,Wife,F,67,Doctor,9213840857,,2 kunal,Single,Red,2,N,N,1,28.679079/77.070464
+78 BN,C COY,Jaipur,Chitai,Z-779,Gino,Father,M,89,Teacher,9213840858,,2 kunal,Single,Pink,3,N,N,2,28.679079/77.070465
+78 BN,C COY,Jaipur,Chitai,Z-779,Graham,Mother,F,96,Engineer,9213840859,,2 kunal,Single,Purple,4,N,N,2,28.679079/77.070466
+78 BN,C COY,Jaipur,Chitai,Z-779,Greig,Husband,M,49,Painter,9213840860,,2 kunal,Single,White,5,N,Y,2,28.679079/77.070467
+78 BN,C COY,Jaipur,Chitai,Z-779,Guy,Wife,M,60,Call Centre,9213840861,,2 kunal,Single,Blue,3,Y,N,1,28.679079/77.070468
+78 BN,C COY,Jaipur,Chitai,Z-783,Hamzah,Husband,M,23,Air hostess,9213840862,,1 kunal,Single,Green,3,Y,N,2,28.679079/77.070469
+78 BN,C COY,Jaipur,Chitai,Z-783,Hasnain,Wife,F,43,Pilot,9213840863,,1 kunal,Single,Lavender,5,N,Y,2,28.679079/77.070470
+78 BN,C COY,Jaipur,Chitai,Z-783,Hendrik,Daughter,F,75,Scientist,9213840864,,1 kunal,Single,Cherry,4,Y,N,2,28.679079/77.070471
+78 BN,C COY,Jaipur,Jalkhedi,Z-786,Himmat,Father,F,64,Attender,9213840865,,1 kunal,Single,Light green,2,N,N,3,28.679079/77.070472
+78 BN,C COY,Jaipur,Jalkhedi,Z-786,Innis,Mother,M,86,Buisnessman,9213840866,,1 kunal,Single,Red,3,Y,N,2,28.679079/77.070473
+78 BN,C COY,Jaipur,Jalkhedi,Z-786,Ioannis,Husband,F,62,Technician,9213840867,,1 kunal,Single,Pink,5,Y,N,1,28.679079/77.070474
+78 BN,C COY,Jaipur,Jalkhedi,Z-786,Iustin,Wife,M,98,Shopkeeper,9213840868,,1 kunal,Single,Purple,4,Y,Y,2,28.679079/77.070475
+78 BN,C COY,Jaipur,Jalkhedi,Z-790,Izaac,Husband,F,21,Doctor,9213840869,,1 kunal,Single,White,3,Y,Y,2,28.679079/77.070476
+78 BN,C COY,Jaipur,Jalkhedi,Z-790,Jak,Wife,M,33,Teacher,9213840870,,1 kunal,Single,Blue,3,Y,N,2,28.679079/77.070477
+78 BN,C COY,Jaipur,Jalkhedi,Z-790,Jaxen,Daughter,F,45,Engineer,9213840871,,1 kunal,Single,Green,5,Y,Y,2,28.679079/77.070478
+78 BN,C COY,Bikaner,Rishikesh,Z-793,Jayson,Father,M,12,Painter,9213840872,,1 kunal,Single,Lavender,3,N,N,3,28.679079/77.070479
+78 BN,C COY,Bikaner,Rishikesh,Z-793,Jed,Mother,M,45,Call Centre,9213840873,,1 kunal,Single,Cherry,4,N,Y,1,28.679079/77.070480
+78 BN,C COY,Bikaner,Rishikesh,Z-793,Jimmy,Husband,M,23,Air hostess,9213840874,,1 kunal,Single,Light green,4,N,Y,2,28.679079/77.070481
+78 BN,C COY,Bikaner,Rishikesh,Z-793,John-James,Wife,F,67,Pilot,9213840875,,1 kunal,Single,Red,2,N,Y,2,28.679079/77.070482
+78 BN,C COY,Bikaner,Rishikesh,Z-797,Kabir,Husband,F,23,Scientist,9213840876,,1 kunal,Single,Pink,4,N,Y,1,28.679079/77.070483
+78 BN,C COY,Bikaner,Rishikesh,Z-797,Kadyn,Wife,F,56,Attender,9213840877,,1 kunal,Single,Purple,5,Y,Y,2,28.679079/77.070484
+78 BN,C COY,Bikaner,Rishikesh,Z-797,Kaidyn,Son,M,24,Buisnessman,9213840878,,1 kunal,Single,White,2,N,Y,2,28.679079/77.070485
+78 BN,C COY,Bikaner,Nagar,Z-800,Kaii,Father,F,56,Technician,9213840879,,1 kunal,Single,Blue,3,N,N,1,28.679079/77.070486
+78 BN,C COY,Bikaner,Nagar,Z-800,Kairo,Mother,M,32,Shopkeeper,9213840880,,1 kunal,Single,Green,5,Y,N,2,28.679079/77.070487
+78 BN,C COY,Bikaner,Nagar,Z-800,Kajus,Husband,F,67,Doctor,9213840881,,1 kunal,Single,Lavender,2,N,N,2,28.679079/77.070488
+78 BN,C COY,Bikaner,Nagar,Z-800,Kallum,Wife,M,89,Teacher,9213840882,,2 kunal,Single,Cherry,4,N,N,2,28.679079/77.070489
+78 BN,C COY,Bikaner,Nagar,Z-804,Kalvyn,Husband,F,96,Engineer,9213840883,,2 kunal,Single,Light green,4,N,N,2,28.679079/77.070490
+78 BN,C COY,Bikaner,Nagar,Z-804,Kamil,Wife,M,49,Painter,9213840884,,2 kunal,Single,Red,3,N,Y,2,28.679079/77.070491
+78 BN,C COY,Bikaner,Nagar,Z-804,Karol,Son,M,60,Call Centre,9213840885,,2 kunal,Single,Pink,5,Y,N,2,28.679079/77.070492
+78 BN,C COY,Bikaner,Sukhdev,Z-807,Kaylen,Father,F,23,Air hostess,9213840886,,2 kunal,Single,Purple,2,Y,N,2,28.679079/77.070493
+78 BN,C COY,Bikaner,Sukhdev,Z-807,Keelan,Mother,F,43,Pilot,9213840887,,2 kunal,Single,White,5,N,Y,2,28.679079/77.070494
+78 BN,C COY,Bikaner,Sukhdev,Z-807,Keiran,Husband,F,75,Scientist,9213840888,,2 kunal,Single,Blue,5,Y,N,1,28.679079/77.070495
+78 BN,C COY,Bikaner,Sukhdev,Z-807,Keith,Wife,M,64,Attender,9213840889,,2 kunal,Single,Green,5,Y,N,2,28.679079/77.070496
+78 BN,C COY,Bikaner,Sukhdev,Z-811,Kenneth,Husband,M,86,Buisnessman,9213840890,,1 kunal,Single,Lavender,2,Y,N,1,28.679079/77.070497
+78 BN,C COY,Bikaner,Sukhdev,Z-811,Klay,Wife,M,62,Technician,9213840891,,1 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070498
+78 BN,C COY,Bikaner,Sukhdev,Z-811,Koah,Son,F,98,Shopkeeper,9213840892,,1 kunal,Single,Light green,6,Y,Y,2,28.679079/77.070499
+78 BN,C COY,Bikaner,Hamilton,Z-814,Kohen,Father,M,21,Doctor,9213840893,,1 kunal,Single,Red,3,Y,Y,2,28.679079/77.070500
+78 BN,C COY,Bikaner,Hamilton,Z-814,Kornel,Mother,F,33,Teacher,9213840894,,1 kunal,Single,Pink,4,N,N,1,28.679079/77.070501
+78 BN,C COY,Bikaner,Hamilton,Z-814,Kye,Husband,M,45,Engineer,9213840895,,1 kunal,Single,Purple,3,N,Y,1,28.679079/77.070502
+78 BN,C COY,Bikaner,Hamilton,Z-814,Kylan,Wife,F,12,Painter,9213840896,,2 kunal,Single,White,4,N,N,1,28.679079/77.070503
+78 BN,C COY,Bikaner,Hamilton,Z-818,Kyson,Husband,M,45,Call Centre,9213840897,,2 kunal,Single,Blue,4,N,Y,2,28.679079/77.070504
+78 BN,C COY,Bikaner,Hamilton,Z-818,Lars,Wife,F,23,Air hostess,9213840898,,2 kunal,Single,Green,2,N,Y,1,28.679079/77.070505
+78 BN,C COY,Bikaner,Hamilton,Z-818,Leif,Daughter,F,67,Pilot,9213840899,,2 kunal,Single,Lavender,4,Y,Y,2,28.679079/77.070506
+78 BN,C COY,Bikaner,Lawasa,Z-821,Lloyd,Husband,F,23,Scientist,9213840900,,2 kunal,Single,Cherry,2,N,Y,1,28.679079/77.070507
+78 BN,C COY,Bikaner,Lawasa,Z-821,Lochie,Wife,M,56,Attender,9213840901,,1 kunal,Single,Light green,3,N,Y,2,28.679079/77.070508
+78 BN,C COY,Bikaner,Lawasa,Z-822,Lochlann,Husband,F,24,Buisnessman,9213840902,,1 kunal,Single,Red,4,Y,Y,2,28.679079/77.070509
+78 BN,C COY,Bikaner,Lawasa,Z-822,Lochlyn,Wife,M,56,Technician,9213840903,,1 kunal,Single,Pink,5,N,N,2,28.679079/77.070510
+78 BN,C COY,Bikaner,Lawasa,Z-825,Lucca,Husband,M,32,Shopkeeper,9213840904,,1 kunal,Single,Purple,3,N,N,1,28.679079/77.070511
+78 BN,C COY,Bikaner,Lawasa,Z-825,Macaulay,Wife,F,67,Doctor,9213840905,,1 kunal,Single,White,3,N,N,2,28.679079/77.070512
+78 BN,C COY,Bikaner,Lawasa,Z-825,Mackie,Daughter,F,89,Teacher,9213840906,,1 kunal,Single,Blue,5,N,N,2,28.679079/77.070513
+78 BN,C COY,Sangamner,Loni,Z-828,Malik,Husband,M,96,Engineer,9213840907,,1 kunal,Single,Green,4,Y,N,2,28.679079/77.070514
+78 BN,C COY,Sangamner,Loni,Z-828,Manuel,Wife,F,49,Painter,9213840908,,1 kunal,Single,Lavender,2,Y,Y,3,28.679079/77.070515
+78 BN,C COY,Sangamner,Loni,Z-830,Mario,Husband,F,60,Call Centre,9213840909,,1 kunal,Single,Cherry,3,N,N,2,28.679079/77.070516
+78 BN,C COY,Sangamner,Loni,Z-830,Marlow,Wife,M,23,Air hostess,9213840910,,1 kunal,Single,Light green,5,Y,N,1,28.679079/77.070517
+78 BN,C COY,Sangamner,Loni,Z-832,Matas,Husband,F,43,Pilot,9213840911,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.070518
+78 BN,C COY,Sangamner,Loni,Z-832,Matias,Wife,M,75,Scientist,9213840912,,1 kunal,Single,Pink,3,Y,N,2,28.679079/77.070519
+78 BN,C COY,Sangamner,Loni,Z-832,Maverick,Daughter,F,64,Attender,9213840913,,1 kunal,Single,Purple,3,Y,N,2,28.679079/77.070520
+78 BN,C COY,Sangamner,Pravara,Z-835,Maxim,Husband,M,86,Buisnessman,9213840914,,1 kunal,Single,White,5,Y,N,2,28.679079/77.070521
+78 BN,C COY,Sangamner,Pravara,Z-835,Micheal,Wife,F,62,Technician,9213840915,,1 kunal,Single,Blue,3,Y,N,3,28.679079/77.070522
+78 BN,C COY,Sangamner,Pravara,Z-837,Milan,Husband,M,98,Shopkeeper,9213840916,,1 kunal,Single,Green,4,Y,Y,1,28.679079/77.070523
+78 BN,C COY,Sangamner,Pravara,Z-837,Mohamad,Wife,M,21,Doctor,9213840917,,1 kunal,Single,Lavender,4,Y,Y,2,28.679079/77.070524
+78 BN,C COY,Sangamner,Pravara,Z-839,Neil,Husband,M,33,Teacher,9213840918,,1 kunal,Single,Cherry,2,N,N,2,28.679079/77.070525
+78 BN,C COY,Sangamner,Pravara,Z-839,Nicky,Wife,F,45,Engineer,9213840919,,1 kunal,Single,Light green,4,N,Y,1,28.679079/77.070526
+78 BN,C COY,Sangamner,Pravara,Z-839,Noa,Daughter,F,12,Painter,9213840920,,1 kunal,Single,Red,5,N,N,2,28.679079/77.070527
+78 BN,C COY,Sangamner,Imampur,Z-842,Omer,Husband,F,45,Call Centre,9213840921,,2 kunal,Single,Pink,2,N,Y,2,28.679079/77.070528
+78 BN,C COY,Sangamner,Imampur,Z-842,Orin,Wife,M,23,Air hostess,9213840922,,2 kunal,Single,Purple,3,N,Y,1,28.679079/77.070529
+78 BN,C COY,Sangamner,Imampur,Z-844,Orlando,Husband,F,67,Pilot,9213840923,,2 kunal,Single,White,5,Y,Y,2,28.679079/77.070530
+78 BN,C COY,Sangamner,Imampur,Z-844,Osten,Wife,M,23,Scientist,9213840924,,2 kunal,Single,Blue,2,N,Y,2,28.679079/77.070531
+78 BN,C COY,Sangamner,Imampur,Z-846,Ovie,Husband,F,56,Attender,9213840925,,2 kunal,Single,Green,4,N,Y,2,28.679079/77.070532
+78 BN,C COY,Sangamner,Imampur,Z-846,Paolo,Wife,M,24,Buisnessman,9213840926,,2 kunal,Single,Lavender,4,Y,Y,2,28.679079/77.070533
+78 BN,C COY,Sangamner,Imampur,Z-846,Pierce,Daughter,F,56,Technician,9213840927,,2 kunal,Single,Cherry,3,N,N,2,28.679079/77.070534
+78 BN,C COY,Sangamner,Shirdi,Z-849,Piotr,Husband,M,32,Shopkeeper,9213840928,,2 kunal,Single,Light green,5,N,N,2,28.679079/77.070535
+78 BN,C COY,Sangamner,Shirdi,Z-849,Prince,Wife,M,67,Doctor,9213840929,,1 kunal,Single,Red,2,N,N,2,28.679079/77.070536
+78 BN,C COY,Sangamner,Shirdi,Z-851,Quinten,Husband,M,89,Teacher,9213840930,,1 kunal,Single,Pink,5,N,N,2,28.679079/77.070537
+78 BN,C COY,Sangamner,Shirdi,Z-851,Raife,Wife,F,96,Engineer,9213840931,,1 kunal,Single,Purple,5,Y,N,1,28.679079/77.070538
+78 BN,C COY,Sangamner,Shirdi,Z-853,Ralphy,Husband,F,49,Painter,9213840932,,1 kunal,Single,White,5,Y,Y,2,28.679079/77.070539
+78 BN,C COY,Sangamner,Shirdi,Z-853,Rami,Wife,F,60,Call Centre,9213840933,,1 kunal,Single,Blue,2,N,N,1,28.679079/77.070540
+78 BN,C COY,Sangamner,Shirdi,Z-853,Rayaan,Daughter,M,23,Air hostess,9213840934,,1 kunal,Single,Green,5,Y,N,2,28.679079/77.070541
+78 BN,C COY,Sangamner,Devgarh,Z-856,Reagan,Husband,F,43,Pilot,9213840935,,2 kunal,Single,Lavender,6,N,Y,2,28.679079/77.070542
+78 BN,C COY,Sangamner,Devgarh,Z-856,Reid,Wife,M,75,Scientist,9213840936,,2 kunal,Single,Cherry,3,Y,N,2,28.679079/77.070543
+78 BN,C COY,Sangamner,Devgarh,Z-858,Reign,Husband,F,64,Attender,9213840937,,2 kunal,Single,Light green,4,Y,N,1,28.679079/77.070544
+78 BN,C COY,Sangamner,Devgarh,Z-858,Reilly,Wife,M,86,Buisnessman,9213840938,,2 kunal,Single,Red,3,Y,N,1,28.679079/77.070545
+78 BN,C COY,Sangamner,Devgarh,Z-860,Reiss,Husband,F,62,Technician,9213840939,,2 kunal,Single,Pink,4,Y,N,1,28.679079/77.070546
+78 BN,C COY,Sangamner,Devgarh,Z-860,Rhudi,Wife,M,98,Shopkeeper,9213840940,,1 kunal,Single,Purple,4,Y,Y,2,28.679079/77.070547
+78 BN,C COY,Sangamner,Devgarh,Z-860,Rian,Daughter,M,21,Doctor,9213840941,,1 kunal,Single,White,2,Y,Y,1,28.679079/77.070548
+78 BN,C COY,Ahemdabad,Sonai,Z-863,Richie,Husband,F,33,Teacher,9213840942,,1 kunal,Single,Blue,4,N,N,2,28.679079/77.070549
+78 BN,C COY,Ahemdabad,Sonai,Z-863,Ricky,Wife,F,45,Engineer,9213840943,,1 kunal,Single,Green,2,N,Y,1,28.679079/77.070550
+78 BN,C COY,Ahemdabad,Sonai,Z-865,Roberts,Husband,F,12,Painter,9213840944,,1 kunal,Single,Lavender,3,N,N,2,28.679079/77.070551
+78 BN,C COY,Ahemdabad,Sonai,Z-865,Roland,Wife,M,45,Call Centre,9213840945,,1 kunal,Single,Cherry,4,N,Y,2,28.679079/77.070552
+78 BN,C COY,Ahemdabad,Sonai,Z-867,Rowen,Husband,M,23,Air hostess,9213840946,,1 kunal,Single,Light green,5,N,Y,2,28.679079/77.070553
+78 BN,C COY,Ahemdabad,Sonai,Z-867,Roy,Wife,M,67,Pilot,9213840947,,1 kunal,Single,Red,3,Y,Y,1,28.679079/77.070554
+78 BN,C COY,Ahemdabad,Sonai,Z-867,Ruan,Daughter,F,23,Scientist,9213840948,,1 kunal,Single,Pink,3,N,Y,2,28.679079/77.070555
+78 BN,C COY,Ahemdabad,Rampur,Z-870,Rufus,Husband,M,56,Attender,9213840949,,1 kunal,Single,Purple,5,N,Y,2,28.679079/77.070556
+78 BN,C COY,Ahemdabad,Rampur,Z-870,Rui,Wife,F,24,Buisnessman,9213840950,,1 kunal,Single,White,4,Y,Y,2,28.679079/77.070557
+78 BN,C COY,Ahemdabad,Rampur,Z-872,Saif,Husband,M,56,Technician,9213840951,,1 kunal,Single,Blue,2,N,N,3,28.679079/77.070558
+78 BN,C COY,Ahemdabad,Rampur,Z-872,Sammy,Wife,F,32,Shopkeeper,9213840952,,1 kunal,Single,Green,3,N,N,2,28.679079/77.070559
+78 BN,C COY,Ahemdabad,Rampur,Z-874,Shayan,Husband,M,67,Doctor,9213840953,,1 kunal,Single,Lavender,5,N,N,1,28.679079/77.070560
+78 BN,C COY,Ahemdabad,Rampur,Z-874,Sidney,Wife,F,89,Teacher,9213840954,,1 kunal,Single,Cherry,4,N,N,2,28.679079/77.070561
+78 BN,C COY,Ahemdabad,Rampur,Z-874,Sigurd,Daughter,F,96,Engineer,9213840955,,1 kunal,Single,Light green,3,Y,N,2,28.679079/77.070562
+78 BN,C COY,Ahemdabad,Jawara,Z-877,Stan,Father,F,49,Painter,9213840956,,1 kunal,Single,Red,3,Y,Y,2,28.679079/77.070563
+78 BN,C COY,Ahemdabad,Jawara,Z-877,Teo,Mother,M,60,Call Centre,9213840957,,1 kunal,Single,Pink,5,N,N,2,28.679079/77.070564
+78 BN,C COY,Ahemdabad,Jawara,Z-877,Theodor,Husband,F,23,Air hostess,9213840958,,1 kunal,Single,Purple,3,Y,N,3,28.679079/77.070565
+78 BN,C COY,Ahemdabad,Jawara,Z-877,Thorfinn,Wife,M,43,Pilot,9213840959,,1 kunal,Single,White,4,N,Y,1,28.679079/77.070566
+78 BN,C COY,Ahemdabad,Jawara,Z-881,Toran,Husband,M,75,Scientist,9213840960,,2 kunal,Single,Blue,4,Y,N,2,28.679079/77.070567
+78 BN,C COY,Ahemdabad,Jawara,Z-881,Tyler-James,Wife,F,64,Attender,9213840961,,2 kunal,Single,Green,2,Y,N,2,28.679079/77.070568
+78 BN,C COY,Ahemdabad,Jawara,Z-881,Tyrone,Daughter,F,86,Buisnessman,9213840962,,2 kunal,Single,Lavender,4,Y,N,1,28.679079/77.070569
+78 BN,C COY,Ahemdabad,Doda,Z-884,Vincenzo,Husband,M,62,Technician,9213840963,,2 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070570
+78 BN,C COY,Ahemdabad,Doda,Z-884,Weston,Wife,F,98,Shopkeeper,9213840964,,2 kunal,Single,Light green,2,Y,Y,2,28.679079/77.070571
+78 BN,C COY,Ahemdabad,Doda,Z-884,Wilbur,Son,F,21,Doctor,9213840965,,2 kunal,Single,Red,3,Y,Y,1,28.679079/77.070572
+78 BN,C COY,Ahemdabad,Doda,Z-887,Woody,Father,M,33,Teacher,9213840966,,2 kunal,Single,Pink,5,N,N,2,28.679079/77.070573
+78 BN,C COY,Ahemdabad,Doda,Z-887,Yahia,Mother,F,45,Engineer,9213840967,,2 kunal,Single,Purple,2,N,Y,2,28.679079/77.070574
+78 BN,C COY,Ahemdabad,Doda,Z-887,Youssef,Husband,M,12,Painter,9213840968,,1 kunal,Single,White,4,N,N,2,28.679079/77.070575
+78 BN,C COY,Ahemdabad,Doda,Z-887,Yousuf,Wife,F,45,Call Centre,9213840969,,1 kunal,Single,Blue,4,N,Y,2,28.679079/77.070576
+78 BN,C COY,Ahemdabad,Bislai,Z-891,Zalan,Husband,M,23,Air hostess,9213840970,,1 kunal,Single,Green,3,N,Y,2,28.679079/77.070577
+78 BN,C COY,Ahemdabad,Bislai,Z-891,Zayaan,Wife,F,67,Pilot,9213840971,,1 kunal,Single,Lavender,5,Y,Y,2,28.679079/77.070578
+78 BN,C COY,Ahemdabad,Bislai,Z-893,Zayne,Husband ,M,23,Scientist,9213840972,,1 kunal,Single,Cherry,2,N,Y,2,28.679079/77.070579
+78 BN,C COY,Ahemdabad,Bislai,Z-893,Zion,Wife,M,56,Attender,9213840973,,1 kunal,Single,Light green,5,N,Y,2,28.679079/77.070580
+78 BN,C COY,Ahemdabad,Bislai,Z-895,A,Husband ,M,24,Buisnessman,9213840974,,2 kunal,Single,Red,5,Y,Y,1,28.679079/77.070581
+78 BN,C COY,Ahemdabad,Bislai,Z-895,A-Jay,Wife,F,56,Technician,9213840975,,2 kunal,Single,Pink,5,N,N,2,28.679079/77.070582
+78 BN,C COY,Ahemdabad,Bislai,Z-895,Aaryan,Son,F,32,Shopkeeper,9213840976,,2 kunal,Single,Purple,2,N,N,1,28.679079/77.070583
+78 BN,C COY,Allahabad,Bokaro,Z-898,Aaryn,Husband,F,67,Doctor,9213840977,,2 kunal,Single,White,5,N,N,2,28.679079/77.070584
+78 BN,C COY,Allahabad,Bokaro,Z-898,Aayan,Wife,M,89,Teacher,9213840978,,2 kunal,Single,Blue,6,N,N,2,28.679079/77.070585
+78 BN,C COY,Allahabad,Bokaro,Z-898,Abdulaziz,Son,F,96,Engineer,9213840979,,1 kunal,Single,Green,3,Y,N,2,28.679079/77.070586
+78 BN,C COY,Allahabad,Bokaro,Z-901,Abdulrahman,Husband,M,49,Painter,9213840980,,1 kunal,Single,Lavender,4,Y,Y,1,28.679079/77.070587
+78 BN,C COY,Allahabad,Bokaro,Z-901,Abdurrahman,Wife,F,60,Call Centre,9213840981,,1 kunal,Single,Cherry,3,N,N,1,28.679079/77.070588
+78 BN,C COY,Allahabad,Bokaro,Z-901,Abu,Daughter,M,23,Air hostess,9213840982,,1 kunal,Single,Light green,4,Y,N,1,28.679079/77.070589
+78 BN,C COY,Allahabad,Bokaro,Z-901,Adeel,Son,F,43,Pilot,9213840983,,1 kunal,Single,Red,4,N,Y,2,28.679079/77.070590
+78 BN,C COY,Allahabad,Manmad,Z-905,Aden,Father,M,75,Scientist,9213840984,,1 kunal,Single,Pink,2,Y,N,1,28.679079/77.070591
+78 BN,C COY,Allahabad,Manmad,Z-905,Adie,Mother,M,64,Attender,9213840985,,1 kunal,Single,Purple,4,Y,N,2,28.679079/77.070592
+78 BN,C COY,Allahabad,Manmad,Z-905,Aditya,Husband,M,86,Buisnessman,9213840986,,1 kunal,Single,White,2,Y,N,1,28.679079/77.070593
+78 BN,C COY,Allahabad,Manmad,Z-905,Adlai,Wife,F,62,Technician,9213840987,,1 kunal,Single,Blue,3,Y,N,2,28.679079/77.070594
+78 BN,C COY,Allahabad,Manmad,Z-906,Adley,Husband,F,98,Shopkeeper,9213840988,,1 kunal,Single,Green,4,Y,Y,2,28.679079/77.070595
+78 BN,C COY,Allahabad,Manmad,Z-906,Adriel,Wife,F,21,Doctor,9213840989,,1 kunal,Single,Lavender,5,Y,Y,2,28.679079/77.070596
+78 BN,C COY,Allahabad,Manmad,Z-906,Advay,Daughter,M,33,Teacher,9213840990,,1 kunal,Single,Cherry,3,N,N,1,28.679079/77.070597
+78 BN,C COY,Allahabad,Bhumari,Z-912,Ahyaan,Father,F,45,Engineer,9213840991,,1 kunal,Single,Light green,3,N,Y,2,28.679079/77.070598
+78 BN,C COY,Allahabad,Bhumari,Z-912,Aian,Mother,M,12,Painter,9213840992,,1 kunal,Single,Red,5,N,N,2,28.679079/77.070599
+78 BN,C COY,Allahabad,Bhumari,Z-912,Aidyn,Husband,F,45,Call Centre,9213840993,,1 kunal,Single,Pink,4,N,Y,2,28.679079/77.070600
+78 BN,C COY,Allahabad,Bhumari,Z-912,Ajit,Wife,M,23,Air hostess,9213840994,,1 kunal,Single,Purple,2,N,Y,3,28.679079/77.070601
+78 BN,C COY,Allahabad,Bhumari,Z-916,Alisdair,Husband,F,67,Pilot,9213840995,,1 kunal,Single,White,3,Y,Y,2,28.679079/77.070602
+78 BN,C COY,Allahabad,Bhumari,Z-916,Aliyaan,Wife,M,23,Scientist,9213840996,,1 kunal,Single,Blue,5,N,Y,1,28.679079/77.070603
+78 BN,C COY,Allahabad,Bhumari,Z-916,Alyaan,Daughter,M,56,Attender,9213840997,,1 kunal,Single,Green,4,N,Y,2,28.679079/77.070604
+78 BN,C COY,Allahabad,Manpura,Z-919,Amjad,Husband,F,24,Buisnessman,9213840998,,1 kunal,Single,Lavender,3,Y,Y,2,28.679079/77.070605
+78 BN,C COY,Allahabad,Manpura,Z-919,Andreas,Wife,F,56,Technician,9213840999,,2 kunal,Single,Cherry,3,N,N,2,28.679079/77.070606
+78 BN,C COY,Allahabad,Manpura,Z-921,Andrej,Husband,F,32,Shopkeeper,9213841000,,2 kunal,Single,Light green,5,N,N,2,28.679079/77.070607
+78 BN,C COY,Allahabad,Manpura,Z-921,Andres,Wife,M,67,Doctor,9213841001,,2 kunal,Single,Red,3,N,N,3,28.679079/77.070608
+78 BN,C COY,Allahabad,Manpura,Z-921,Antony,Daughter,M,89,Teacher,9213841002,,2 kunal,Single,Pink,4,N,N,1,28.679079/77.070609
+78 BN,C COY,Allahabad,Manpura,Z-924,Aran,Husband,M,96,Engineer,9213841003,,2 kunal,Single,Purple,4,Y,N,2,28.679079/77.070610
+78 BN,C COY,Allahabad,Manpura,Z-924,Argyle,Wife,F,49,Painter,9213841004,,2 kunal,Single,White,2,Y,Y,2,28.679079/77.070611
+78 BN,C COY,Allahabad,Miyada,Z-926,Arian,Father,M,60,Call Centre,9213841005,,2 kunal,Single,Blue,4,N,N,1,28.679079/77.070612
+78 BN,C COY,Allahabad,Miyada,Z-926,Arin,Mother,F,23,Air hostess,9213841006,,2 kunal,Single,Green,5,Y,N,2,28.679079/77.070613
+78 BN,C COY,Allahabad,Miyada,Z-926,Aris,Husband,M,43,Pilot,9213841007,,1 kunal,Single,Lavender,2,N,Y,2,28.679079/77.070614
+78 BN,C COY,Allahabad,Miyada,Z-926,Arish,Wife,F,75,Scientist,9213841008,,1 kunal,Single,Cherry,3,Y,N,1,28.679079/77.070615
+78 BN,C COY,Allahabad,Miyada,Z-930,Arlen,Husband,M,64,Attender,9213841009,,1 kunal,Single,Light green,5,Y,N,2,28.679079/77.070616
+78 BN,C COY,Allahabad,Miyada,Z-930,Arlie,Wife,F,86,Buisnessman,9213841010,,1 kunal,Single,Red,2,Y,N,2,28.679079/77.070617
+78 BN,C COY,Allahabad,Miyada,Z-930,Armand,Daughter,F,62,Technician,9213841011,,1 kunal,Single,Pink,4,Y,N,2,28.679079/77.070618
+78 BN,C COY,Kanpur,Modi,Z-933,Aros,Father,F,98,Shopkeeper,9213841012,,1 kunal,Single,Purple,4,Y,Y,2,28.679079/77.070619
+78 BN,C COY,Kanpur,Modi,Z-933,Arsalan,Mother,M,21,Doctor,9213841013,,2 kunal,Single,White,3,Y,Y,2,28.679079/77.070620
+78 BN,C COY,Kanpur,Modi,Z-933,Artin,Husband,F,33,Teacher,9213841014,,2 kunal,Single,Blue,5,N,N,2,28.679079/77.070621
+78 BN,C COY,Kanpur,Modi,Z-933,Aston,Wife,M,45,Engineer,9213841015,,2 kunal,Single,Green,2,N,Y,2,28.679079/77.070622
+78 BN,C COY,Kanpur,Modi,Z-937,Atholl,Husband,M,12,Painter,9213841016,,2 kunal,Single,Lavender,5,N,N,2,28.679079/77.070623
+78 BN,C COY,Kanpur,Modi,Z-937,Atlas,Wife,F,45,Call Centre,9213841017,,2 kunal,Single,Cherry,5,N,Y,1,28.679079/77.070624
+78 BN,C COY,Kanpur,Modi,Z-937,Aubrey,Son,F,23,Air hostess,9213841018,,1 kunal,Single,Light green,5,N,Y,2,28.679079/77.070625
+78 BN,C COY,Kanpur,Rawas,Z-940,Auley,Father,M,67,Pilot,9213841019,,1 kunal,Single,Red,2,Y,Y,1,28.679079/77.070626
+78 BN,C COY,Kanpur,Rawas,Z-940,Azeem,Mother,F,23,Scientist,9213841020,,1 kunal,Single,Pink,5,N,Y,2,28.679079/77.070627
+78 BN,C COY,Kanpur,Rawas,Z-940,Azlan,Husband,F,56,Attender,9213841021,,1 kunal,Single,Purple,6,N,Y,2,28.679079/77.070628
+78 BN,C COY,Kanpur,Rawas,Z-940,Baker,Wife,M,24,Buisnessman,9213841022,,1 kunal,Single,White,3,Y,Y,2,28.679079/77.070629
+78 BN,C COY,Kanpur,Rawas,Z-944,Balfour,Husband,F,56,Technician,9213841023,,1 kunal,Single,Blue,4,N,N,1,28.679079/77.070630
+78 BN,C COY,Kanpur,Rawas,Z-944,Baran,Wife,M,32,Shopkeeper,9213841024,,1 kunal,Single,Green,3,N,N,1,28.679079/77.070631
+78 BN,C COY,Kanpur,Rawas,Z-944,Barnaby,Daughter,F,67,Doctor,9213841025,,1 kunal,Single,Lavender,4,N,N,1,28.679079/77.070632
+78 BN,C COY,Kanpur,Rahim,Z-947,Afia,Father,,89,Teacher,9213841026,,1 kunal,Single,Cherry,4,N,N,2,28.679079/77.070633
+78 BN,C COY,Kanpur,Rahim,Z-947,Agnes,Mother,,96,Engineer,9213841027,,1 kunal,Single,Light green,2,Y,N,1,28.679079/77.070634
+78 BN,C COY,Kanpur,Rahim,Z-947,Alys,Husband,,49,Painter,9213841028,,1 kunal,Single,Red,4,Y,Y,2,28.679079/77.070635
+78 BN,C COY,Kanpur,Rahim,Z-947,Amaia,Wife,,60,Call Centre,9213841029,,1 kunal,Single,Pink,2,N,N,1,28.679079/77.070636
+78 BN,C COY,Kanpur,Rahim,Z-951,Ameera,Daughter,,23,Air hostess,9213841030,,1 kunal,Single,Purple,3,Y,N,2,28.679079/77.070637
+78 BN,C COY,Kanpur,Rahim,Z-951,Amelia-Grace,Husband,,43,Pilot,9213841031,,1 kunal,Single,White,4,N,Y,2,28.679079/77.070638
+78 BN,C COY,Kanpur,Rahim,Z-951,Amirah,Wife,,75,Scientist,9213841032,,1 kunal,Single,Blue,5,Y,N,2,28.679079/77.070639
+78 BN,C COY,Kanpur,Rameshwar,Z-954,Amna,Father,,64,Attender,9213841033,,1 kunal,Single,Green,3,Y,N,1,28.679079/77.070640
+78 BN,C COY,Kanpur,Rameshwar,Z-954,Anabella,Mother,,86,Buisnessman,9213841034,,1 kunal,Single,Lavender,3,Y,N,2,28.679079/77.070641
+78 BN,C COY,Kanpur,Rameshwar,Z-954,Anais,Husband,,62,Technician,9213841035,,1 kunal,Single,Cherry,5,Y,N,2,28.679079/77.070642
+78 BN,C COY,Kanpur,Rameshwar,Z-954,Andie,Wife,,98,Shopkeeper,9213841036,,1 kunal,Single,Light green,4,Y,Y,2,28.679079/77.070643
+78 BN,C COY,Kanpur,Rameshwar,Z-958,Angel,Husband,,21,Doctor,9213841037,,1 kunal,Single,Red,2,Y,Y,3,28.679079/77.070644
+78 BN,C COY,Kanpur,Rameshwar,Z-958,Aria-Rose,Wife,,33,Teacher,9213841038,,2 kunal,Single,Pink,3,N,N,2,28.679079/77.070645
+78 BN,C COY,Kanpur,Rameshwar,Z-958,Ariyah,Daughter,,45,Engineer,9213841039,,2 kunal,Single,Purple,5,N,Y,1,28.679079/77.070646
+78 BN,C COY,Kanpur,Dharamveer,Z-961,Arlah,Father,,12,Painter,9213841040,,2 kunal,Single,White,4,N,N,2,28.679079/77.070647
+78 BN,C COY,Kanpur,Dharamveer,Z-961,Aryana,Mother,,45,Call Centre,9213841041,,2 kunal,Single,Blue,3,N,Y,2,28.679079/77.070648
+78 BN,C COY,Kanpur,Dharamveer,Z-961,Ashley,Husband,,23,Air hostess,9213841042,,2 kunal,Single,Green,3,N,Y,2,28.679079/77.070649
+78 BN,C COY,Kanpur,Dharamveer,Z-961,Audrey,Wife,,67,Pilot,9213841043,,2 kunal,Single,Lavender,5,Y,Y,2,28.679079/77.070650
+78 BN,C COY,Kanpur,Dharamveer,Z-965,Ayah,Husband,,23,Scientist,9213841044,,2 kunal,Single,Cherry,3,N,Y,3,28.679079/77.070651
+78 BN,C COY,Kanpur,Dharamveer,Z-965,Ayana,Wife,,56,Attender,9213841045,,2 kunal,Single,Light green,4,N,Y,1,28.679079/77.070652
+78 BN,C COY,Kanpur,Dharamveer,Z-965,Aymen,Daughter,,24,Buisnessman,9213841046,,1 kunal,Single,Red,4,Y,Y,2,28.679079/77.070653
+78 BN,C COY,Kanpur,Kokila,Z-968,Aysha,Father,,56,Technician,9213841047,,1 kunal,Single,Pink,2,N,N,2,28.679079/77.070654
+78 BN,C COY,Kanpur,Kokila,Z-968,Ayva,Mother,,32,Shopkeeper,9213841048,,1 kunal,Single,Purple,4,N,N,1,28.679079/77.070655
+78 BN,C COY,Kanpur,Kokila,Z-968,Azra,Husband,,67,Doctor,9213841049,,1 kunal,Single,White,5,N,N,2,28.679079/77.070656
+78 BN,C COY,Kanpur,Kokila,Z-968,Briar,Wife,,89,Teacher,9213841050,,1 kunal,Single,Blue,2,N,N,2,28.679079/77.070657
+78 BN,C COY,Kanpur,Kokila,Z-972,Brogan,Husband,,96,Engineer,9213841051,,1 kunal,Single,Green,3,Y,N,1,28.679079/77.070658
+78 BN,C COY,Kanpur,Kokila,Z-972,Calla,Wife,,49,Painter,9213841052,,2 kunal,Single,Lavender,5,Y,Y,2,28.679079/77.070659
+78 BN,C COY,Kanpur,Kokila,Z-972,Corran,Son,,60,Call Centre,9213841053,,2 kunal,Single,Cherry,2,N,N,2,28.679079/77.070660
