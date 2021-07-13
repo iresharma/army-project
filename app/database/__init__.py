@@ -20,6 +20,7 @@ db = client[DATABASE_NAME]
 #     userId = db['users'].insert_one(user)
 #     return user
 
+
 def loginUser(username: str, password: str) -> dict:
     user = db.users.find_one({"username": username})
     passW = sha256(password.encode()).hexdigest()
@@ -30,6 +31,7 @@ def loginUser(username: str, password: str) -> dict:
     else:
         raise ValueError
 
+
 def sendCount(btn: str) -> dict:
     filter = {"btn": btn}
     return {
@@ -38,27 +40,31 @@ def sendCount(btn: str) -> dict:
         "houses": db.houses.count_documents(filter),
     }
 
+
 def getGeoLocation(btn: str) -> list:
-    def createObj(data: dict) -> dict:
-        return {
-            "houseNumber": data['house'],
-            "village": data['village'],
-            "mohalla": data['mohalla'],
-            "geo": data['geo'],
-            "head": data['husband'],
-            "colour": data['colour'],
-            "entryPoints": data['entryPoints'],
-        }
-    result = db.houses.find({"btn": btn})
-    return list(map(createObj, result))
+    print('hi')
+    result = db.houses.find({"btn": btn}, {
+        "houseNumber": 1,
+        "village": 1,
+        "mohalla": 1,
+        "geo": 1,
+        "colour": 1,
+        "entryPoints": 1,
+        "husband": 1,
+        "father": 1,
+    })
+    return list(result)
+
 
 def listVillages(coy: str, btn: str) -> list:
     result = db.villages.find({"btn": btn, "coy": coy})
     return list(result)
 
+
 def listMohalla(coy: str, btn: str) -> list:
     result = db.mohallas.find({"btn": btn, "coy": coy})
     return list(result)
+
 
 def listHouse(coy: str, btn: str) -> list:
     result = db.houses.find({"btn": btn, "coy": coy})
