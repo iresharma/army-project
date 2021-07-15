@@ -58,6 +58,8 @@ def geo(userObject: dict):
     return Response(dumps(result), status=200)
 
 
+# TODO : add count of everything in the json
+
 # Route to get data about specific company(coy)
 @app.route('/coy/<coy>/<type>')
 @decorators.jwtChecker

@@ -38,6 +38,7 @@ def sendCount(btn: str) -> dict:
         "villages": db.villages.count_documents(filter),
         "mohallas": db.mohallas.count_documents(filter),
         "houses": db.houses.count_documents(filter),
+        # 
     }
 
 

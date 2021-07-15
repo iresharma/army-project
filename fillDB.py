@@ -60,6 +60,7 @@ for i in data:
             "coy": i["coy"],
             "village": i["village"],
             "mohalla": i["mohalla"],
+            "property": i['property'],
             "floor": i['floor'],
             "colour": i["colour"],
             "perimeterfence": True if i["perimeterfence"] == 'Y' or i["perimeterfence"] == 'y' else False,
@@ -139,7 +140,7 @@ print("printing first elements to check db struct")
 # print(f"mohallas - {dumps(mohallaDocs[0], indent=4)}")
 # print(f"villages - {dumps(villageDocs[0], indent=4)}")
 
-db = MongoClient().armyPorj
+db = MongoClient().armyProj
 result = db.houses.insert_many(houseDocs)
 print(len(result.inserted_ids))
 
