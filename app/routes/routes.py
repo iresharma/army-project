@@ -61,10 +61,10 @@ def geo(userObject: dict):
 # TODO : add count of everything in the json
 
 # Route to get data about specific company(coy)
-@app.route('/coy/<coy>/<type>')
+@app.route('/coy')
 @decorators.jwtChecker
 @cache.cached()
-def coy(coy: str, type: str, userObject: dict):
+def coy(userObject: dict):
     if type == 'village':
         result = db.listVillages(coy.replace('+', ' '), userObject['btn'])
         return Response(dumps(result), status=200)

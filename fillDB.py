@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+from bson.dbref import DBRef
 from uuid import uuid4
 from json import dumps
 data = []
@@ -41,14 +42,13 @@ mohallas = []
 houseDocs = []
 mohallaDocs = []
 villageDocs = []
+people = []
 
 for i in data:
     hid = str(uuid4()).replace('-', '')
     mid = str(uuid4()).replace('-', '')
     vid = str(uuid4()).replace('-', '')
-
-    print(villages)
-    print(mohallas)
+    pid = str(uuid4()).replace('-', '')
 
     # create house doc
     if i['Hnum'] not in houses:
@@ -77,15 +77,16 @@ for i in data:
             "husband": None,
             "wife": None
         }
-        doc[i['relation'].lower()] = {
+        people.append({
+            "_id": pid,
             "name": i['name'],
             "age": i['age'],
             "sex": i['sex'],
             "occupation": i['occupation'],
             "tel": i['tel'],
-        }
+        })
+        doc[i['relation'].lower()] = DBRef('people', pid)
         houseDocs.append(doc)
-
 
         # create mohalla document
         if i['mohalla'] not in mohallas:
@@ -96,7 +97,7 @@ for i in data:
                 "coy": i['coy'],
                 "village": i['village'],
                 "mohalla": i['mohalla'],
-                "houses": [hid]
+                "houses": [DBRef('houses', hid)]
             }
             mohallaDocs.append(doc)
 
@@ -108,31 +109,35 @@ for i in data:
                     "btn": i['Bn'],
                     "coy": i['coy'],
                     "village": i['village'],
-                    "houses": [hid],
-                    "mohalla": [mid]
+                    "houses": [DBRef('houses', hid)],
+                    "mohalla": [DBRef('mohalla', mid)],
                 }
                 villageDocs.append(doc)
             else:
                 index = villages.index(i['village'])
-                villageDocs[index]['houses'].append(hid)
-                villageDocs[index]['mohalla'].append(vid)
+                villageDocs[index]['houses'].append(DBRef('houses', hid))
+                villageDocs[index]['mohalla'].append(DBRef('mohalla', mid))
         else:
             index = mohallas.index(i['mohalla'])
-            mohallaDocs[index]['houses'].append(hid)
+            mohallaDocs[index]['houses'].append(DBRef('houses', ''))
     else:
         index = houses.index(i['Hnum'])
-        houseDocs[index][i['relation'].lower()] = {
+        person = {
+            "_id": pid,
             "name": i['name'],
             "age": i['age'],
             "sex": i['sex'],
             "occupation": i['occupation'],
             "tel": i['tel'],
         }
+        people.append(person)
+        houseDocs[index][i['relation'].lower()] = DBRef('people', pid)
 
 
 print(f"houses - {len(houses)}")
 print(f"mohallas - {len(mohallas)}")
 print(f"villages - {len(villages)}")
+print(f"people - {len(people)}")
 
 print("printing first elements to check db struct")
 
@@ -141,6 +146,10 @@ print("printing first elements to check db struct")
 # print(f"villages - {dumps(villageDocs[0], indent=4)}")
 
 db = MongoClient().armyProj
+
+result = db.people.insert_many(people)
+print(len(result.inserted_ids))
+
 result = db.houses.insert_many(houseDocs)
 print(len(result.inserted_ids))
 
