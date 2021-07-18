@@ -1,5 +1,4 @@
 from pymongo import MongoClient
-from bson.dbref import DBRef
 from uuid import uuid4
 from json import dumps
 data = []
@@ -85,7 +84,7 @@ for i in data:
             "occupation": i['occupation'],
             "tel": i['tel'],
         })
-        doc[i['relation'].lower()] = DBRef('people', pid)
+        doc[i['relation'].lower()] = pid
         houseDocs.append(doc)
 
         # create mohalla document
@@ -97,7 +96,7 @@ for i in data:
                 "coy": i['coy'],
                 "village": i['village'],
                 "mohalla": i['mohalla'],
-                "houses": [DBRef('houses', hid)]
+                "houses": [hid]
             }
             mohallaDocs.append(doc)
 
@@ -109,17 +108,17 @@ for i in data:
                     "btn": i['Bn'],
                     "coy": i['coy'],
                     "village": i['village'],
-                    "houses": [DBRef('houses', hid)],
-                    "mohalla": [DBRef('mohalla', mid)],
+                    "houses": [hid],
+                    "mohalla": [mid],
                 }
                 villageDocs.append(doc)
             else:
                 index = villages.index(i['village'])
-                villageDocs[index]['houses'].append(DBRef('houses', hid))
-                villageDocs[index]['mohalla'].append(DBRef('mohalla', mid))
+                villageDocs[index]['houses'].append(hid)
+                villageDocs[index]['mohalla'].append(mid)
         else:
             index = mohallas.index(i['mohalla'])
-            mohallaDocs[index]['houses'].append(DBRef('houses', ''))
+            mohallaDocs[index]['houses'].append(hid)
     else:
         index = houses.index(i['Hnum'])
         person = {
@@ -131,7 +130,7 @@ for i in data:
             "tel": i['tel'],
         }
         people.append(person)
-        houseDocs[index][i['relation'].lower()] = DBRef('people', pid)
+        houseDocs[index][i['relation'].lower()] = pid
 
 
 print(f"houses - {len(houses)}")

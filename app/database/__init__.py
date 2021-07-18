@@ -42,18 +42,20 @@ def sendCount(btn: str) -> dict:
     }
 
 
-def getGeoLocation(btn: str) -> list:
-    print('hi')
-    result = db.houses.find({"btn": btn}, {
-        "houseNumber": 1,
-        "village": 1,
-        "mohalla": 1,
-        "geo": 1,
-        "colour": 1,
-        "entryPoints": 1,
-        "husband": 1,
-        "father": 1,
-    })
+def getGeoLocation(btn: str, type=None, id=None) -> list:
+    fields = {
+            "houseNumber": 1,
+            "village": 1,
+            "mohalla": 1,
+            "geo": 1,
+            "colour": 1,
+            "entryPoints": 1,
+            "husband": 1,
+        }
+    if type is None and id is None:
+        result = db.houses.find({"btn": btn, '_id': 'f802ab303ad048c9a4aa3616162fcab9'}, fields)
+    else:
+        result = db.houses.find({"btn": btn, type: id}, fields)
     return list(result)
 
 
