@@ -1,4 +1,4 @@
-from pymongo import MongoClient
+from pymongo import MongoClient,errors
 from app.constants import DATABASE_NAME
 from datetime import datetime as dt
 from hashlib import sha256
@@ -74,3 +74,28 @@ def listHouse(coy: str, btn: str) -> list:
     return list(result)
 
 # addUser('iresharma', '123', '78 BN')
+
+
+# COY aggregate functions
+def getCoyList(btn: str) -> list:
+    try:
+        result = db.villages.aggregate([
+            {"$match": {"btn": btn}},{
+                "$group": {"_id": "$coy",
+                "villagesCount": {"$sum": 1},
+                "mohallasCount": {"$sum": {"$size": "$mohalla"}},
+                "housesCount": {"$sum": {"$size": "$houses"}}}},
+        ])
+        return list(result)
+    except Exception as e:
+        print(e)
+        raise e
+
+def getCoyByName(btn: str, queryType: str, coyName: str) -> list :
+    try:
+        result = db[queryType].find({"coy": coyName, "btn": btn})
+        return list(result)
+    except Exception as e:
+        print(e)
+        raise e
+    

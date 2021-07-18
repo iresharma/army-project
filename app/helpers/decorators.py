@@ -6,10 +6,12 @@ from flask import request, Response
 def jwtChecker(f):
     @wraps(f)
     def wrapper(*args, **kwargs):
-        if 'Auth' not in request.headers:
+        if 'Authorization' not in request.headers:
             return Response('Auth header missing', status=400)
 
-        token = request.headers.get('Auth')
+        token = request.headers.get('Authorization')
+        if "Bearer" in token:
+            token = token.split()[1]
         try:
             userObject = verifyToken(token)
         except KeyError:
