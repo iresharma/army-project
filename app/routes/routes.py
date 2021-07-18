@@ -4,6 +4,7 @@ from flask import request, Response
 import app.helpers.jwt as jwt
 from json import dumps
 import app.helpers.decorators as decorators
+from app.helpers.caching import cache_key
 
 
 @app.route('/auth', methods=['GET', 'POST'])
@@ -52,9 +53,9 @@ def auth():
 
 @app.route('/geo')
 @decorators.jwtChecker
-@cache.cached()
+@cache.cached(key_prefix=cache_key)
 def geo(userObject: dict):
-    result = db.getGeoLocation(userObject["btn"])
+    result = db.getGeoLocation(userObject["btn"], queryType=request.args.get('type'), value=request.args.get('value'))
     return Response(dumps(result), status=200)
 
 
