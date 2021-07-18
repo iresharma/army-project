@@ -55,23 +55,29 @@ def auth():
 @decorators.jwtChecker
 @cache.cached(key_prefix=cache_key)
 def geo(userObject: dict):
-    result = db.getGeoLocation(userObject["btn"], queryType=request.args.get('type'), value=request.args.get('value'))
-    return Response(dumps(result), status=200)
-
+    try:
+        result = db.getGeoLocation(userObject["btn"], queryType=request.args.get('type'), value=request.args.get('value'))
+        if result == []:
+                return Response(dumps({'error': "No collection found"}), status=400)
+        return Response(dumps({"data":result}), status=200)
+    except:
+        return Response(dumps({"error": "Something went wrong"}), status=500)
 
 # TODO : add count of everything in the json
 
 # Route to get data about specific company(coy)
 @app.route('/coy')
 @decorators.jwtChecker
-@cache.cached()
+@cache.cached(key_prefix=cache_key)
 def coy(userObject: dict):
-    if type == 'village':
-        result = db.listVillages(coy.replace('+', ' '), userObject['btn'])
-        return Response(dumps(result), status=200)
-    elif type == 'mohalla':
-        result = db.listMohalla(coy.replace('+', ' '), userObject['btn'])
-        return Response(dumps(result), status=200)
-    elif type == 'house':
-        result = db.listHouse(coy.replace('+', ' '), userObject['btn'])
-        return Response(dumps(result), status=200)
+    try:
+        if request.args.get("type") != None and request.args.get("coyName") != None:
+            result = db.getCoyByName(userObject["btn"], request.args.get("type"), request.args.get("coyName"))
+        else:
+            result = db.getCoyList(userObject["btn"])
+
+        if len(result) == 0:
+            return Response(dumps({"error": "No collection found"}), status=400)
+        return Response(dumps({"data":result}), status=200)
+    except:
+        return Response(dumps({"error": "Something went wrong"}), status=500)
