@@ -119,6 +119,21 @@ for i in data:
         else:
             index = mohallas.index(i['mohalla'])
             mohallaDocs[index]['houses'].append(hid)
+            if i['village'] not in villages:
+                villages.append(i['village'])
+                doc = {
+                    "_id": vid,
+                    "btn": i['Bn'],
+                    "coy": i['coy'],
+                    "village": i['village'],
+                    "houses": [hid],
+                    "mohalla": [mid],
+                }
+                villageDocs.append(doc)
+            else:
+                index = villages.index(i['village'])
+                villageDocs[index]['houses'].append(hid)
+                villageDocs[index]['mohalla'].append(mid)
     else:
         index = houses.index(i['Hnum'])
         person = {
