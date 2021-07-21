@@ -1,4 +1,4 @@
-from pymongo import MongoClient
+from pymongo import MongoClient,errors
 from app.constants import DATABASE_NAME
 from datetime import datetime as dt
 from hashlib import sha256

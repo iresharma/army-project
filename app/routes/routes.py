@@ -75,7 +75,6 @@ def geo(userObject: dict):
 @cache.cached(key_prefix=cache_key)
 def coy(userObject: dict):
     try:
-        
         if request.args.get("type") != None and request.args.get("coyName") != None:
             result = db.getCoyByName(userObject["btn"], request.args.get("type"), request.args.get("coyName"))
             coyList = db.getCoyList(userObject["btn"], request.args.get("type"))
