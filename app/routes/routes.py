@@ -6,6 +6,10 @@ from json import dumps
 import app.helpers.decorators as decorators
 from app.helpers.caching import cache_key
 
+@app.after_request
+def apply_caching(response):
+    response.headers["Content-Type"] = "application/json"
+    return response
 
 @app.route('/auth', methods=['GET', 'POST'])
 def auth():
@@ -66,18 +70,83 @@ def geo(userObject: dict):
 # TODO : add count of everything in the json
 
 # Route to get data about specific company(coy)
-@app.route('/coy')
+@app.route('/coy', methods=['GET'])
 @decorators.jwtChecker
 @cache.cached(key_prefix=cache_key)
 def coy(userObject: dict):
     try:
+        
         if request.args.get("type") != None and request.args.get("coyName") != None:
             result = db.getCoyByName(userObject["btn"], request.args.get("type"), request.args.get("coyName"))
+            coyList = db.getCoyList(userObject["btn"], request.args.get("type"))
+            if len(result) == 0:
+                return Response(dumps({"error": "No collection found"}), status=400)
+            return Response(dumps({"data":{"coy":coyList, "documents": result}}), status=200)
         else:
-            result = db.getCoyList(userObject["btn"])
-
-        if len(result) == 0:
-            return Response(dumps({"error": "No collection found"}), status=400)
-        return Response(dumps({"data":result}), status=200)
-    except:
+            coyList = db.getCoyList(userObject["btn"])
+            return Response(dumps({"data":{"coy":coyList}}), status=200)
+    except Exception as e:
+        print(e)
         return Response(dumps({"error": "Something went wrong"}), status=500)
+
+
+
+# Route for village
+@app.route('/village', methods=['GET'])
+@decorators.jwtChecker
+# @cache.cached(key_prefix=cache_key)
+def village(userObject: dict):
+    try:
+        result = db.getVillageList(userObject["btn"], request.args.get("coyName"))
+        if len(result) == 0:
+            return Response(dumps({"error": "Village not found"}), status=400)
+        return Response(dumps({"data":result}), status=200)
+    except Exception as e:
+        print(e)
+        return Response(dumps({"error": "Something went wrong"}), status=500)
+
+
+# Route for mohalla
+@app.route('/mohalla', methods=['GET'])
+@decorators.jwtChecker
+@cache.cached(key_prefix=cache_key)
+def mohalla(userObject: dict):
+    try:
+        result = db.getMohallaList(userObject["btn"], request.args.get("villageName"))
+        if len(result) == 0:
+            return Response(dumps({"error": "Mohalla not found"}), status=400)
+        return Response(dumps({"data":result}), status=200)
+    except Exception as e:
+        print(e)
+        return Response(dumps({"error": "Something went wrong"}), status=500)
+
+
+# Route for house
+@app.route('/house', methods=['GET'])
+@decorators.jwtChecker
+@cache.cached(key_prefix=cache_key)
+def house(userObject: dict):
+    try:
+        result = db.getHouseList(userObject["btn"], request.args.get("mohallaName"))
+        if len(result) == 0:
+            return Response(dumps({"error": "House not found"}), status=400)
+        return Response(dumps({"data":result}), status=200)
+    except Exception as e:
+        print(e)
+        return Response(dumps({"error": "Something went wrong"}), status=500)
+
+# Route to get data about specific company(coy)
+@app.route('/house/<id>', methods=["PUT"])
+@decorators.jwtChecker
+@cache.cached(key_prefix=cache_key)
+def updateHouse(userObject: dict, id: str):
+    if request.method == "POST":
+        try:
+            result = db.updateHouse(id, request.json)
+            return Response(dumps({"data":result}), status=200)
+        except:
+            return Response(dumps({"error": "Something went wrong"}), status=500)
+
+
+
+        

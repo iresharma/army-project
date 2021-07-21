@@ -1,7 +1,8 @@
-from pymongo import MongoClient,errors
+from pymongo import MongoClient
 from app.constants import DATABASE_NAME
 from datetime import datetime as dt
 from hashlib import sha256
+from bson.objectid import ObjectId
 
 client = MongoClient()
 db = client[DATABASE_NAME]
@@ -76,15 +77,23 @@ def listHouse(coy: str, btn: str) -> list:
 # addUser('iresharma', '123', '78 BN')
 
 
-# COY aggregate functions
-def getCoyList(btn: str) -> list:
+# COY database functions
+def getCoyList(btn: str, coyName: str=None) -> list:
+    filter = {"btn": btn}
+    if coyName != None:
+        filter["coy"] = coyName
     try:
         result = db.villages.aggregate([
-            {"$match": {"btn": btn}},{
-                "$group": {"_id": "$coy",
-                "villagesCount": {"$sum": 1},
-                "mohallasCount": {"$sum": {"$size": "$mohalla"}},
-                "housesCount": {"$sum": {"$size": "$houses"}}}},
+            {
+                "$match": filter
+            },
+            {
+                    "$group": {"_id": "$coy",
+                        "villagesCount": {"$sum": 1},
+                        "mohallasCount": {"$sum": {"$size": "$mohalla"}},
+                        "housesCount": {"$sum": {"$size": "$houses"}}
+                    }
+                },
         ])
         return list(result)
     except Exception as e:
@@ -98,4 +107,52 @@ def getCoyByName(btn: str, queryType: str, coyName: str) -> list :
     except Exception as e:
         print(e)
         raise e
-    
+
+# Houses database functions
+def updateHouse(id: str, updateQuery: object) -> dict:
+    try:
+        result = db.houses.update_one({"_id": ObjectId(id)},
+            {"$set": updateQuery})
+        return result
+    except Exception as e:
+        print(e)
+        raise e
+
+
+
+def getVillageList(btn: str, coy: str=None) -> list:
+    filter = {"btn": btn}
+    if coy != None:
+        filter["coy"] = coy
+    try:
+        result = db.villages.aggregate([{"$match":filter},{"$group": {"_id": "$village", "coy": {"$addToSet": "$coy"}, "houseCount": {"$sum": {"$size": "$houses"}}, "mohallaCount": {"$sum": {"$size":"$mohalla"}}}},{"$unwind": "$coy"}])
+    except Exception as e:
+        print(e)
+        return e
+
+    return list(result)
+
+
+def getMohallaList(btn: str, village: str=None) -> list:
+    filter = {"btn": btn}
+    if village != None:
+        filter["village"] = village
+    try:
+        result = db.mohallas.aggregate([{"$match":filter},{"$group": {"_id": "$mohalla", "village":{"$addToSet": "$village"}, "houseCount": {"$sum": {"$size": "$houses"}}}}, {"$unwind": "$village"}])
+    except Exception as e:
+        print(e)
+        return e
+
+    return list(result)
+
+def getHouseList(btn: str, mohalla: str=None) -> list:
+    filter = {"btn": btn}
+    if mohalla != None:
+        filter["mohalla"] = mohalla
+    try:
+        result = db.houses.aggregate([{"$lookup": {"from":"people", "localField": "husband", "foreignField": "_id", "as":"husbandDocument"}}, {"$unwind": "$husbandDocument"},{"$project": {"husband":0}}])
+    except Exception as e:
+        print(e)
+        return e
+
+    return list(result)

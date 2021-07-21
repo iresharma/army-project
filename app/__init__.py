@@ -4,6 +4,12 @@ from flask_cors import CORS
 from flask_caching import Cache
 from app.constants import CACHE_DEFAULT_TIMEOUT
 
+try:
+    redisURL = environ['REDIS_URL']
+except Exception as e:
+    redisURL = 'redis://localhost:6379/0'
+
+
 config = {
     "CACHE_TYPE": "RedisCache",  # Flask-Caching related configs
     "CACHE_DEFAULT_TIMEOUT": CACHE_DEFAULT_TIMEOUT,
@@ -11,7 +17,8 @@ config = {
     # ! Uncomment the below line to minimize caching to 5secs
     # !================================================================
     # "CACHE_DEFAULT_TIMEOUT": 5,
-    "CACHE_REDIS_HOST": "127.0.0.1", # Redis host running on local
+    # "CACHE_REDIS_HOST": "127.0.0.1", # Redis host running on local
+    "CACHE_REDIS_URL": redisURL
 }
 
 try:
