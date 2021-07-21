@@ -11,6 +11,15 @@ def apply_caching(response):
     response.headers["Content-Type"] = "application/json"
     return response
 
+@app.route("/")
+def index():
+    return Response(dumps({"message": "Hello, World!"}), mimetype="application/json", status=200)
+
+@app.route("/createUser")
+def create_user():
+    x = db.addUser("test", "test", "78 BN")
+    return Response(dumps({"user": x}), mimetype="application/json", status=200)
+
 @app.route('/auth', methods=['GET', 'POST'])
 def auth():
     if request.method == 'GET':
