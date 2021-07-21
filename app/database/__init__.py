@@ -1,25 +1,26 @@
 from pymongo import MongoClient,errors
-from app.constants import DATABASE_NAME
+from app.constants import DATABASE_NAME, MONGO_URI
 from datetime import datetime as dt
 from hashlib import sha256
 from bson.objectid import ObjectId
 
-client = MongoClient()
+client = MongoClient(MONGO_URI)
 db = client[DATABASE_NAME]
 
 # iresharma, 123
 
-# def addUser(username: str, password: str, btn: str) -> dict:
-#     passW = sha256(password.encode()).hexdigest()
-#     user = {
-#         'username': username,
-#         'password': passW,
-#         'btn': btn,
-#         'createdAt': dt.now().timestamp(),
-#     }
+def addUser(username: str, password: str, btn: str) -> dict:
+    passW = sha256(password.encode()).hexdigest()
+    user = {
+        'username': username,
+        'password': passW,
+        'btn': btn,
+        'createdAt': dt.now().timestamp(),
+    }
 
-#     userId = db['users'].insert_one(user)
-#     return user
+    userId = db['users'].insert_one(user)
+    user["_id"] = str(userId.inserted_id)
+    return user
 
 
 def loginUser(username: str, password: str) -> dict:
@@ -73,8 +74,6 @@ def listMohalla(coy: str, btn: str) -> list:
 def listHouse(coy: str, btn: str) -> list:
     result = db.houses.find({"btn": btn, "coy": coy})
     return list(result)
-
-# addUser('iresharma', '123', '78 BN')
 
 
 # COY database functions
