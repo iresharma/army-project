@@ -1,3 +1,4 @@
+from os import error
 from pymongo import MongoClient,errors
 from app.constants import DATABASE_NAME, MONGO_URI
 from datetime import datetime as dt
@@ -20,12 +21,17 @@ def addUser(username: str, password: str, btn: str) -> dict:
 
     userId = db['users'].insert_one(user)
     user["_id"] = str(userId.inserted_id)
+    user.pop("password")
     return user
 
 
 def loginUser(username: str, password: str) -> dict:
     user = db.users.find_one({"username": username})
+    print(user)
+    if user == None:
+        raise ValueError
     passW = sha256(password.encode()).hexdigest()
+    print(passW)
     if passW == user['password']:
         del user['password']
         user["_id"] = str(user["_id"])
@@ -155,3 +161,16 @@ def getHouseList(btn: str, mohalla: str=None) -> list:
         return e
 
     return list(result)
+
+
+def markPersonAsSuspect(id: str, suspectObject: object) -> dict:
+    try:
+        result = db.people.update_one({"_id": id},
+            {"$set": {"suspect":{
+                    "status": suspectObject['status'],
+                    "data": suspectObject['data'] if suspectObject['status'] else None
+                 }}})
+        return result
+    except Exception as e:
+        print(e)
+        raise e
