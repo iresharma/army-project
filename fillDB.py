@@ -61,6 +61,8 @@ for i in data:
             "mohalla": i["mohalla"],
             "property": i['property'],
             "floor": i['floor'],
+            "nRooms": i['nRooms'],
+            "GR": i["GR"],
             "colour": i["colour"],
             "perimeterfence": True if i["perimeterfence"] == 'Y' or i["perimeterfence"] == 'y' else False,
             "cowshed": True if i["cowshed"] == 'Y' or i["cowshed"] == 'y' else False,

@@ -1,4 +1,4 @@
-from pymongo import MongoClient,errors
+from pymongo import MongoClient, errors
 from app.constants import DATABASE_NAME, MONGO_URI
 from datetime import datetime as dt
 from hashlib import sha256
@@ -8,6 +8,7 @@ client = MongoClient(MONGO_URI)
 db = client[DATABASE_NAME]
 
 # iresharma, 123
+
 
 def addUser(username: str, password: str, btn: str) -> dict:
     passW = sha256(password.encode()).hexdigest()
@@ -77,7 +78,7 @@ def listHouse(coy: str, btn: str) -> list:
 
 
 # COY database functions
-def getCoyList(btn: str, coyName: str=None) -> list:
+def getCoyList(btn: str, coyName: str = None) -> list:
     filter = {"btn": btn}
     if coyName != None:
         filter["coy"] = coyName
@@ -87,19 +88,20 @@ def getCoyList(btn: str, coyName: str=None) -> list:
                 "$match": filter
             },
             {
-                    "$group": {"_id": "$coy",
-                        "villagesCount": {"$sum": 1},
-                        "mohallasCount": {"$sum": {"$size": "$mohalla"}},
-                        "housesCount": {"$sum": {"$size": "$houses"}}
-                    }
-                },
+                "$group": {"_id": "$coy",
+                           "villagesCount": {"$sum": 1},
+                           "mohallasCount": {"$sum": {"$size": "$mohalla"}},
+                           "housesCount": {"$sum": {"$size": "$houses"}}
+                           }
+            },
         ])
         return list(result)
     except Exception as e:
         print(e)
         raise e
 
-def getCoyByName(btn: str, queryType: str, coyName: str) -> list :
+
+def getCoyByName(btn: str, queryType: str, coyName: str) -> list:
     try:
         result = db[queryType].find({"coy": coyName, "btn": btn})
         return list(result)
@@ -108,23 +110,25 @@ def getCoyByName(btn: str, queryType: str, coyName: str) -> list :
         raise e
 
 # Houses database functions
+
+
 def updateHouse(id: str, updateQuery: object) -> dict:
     try:
         result = db.houses.update_one({"_id": ObjectId(id)},
-            {"$set": updateQuery})
+                                      {"$set": updateQuery})
         return result
     except Exception as e:
         print(e)
         raise e
 
 
-
-def getVillageList(btn: str, coy: str=None) -> list:
+def getVillageList(btn: str, coy: str = None) -> list:
     filter = {"btn": btn}
     if coy != None:
         filter["coy"] = coy
     try:
-        result = db.villages.aggregate([{"$match":filter},{"$group": {"_id": "$village", "coy": {"$addToSet": "$coy"}, "houseCount": {"$sum": {"$size": "$houses"}}, "mohallaCount": {"$sum": {"$size":"$mohalla"}}}},{"$unwind": "$coy"}])
+        result = db.villages.aggregate([{"$match": filter}, {"$group": {"_id": "$village", "coy": {"$addToSet": "$coy"}, "houseCount": {
+                                       "$sum": {"$size": "$houses"}}, "mohallaCount": {"$sum": {"$size": "$mohalla"}}}}, {"$unwind": "$coy"}])
     except Exception as e:
         print(e)
         return e
@@ -132,26 +136,59 @@ def getVillageList(btn: str, coy: str=None) -> list:
     return list(result)
 
 
-def getMohallaList(btn: str, village: str=None) -> list:
+def getMohallaList(btn: str, village: str = None) -> list:
     filter = {"btn": btn}
     if village != None:
         filter["village"] = village
     try:
-        result = db.mohallas.aggregate([{"$match":filter},{"$group": {"_id": "$mohalla", "village":{"$addToSet": "$village"}, "houseCount": {"$sum": {"$size": "$houses"}}}}, {"$unwind": "$village"}])
+        result = db.mohallas.aggregate([{"$match": filter}, {"$group": {"_id": "$mohalla", "village": {
+                                       "$addToSet": "$village"}, "houseCount": {"$sum": {"$size": "$houses"}}}}, {"$unwind": "$village"}])
     except Exception as e:
         print(e)
         return e
 
     return list(result)
 
-def getHouseList(btn: str, mohalla: str=None) -> list:
+
+def getHouseList(btn: str, mohalla: str = None) -> list:
     filter = {"btn": btn}
     if mohalla != None:
         filter["mohalla"] = mohalla
     try:
-        result = db.houses.aggregate([{"$lookup": {"from":"people", "localField": "husband", "foreignField": "_id", "as":"husbandDocument"}}, {"$unwind": "$husbandDocument"},{"$project": {"husband":0}}])
+        result = db.houses.aggregate([{"$lookup": {"from": "people", "localField": "husband", "foreignField": "_id", "as": "husbandDocument"}}, {
+                                     "$unwind": "$husbandDocument"}, {"$project": {"husband": 0}}])
     except Exception as e:
         print(e)
         return e
 
     return list(result)
+
+
+def exportDataAsCSV(btn: str) -> dict:
+    try:
+        result = db.houses.find({"btn": btn})
+        houses = list(result)
+        data = ["".join(['Bn', 'COY', 'Village', 'Mohalla', 'House No', 'Name', 'Relation', 'Sex', 'Age', 'Occupation', 'Mob No',
+                'GR', 'Property', 'Floor', 'Colour', 'No of Rooms', 'Perimeter Fence', 'Cowshed', 'Entry points', 'LAT/LONG'])]
+        for i in houses:
+            if i['father']:
+                father = db.people.find_one({"_id": i['father']})
+                data.append(f"{i['btn']},{i['coy']},{i['village']},{i['mohalla']},{i['house']},{father['name']},father,{father['sex']},{father['age']},{father['occupation']},{father['tel']},{i['GR']},{i['property']},{i['floor']},{i['colour']},{i['nRooms']},{i['perimeterfence']},{i['cowshed']},{i['entryPoints']},{i['geo']['lat']}/{i['geo']['long']}")
+            elif i['husband']:
+                husband = db.people.find_one({"_id": i['husband']})
+                data.append(f"{i['btn']},{i['coy']},{i['village']},{i['mohalla']},{i['house']},{husband['name']},husband,{husband['sex']},{husband['age']},{husband['occupation']},{husband['tel']},{i['GR']},{i['property']},{i['floor']},{i['colour']},{i['nRooms']},{i['perimeterfence']},{i['cowshed']},{i['entryPoints']},{i['geo']['lat']}/{i['geo']['long']}")
+            elif i['wife']:
+                wife = db.people.find_one({"_id": i['wife']})
+                data.append(f"{i['btn']},{i['coy']},{i['village']},{i['mohalla']},{i['house']},{wife['name']},wife,{wife['sex']},{wife['age']},{wife['occupation']},{wife['tel']},{i['GR']},{i['property']},{i['floor']},{i['colour']},{i['nRooms']},{i['perimeterfence']},{i['cowshed']},{i['entryPoints']},{i['geo']['lat']}/{i['geo']['long']}")
+            elif i['son']:
+                son = db.people.find_one({"_id": i['son']})
+                data.append(f"{i['btn']},{i['coy']},{i['village']},{i['mohalla']},{i['house']},{son['name']},son,{son['sex']},{son['age']},{son['occupation']},{son['tel']},{i['GR']},{i['property']},{i['floor']},{i['colour']},{i['nRooms']},{i['perimeterfence']},{i['cowshed']},{i['entryPoints']},{i['geo']['lat']}/{i['geo']['long']}")
+            elif i['daughter']:
+                daughter = db.people.find_one({"_id": i['daughter']})
+                data.append(f"{i['btn']},{i['coy']},{i['village']},{i['mohalla']},{i['house']},{daughter['name']},daughter,{daughter['sex']},{daughter['age']},{daughter['occupation']},{daughter['tel']},{i['GR']},{i['property']},{i['floor']},{i['colour']},{i['nRooms']},{i['perimeterfence']},{i['cowshed']},{i['entryPoints']},{i['geo']['lat']}/{i['geo']['long']}")
+        with open('export.csv', 'w') as csvFile:
+            csvFile.write('\n'.join(data))
+        return 'hi'
+    except Exception as e:
+        print(e)
+        raise e
