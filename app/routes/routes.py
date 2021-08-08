@@ -173,6 +173,8 @@ def updateHouse(userObject: dict, id: str):
             return Response(dumps({"error": "Something went wrong"}), status=500)
 
 
+
+          
 # Route to mark a person as suspect
 @app.route('/person/suspect/<id>', methods=["PUT"])
 @decorators.jwtChecker
@@ -184,4 +186,16 @@ def suspectPerson(userObject: dict, id: str):
             return Response(dumps({"status":"OK"}), status=200)
         except:
             return Response(dumps({"error": "Something went wrong"}), status=500)
-        
+
+          
+@app.route('/csv', methods=['GET'])
+@decorators.jwtChecker
+@cache.cached(key_prefix=cache_key)
+def csv(userObject: dict):
+    try:
+        result = db.exportDataAsCSV(userObject["btn"])
+        return Response(dumps({"data":result}), status=200)
+    except Exception as e:
+        print(e)
+        return Response(dumps({"error": "Something went wrong"}), status=500)
+    return Response(dumps({"data": "File exported"}), status=200)
