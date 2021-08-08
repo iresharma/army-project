@@ -1,3 +1,4 @@
+from werkzeug.datastructures import Headers
 from app import app, cache
 import app.database as db
 from flask import request, Response
@@ -20,15 +21,32 @@ def create_user():
     x = db.addUser("test", "test", "78 BN")
     return Response(dumps({"user": x}), mimetype="application/json", status=200)
 
-@app.route('/auth', methods=['GET', 'POST'])
+#route to create a user
+@app.route("/user", methods=['POST'])
+def user():
+    if request.method == 'POST':
+        if request.headers['Content-Type'] == 'application/json':
+            data = request.get_json()
+            username = data['username']
+            password = data['password']
+            btn = data['btn']
+            user = db.addUser(username, password, btn)
+            return Response(dumps({"user": user}), mimetype="application/json", status=200)
+        else:
+            return Response(dumps({"message": "Invalid Content-Type"}), mimetype="application/json", status=400)
+    else:
+        return Response(dumps({"message": "Invalid request"}), mimetype="application/json", status=400)
+
+@app.route('/token', methods=['GET', 'POST'])
 def auth():
     if request.method == 'GET':
-        if 'Auth' not in request.headers:
+        print(request.headers)
+        if 'Authorization' not in request.headers:
             return Response('Auth header missing', status=400)
 
-        token = request.headers.get('Auth')
+        token = request.headers.get('Authorization')
         try:
-            userObject = jwt.verifyToken(token)
+            userObject = jwt.verifyToken(token.split()[1])
         except KeyError:
             return Response('Invalid Signature', status=403)
         except PermissionError:
@@ -143,12 +161,11 @@ def house(userObject: dict):
         print(e)
         return Response(dumps({"error": "Something went wrong"}), status=500)
 
-# Route to get data about specific company(coy)
+# Route to update data of a house
 @app.route('/house/<id>', methods=["PUT"])
 @decorators.jwtChecker
-@cache.cached(key_prefix=cache_key)
 def updateHouse(userObject: dict, id: str):
-    if request.method == "POST":
+    if request.method == "PUT":
         try:
             result = db.updateHouse(id, request.json)
             return Response(dumps({"data":result}), status=200)
@@ -156,6 +173,21 @@ def updateHouse(userObject: dict, id: str):
             return Response(dumps({"error": "Something went wrong"}), status=500)
 
 
+
+          
+# Route to mark a person as suspect
+@app.route('/person/suspect/<id>', methods=["PUT"])
+@decorators.jwtChecker
+def suspectPerson(userObject: dict, id: str):
+    if request.method == "PUT":
+        try:
+            print(request.json)
+            db.markPersonAsSuspect(id, request.json)
+            return Response(dumps({"status":"OK"}), status=200)
+        except:
+            return Response(dumps({"error": "Something went wrong"}), status=500)
+
+          
 @app.route('/csv', methods=['GET'])
 @decorators.jwtChecker
 @cache.cached(key_prefix=cache_key)
@@ -167,4 +199,3 @@ def csv(userObject: dict):
         print(e)
         return Response(dumps({"error": "Something went wrong"}), status=500)
     return Response(dumps({"data": "File exported"}), status=200)
-        
