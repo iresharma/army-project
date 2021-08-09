@@ -1,23 +1,20 @@
 from pymongo import MongoClient
 
-db = MongoClient().armyProj.villages
+db = MongoClient().armyProj
 
-result = db.find({})
+result = db.villages.find_one({
+    "village": "Devgarh"
+})
 
-houses = []
-for r in result:
-    houses += r['houses']
+noneCount, actualCount = 0, 0
 
-print('villages', len(houses))
+for i in result['mohalla']:
+    res = db.mohallas.find_one({"_id": i})
+    if res == None:
+        noneCount += 1
+    else:
+        print(res['mohalla'])
+        actualCount += 1
 
-db = MongoClient().armyProj.houses
-data = db.find({}, {'_id': 1})
-
-hids = list(map(lambda x: x['_id'], data))
-
-print('houses', len(hids))
-
-# find the difference in two list
-diff = list(set(hids) - set(houses))
-
-print(diff)
+# print counts
+print("None: " + str(noneCount) + " Actual: " + str(actualCount))

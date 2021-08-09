@@ -85,6 +85,7 @@ for i in data:
             "sex": i['sex'],
             "occupation": i['occupation'],
             "tel": i['tel'],
+            "hid": hid,
         })
         doc[i['relation'].lower()] = pid
         houseDocs.append(doc)
@@ -129,13 +130,15 @@ for i in data:
                     "coy": i['coy'],
                     "village": i['village'],
                     "houses": [hid],
-                    "mohalla": [mid],
+                    "mohalla": [mohallaDocs[index]['_id']],
                 }
                 villageDocs.append(doc)
             else:
                 index = villages.index(i['village'])
                 villageDocs[index]['houses'].append(hid)
-                villageDocs[index]['mohalla'].append(mid)
+                if mohallaDocs[index]['village'] == villageDocs[index]['village']:
+                    villageDocs[index]['mohalla'].append(mohallaDocs[index]['_id'])
+                    villageDocs[index]['mohalla'] = list(set(villageDocs[index]['mohalla']))
     else:
         index = houses.index(i['Hnum'])
         person = {
@@ -145,6 +148,7 @@ for i in data:
             "sex": i['sex'],
             "occupation": i['occupation'],
             "tel": i['tel'],
+            "hid": houseDocs[index]["_id"]
         }
         people.append(person)
         houseDocs[index][i['relation'].lower()] = pid
