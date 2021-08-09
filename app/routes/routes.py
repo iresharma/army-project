@@ -6,6 +6,7 @@ import app.helpers.jwt as jwt
 from json import dumps
 import app.helpers.decorators as decorators
 from app.helpers.caching import cache_key
+from pymongo.errors import OperationFailure
 
 @app.after_request
 def apply_caching(response):
@@ -176,17 +177,19 @@ def updateHouse(userObject: dict, id: str):
 
 
 # Route to search person
-@app.route('/person', methods=['GET'])
+@app.route('/person', methods=['POST'])
 @decorators.jwtChecker
 def person(userObject: dict):
-    try:
-        result = db.getPerson(request.args)
-        if len(result) == 0:
-            return Response(dumps({"error": "Person not found"}), status=400)
-        return Response(dumps({"data":result}), status=200)
-    except Exception as e:
-        print(e)
-        return Response(dumps({"error": "Something went wrong"}), status=500)
+    if request.method == "POST":
+        try:
+            result = db.getPerson(request.json)
+            if len(result) == 0:
+                return Response(dumps({"error": "Person not found"}), status=400)
+            return Response(dumps({"data":result}), status=200)
+        except OperationFailure:
+            return Response(dumps({"error": "Search filter should be a string"}), status=400)
+        except:
+            return Response(dumps({"error": "Something went wrong"}), status=500)
           
 # Route to mark a person as suspect
 @app.route('/person/suspect/<id>', methods=["PUT"])
