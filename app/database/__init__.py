@@ -215,11 +215,11 @@ def exportDataAsCSV(btn: str) -> dict:
 
        
 
-def getPerson(request: object) -> dict:
+def getPerson(request: dict) -> dict:
     filter = {}
-    filter["name"] = {"$regex": request["name"], "$options": "i"} if request["name"] != None else None
-    filter["occupation"] = {"$regex": request["occupation"], "$options": "i"} if request["occupation"] != None else None
-    filter["tel"] = {"$regex": request["tel"], "$options": "i"} if request["tel"] != None else None
+    filter["name"] = {"$regex": request["name"], "$options": "i"} if "name" in request.keys() else None
+    filter["occupation"] = {"$regex": request["occupation"], "$options": "i"} if "occupation" in request.keys() else None
+    filter["tel"] = {"$regex": request["tel"], "$options": "i"} if "tel" in request.keys() else None
     try:
         result = db.people.find(filter)
         return list(result)
