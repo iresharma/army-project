@@ -214,14 +214,6 @@ def exportDataAsCSV(btn: str) -> dict:
         print(e)
         raise e
 
-def getHouse(data: dict) -> dict:
-    try:
-        result = db.houses.find_one({"_id": data['hid']})
-        data['house'] = result
-        return data
-    except Exception as e:
-        print(e)
-        raise e
 
 def getPerson(request: dict) -> dict:
     filter = {}
@@ -229,8 +221,8 @@ def getPerson(request: dict) -> dict:
     filter["occupation"] = {"$regex": request["occupation"], "$options": "i"} if "occupation" in request.keys() else None
     filter["tel"] = {"$regex": request["tel"], "$options": "i"} if "tel" in request.keys() else None
     try:
-        result = db.people.find(filter)
-        return list(map(getHouse, result))
+        result = db.people.aggregate([{"$lookup": {"from": "houses", "localField": "hid", "foreignField": "_id", "as": "house"}},{"$match":filter},{"$unwind": "$house"}, {"$project": {"hid": 0}}])
+        return result
     except Exception as e:
         print(e)
         raise e
