@@ -105,7 +105,7 @@ def coy(userObject: dict):
     try:
         if request.args.get("type") != None and request.args.get("coyName") != None:
             result = db.getCoyByName(userObject["btn"], request.args.get("type"), request.args.get("coyName"))
-            coyList = db.getCoyList(userObject["btn"], request.args.get("type"))
+            coyList = db.getCoyList(userObject["btn"], request.args.get("type"))        
             if len(result) == 0:
                 return Response(dumps({"error": "No collection found"}), status=400)
             return Response(dumps({"data":{"coy":coyList, "documents": result}}), status=200)
@@ -180,15 +180,17 @@ def updateHouse(userObject: dict, id: str):
 @app.route('/person', methods=['POST'])
 @decorators.jwtChecker
 def person(userObject: dict):
+    print(request.json)
     if request.method == "POST":
         try:
             result = db.getPerson(request.json)
-            if len(result) == 0:
-                return Response(dumps({"error": "Person not found"}), status=400)
             return Response(dumps({"data":result}), status=200)
         except OperationFailure:
             return Response(dumps({"error": "Search filter should be a string"}), status=400)
-        except:
+        except KeyError as e:
+            return Response(dumps({"error": "field missing "+str(e)}), status=400)
+        except Exception as e:
+            print(e)
             return Response(dumps({"error": "Something went wrong"}), status=500)
           
 # Route to mark a person as suspect
