@@ -222,7 +222,7 @@ def getPerson(request: dict) -> dict:
     filter["tel"] = {"$regex": request["tel"], "$options": "i"} if "tel" in request.keys() else None
     try:
         result = db.people.aggregate([{"$lookup": {"from": "houses", "localField": "hid", "foreignField": "_id", "as": "house"}},{"$match":filter},{"$unwind": "$house"}, {"$project": {"hid": 0}}])
-        return result
+        return list(result)
     except Exception as e:
         print(e)
         raise e
