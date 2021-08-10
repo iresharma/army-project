@@ -1,6 +1,8 @@
 from pymongo import MongoClient
 from uuid import uuid4
 from json import dumps
+from certifi import where
+from app.constants import DATABASE_NAME, MONGO_URI
 data = []
 
 with open('DATABASE.csv', 'r') as fileData:
@@ -137,8 +139,10 @@ for i in data:
                 index = villages.index(i['village'])
                 villageDocs[index]['houses'].append(hid)
                 if mohallaDocs[index]['village'] == villageDocs[index]['village']:
-                    villageDocs[index]['mohalla'].append(mohallaDocs[index]['_id'])
-                    villageDocs[index]['mohalla'] = list(set(villageDocs[index]['mohalla']))
+                    villageDocs[index]['mohalla'].append(
+                        mohallaDocs[index]['_id'])
+                    villageDocs[index]['mohalla'] = list(
+                        set(villageDocs[index]['mohalla']))
     else:
         index = houses.index(i['Hnum'])
         person = {
@@ -165,7 +169,14 @@ print("printing first elements to check db struct")
 # print(f"mohallas - {dumps(mohallaDocs[0], indent=4)}")
 # print(f"villages - {dumps(villageDocs[0], indent=4)}")
 
-db = MongoClient().armyProj
+db = MongoClient(
+    MONGO_URI, tlsCAFile=where())[DATABASE_NAME]
+# dropping current database
+db.people.drop()
+db.villages.drop()
+db.houses.drop()
+db.mohallas.drop()
+
 
 result = db.people.insert_many(people)
 print(len(result.inserted_ids))

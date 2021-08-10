@@ -4,8 +4,9 @@ from app.constants import DATABASE_NAME, MONGO_URI
 from datetime import datetime as dt
 from hashlib import sha256
 from bson.objectid import ObjectId
+from certifi import where
 
-client = MongoClient(MONGO_URI)
+client = MongoClient(MONGO_URI, tlsCAFile=where())
 db = client[DATABASE_NAME]
 
 # iresharma, 123
@@ -213,7 +214,6 @@ def exportDataAsCSV(btn: str) -> dict:
         print(e)
         raise e
 
-       
 
 def getPerson(request: dict) -> dict:
     filter = {}

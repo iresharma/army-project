@@ -3,3 +3,5 @@ __pycache__
 .vscode
 dump.rdb
 export.csv
+__init__.pyc
+*/__init__.pyc
