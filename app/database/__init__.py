@@ -6,7 +6,7 @@ from hashlib import sha256
 from bson.objectid import ObjectId
 from certifi import where
 
-client = MongoClient(MONGO_URI, tlsCAFile=where())
+client = MongoClient(MONGO_URI)
 db = client[DATABASE_NAME]
 
 # iresharma, 123
@@ -162,7 +162,7 @@ def getHouseList(btn: str, mohalla: str = None) -> list:
     if mohalla != None:
         filter["mohalla"] = mohalla
     try:
-        result = db.houses.aggregate([{"$lookup": {"from": "people", "localField": "husband", "foreignField": "_id", "as": "husbandDocument"}}, {
+        result = db.houses.aggregate([{"$match":filter}, {"$lookup": {"from": "people", "localField": "husband", "foreignField": "_id", "as": "husbandDocument"}}, {
                                      "$unwind": "$husbandDocument"}, {"$project": {"husband": 0}}])
     except Exception as e:
         print(e)
