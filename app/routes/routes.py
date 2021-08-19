@@ -177,10 +177,9 @@ def updateHouse(userObject: dict, id: str):
 
 
 # Route to search person
-@app.route('/person', methods=['POST'])
+@app.route('/person', methods=['POST', 'GET'])
 @decorators.jwtChecker
 def person(userObject: dict):
-    print(request.json)
     if request.method == "POST":
         try:
             result = db.getPerson(request.json)
@@ -192,6 +191,13 @@ def person(userObject: dict):
         except Exception as e:
             print(e)
             return Response(dumps({"error": "Something went wrong"}), status=500)
+    if request.method == "GET":
+        try:
+            result = db.getPersonCount(request.args)
+            return Response(dumps({"data":result}), status=200)
+        except Exception as e:
+            print(e)
+            return Response(dumps({"error": "Something went wrong"}), status=500)
           
 # Route to mark a person as suspect
 @app.route('/person/suspect/<id>', methods=["PUT"])
@@ -200,8 +206,11 @@ def suspectPerson(userObject: dict, id: str):
     if request.method == "PUT":
         try:
             print(request.json)
-            db.markPersonAsSuspect(id, request.json)
-            return Response(dumps({"status":"OK"}), status=200)
+            result = db.markPersonAsSuspect(id, request.json)
+            if result.matched_count > 0:
+                return Response(dumps({"status":"OK"}), status=200)
+            else: 
+                return Response(dumps({"error":"Bad Request"}), status=400)
         except:
             return Response(dumps({"error": "Something went wrong"}), status=500)
 
