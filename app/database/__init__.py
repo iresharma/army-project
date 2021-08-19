@@ -217,11 +217,25 @@ def exportDataAsCSV(btn: str) -> dict:
 
 def getPerson(request: dict) -> dict:
     filter = {}
-    filter["name"] = {"$regex": request["name"], "$options": "i"} if "name" in request.keys() else None
-    filter["occupation"] = {"$regex": request["occupation"], "$options": "i"} if "occupation" in request.keys() else None
-    filter["tel"] = {"$regex": request["tel"], "$options": "i"} if "tel" in request.keys() else None
+    if "name" in request.keys():
+        filter["name"] = {"$regex": request["name"], "$options": "i"}
+    if "occupation" in request.keys():
+        filter["occupation"] = {"$regex": request["occupation"], "$options": "i"}
+    if "tel" in request.keys():
+        filter["tel"] = {"$regex": request["tel"], "$options": "i"}
+    if "btn" in request.keys():
+        filter["house.btn"] = {"$regex": request["btn"], "$options": "i"}
+    if "village" in request.keys():
+        filter["house.village"] = {"$regex": request["village"], "$options": "i"}
+    if "mohalla" in request.keys():
+        filter["house.mohalla"] = {"$regex": request["mohalla"], "$options": "i"}
+    if "houseNo" in request.keys():
+        filter["house.house"] = {"$regex": request["houseNo"], "$options": "i"}
+    if "floor" in request.keys():
+        filter["house.floor"] = {"$regex": request["floor"], "$options": "i"}
     try:
-        result = db.people.aggregate([{"$lookup": {"from": "houses", "localField": "hid", "foreignField": "_id", "as": "house"}},{"$match":filter},{"$unwind": "$house"}, {"$project": {"hid": 0}}])
+        print(filter)
+        result = db.people.aggregate([{"$lookup": {"from": "houses", "localField": "hid", "foreignField": "_id", "as": "house"}},{"$unwind": "$house"}, {"$match": filter}])
         return list(result)
     except Exception as e:
         print(e)
