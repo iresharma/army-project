@@ -227,6 +227,33 @@ def getPerson(request: dict) -> dict:
         print(e)
         raise e
 
+def getPersonCount(request: dict) -> dict:
+    pipeline = [{"$lookup": {"from": "houses", "localField": "hid", "foreignField": "_id", "as": "house"}},{"$unwind": "$house"}]
+    try:
+        if "occupation" in request.keys():
+            pipeline.append({"$group": {"_id": "$occupation", "count": {"$sum": 1}}})
+        elif "suspect" in request.keys():
+            pipeline.insert(0, {"$match": {"suspect.status": True}})
+            filter = {}
+            if 'village' in request.keys():
+                filter['house.village'] = request['village']
+            if 'mohalla' in request.keys():
+                filter['house.mohalla'] = request['mohalla']
+            if filter != {}:
+                pipeline.append({"$match": filter})
+            pipeline.append({"$count": "count"})
+        else:
+            raise Exception("BadRequest")
+    except Exception as e:
+        raise e
+    try:
+        print(pipeline)
+        result = db.people.aggregate(pipeline)
+        result = list(result)
+        return result[0] if len(result) ==1 else result
+    except Exception as e:
+        raise e
+
 def insertPerson(request: dict) -> dict:
     newPerson = {}
     try:
