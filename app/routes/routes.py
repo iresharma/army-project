@@ -149,18 +149,32 @@ def mohalla(userObject: dict):
 
 
 # Route for house
-@app.route('/house', methods=['GET'])
+@app.route('/house', methods=['GET', 'POST'])
 @decorators.jwtChecker
 @cache.cached(key_prefix=cache_key)
 def house(userObject: dict):
-    try:
-        result = db.getHouseList(userObject["btn"], request.args.get("mohallaName"))
-        if len(result) == 0:
-            return Response(dumps({"error": "House not found"}), status=400)
-        return Response(dumps({"data":result}), status=200)
-    except Exception as e:
-        print(e)
-        return Response(dumps({"error": "Something went wrong"}), status=500)
+    if request.method == 'GET':
+        try:
+            result = db.getHouseList(userObject["btn"], request.args.get("mohallaName"))
+            if len(result) == 0:
+                return Response(dumps({"error": "House not found"}), status=400)
+            return Response(dumps({"data":result}), status=200)
+        except Exception as e:
+            print(e)
+            return Response(dumps({"error": "Something went wrong"}), status=500)
+    if request.method == 'POST':
+        try:
+            result = db.insertHouse(request.json)
+            return Response(dumps({"data":result}), status=200)
+        
+        except TypeError as e:
+            print(e)
+            return Response(dumps({"error": "Bad request"}), status=400)
+        except Exception as e:
+            print(e)
+            return Response(dumps({"error": "Something went wrong"}), status=500)
+    else:
+        return Response(dumps({"error": "Invalid request"}), status=400)
 
 # Route to update data of a house
 @app.route('/house/<id>', methods=["PUT"])
@@ -225,4 +239,3 @@ def csv(userObject: dict):
     except Exception as e:
         print(e)
         return Response(dumps({"error": "Something went wrong"}), status=500)
-    return Response(dumps({"data": "File exported"}), status=200)

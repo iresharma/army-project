@@ -253,3 +253,62 @@ def getPersonCount(request: dict) -> dict:
         return result[0] if len(result) ==1 else result
     except Exception as e:
         raise e
+
+def insertPerson(request: dict) -> dict:
+    newPerson = {}
+    try:
+        newPerson["name"] = request["name"]
+        newPerson["age"] = request["age"]
+        newPerson["sex"] = request["sex"]
+        newPerson["occupation"] = request["occupation"]
+        newPerson["tel"] = request["tel"]
+        newPerson["hid"] = request["hid"] if "hid" in request.keys() else None
+    except Exception as e:
+        raise e
+    try:
+        result = db.people.insert_one(newPerson)
+        return result
+    except Exception as e:
+        raise e
+
+def insertHouse(request: dict) -> dict:
+    newHouse = {}
+    try:
+        newHouse["house"] = request["house"]
+        newHouse["btn"] = request["btn"]
+        newHouse["coy"] = request["coy"]
+        newHouse["village"] = request["village"]
+        newHouse["mohalla"] = request["mohalla"]
+        newHouse["property"] = request["property"]
+        newHouse["floor"] = request["floor"]
+        newHouse["nRooms"] = request["nRooms"]
+        newHouse["GR"] = request["GR"]
+        newHouse["colour"] = request["colour"]
+        newHouse["perimeterfence"] = request["perimeterfence"]
+        newHouse["cowshed"] = request["cowshed"]
+        newHouse["entryPoints"] = request["entryPoints"]
+        newHouse["geo"] = request["geo"]
+    except Exception as e:
+        raise e
+    try:
+        if request['relatives'] == None:
+            raise TypeError('relatives not found')
+        for relative, data in request['relatives'].items():
+            if data != None:
+                newPersonId = insertPerson(data)
+                newHouse[relative] = str(newPersonId.inserted_id)
+            else:
+                newHouse[relative] = None
+    except Exception as e:
+        raise e
+    try:
+        result = db.houses.insert_one(newHouse)
+    except Exception as e:
+        raise e
+    try:
+        for relative, data in request['relatives'].items():
+            if data != None:
+                db.people.update_one({"_id": ObjectId(newHouse[relative])}, {"$set": {"hid": str(result.inserted_id)}})
+    except Exception as e:
+        raise e
+    return str(result.inserted_id)
