@@ -215,7 +215,11 @@ def suspectPerson(userObject: dict, id: str):
             print(request.json)
             db.markPersonAsSuspect(id, request.json)
             return Response(dumps({"status":"OK"}), status=200)
-        except:
+        except KeyError as e:
+            print(e)
+            return Response(dumps({"error": "field missing "+str(e)}), status=400)
+        except Exception as e:
+            print(e)
             return Response(dumps({"error": "Something went wrong"}), status=500)
 
           

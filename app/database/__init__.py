@@ -173,12 +173,17 @@ def getHouseList(btn: str, mohalla: str = None) -> list:
 
 
 def markPersonAsSuspect(id: str, suspectObject: object) -> dict:
+    if "status" not in suspectObject.keys():
+        raise KeyError("status")
+        return
+    updateObject = {"status": suspectObject['status']}
+    if "data" in suspectObject.keys():
+        updateObject["data"] = suspectObject['data']
+    if "locs" in suspectObject.keys():
+        updateObject["locs"] = {"$push": {"$each": suspectObject['locs']}}
     try:
         result = db.people.update_one({"_id": id},
-            {"$set": {"suspect":{
-                    "status": suspectObject['status'],
-                    "data": suspectObject['data'] if suspectObject['status'] else None
-                 }}})
+            {"$set": {"suspect": updateObject}})
         return result
     except Exception as e:
         print(e)
