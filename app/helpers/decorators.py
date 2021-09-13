@@ -8,7 +8,7 @@ def jwtChecker(f):
     def wrapper(*args, **kwargs):
         if 'Authorization' not in request.headers:
             return Response('Auth header missing', status=400)
-
+        print(request.headers['Authorization'])
         token = request.headers.get('Authorization')
         if "Bearer" in token:
             token = token.split()[1]

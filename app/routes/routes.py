@@ -7,6 +7,7 @@ from json import dumps
 import app.helpers.decorators as decorators
 from app.helpers.caching import cache_key
 from pymongo.errors import OperationFailure
+from pandas import read_excel
 
 @app.after_request
 def apply_caching(response):
@@ -229,3 +230,18 @@ def csv(userObject: dict):
     except Exception as e:
         print(e)
         return Response(dumps({"error": "Something went wrong"}), status=500)
+
+@app.route('/fill-db', methods=['POST'])
+@decorators.jwtChecker
+# @cache.cached(key_prefix=cache_key)
+def fillDB(userObject: dict):
+    if request.method == 'POST':
+        files = request.files
+        print(files)
+        data = read_excel(files['xlsx'])
+        try:
+            db.fillDB(data)
+            return Response(dumps({"status":"OK"}), status=200)
+        except Exception as e:
+            print(e)
+            return Response(dumps({"error": "Something went wrong"}), status=500)
