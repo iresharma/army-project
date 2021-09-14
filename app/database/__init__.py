@@ -74,7 +74,7 @@ def fileDataToClassifiedData(data: list) -> dict:
                 "property": i['property'],
                 "floor": i['floor'],
                 "nRooms": i['nRooms'],
-                "GR": i["GR"],
+                "GR": i["GR"] if i["GR"] else None,
                 "colour": i["colour"],
                 "perimeterfence": True if i["perimeterfence"] == 'Y' or i["perimeterfence"] == 'y' else False,
                 "cowshed": True if i["cowshed"] == 'Y' or i["cowshed"] == 'y' else False,
