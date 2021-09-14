@@ -395,12 +395,12 @@ def exportDataAsCSV(btn: str) -> dict:
 
 def getPerson(request: dict) -> dict:
     filter = {}
-    filter["name"] = {"$regex": request["name"],
-                      "$options": "i"} if "name" in request.keys() else None
-    filter["occupation"] = {"$regex": request["occupation"],
-                            "$options": "i"} if "occupation" in request.keys() else None
-    filter["tel"] = {"$regex": request["tel"],
-                     "$options": "i"} if "tel" in request.keys() else None
+    if "name" in request.keys():
+        filter["name"] = {"$regex": request["name"],"$options": "i"}
+    if "occupation" in request.keys():
+        filter["occupation"] = {"$regex": request["occupation"],"$options": "i"}
+    if "tel" in request.keys():
+        filter["tel"] = {"$regex": request["tel"],"$options": "i"}
     try:
         result = db.people.aggregate([{"$lookup": {"from": "houses", "localField": "hid", "foreignField": "_id", "as": "house"}}, {
                                      "$match": filter}, {"$unwind": "$house"}, {"$project": {"hid": 0}}])
