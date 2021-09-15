@@ -400,7 +400,7 @@ def getPerson(request: dict) -> dict:
     if "occupation" in request.keys():
         filter["occupation"] = {"$regex": request["occupation"], "$options": "i"}
     if "tel" in request.keys():
-        filter["tel"] = {"$regex": request["tel"], "$options": "i"}
+        filter["tel"] = request["tel"]
     if "btn" in request.keys():
         filter["house.btn"] = {"$regex": request["btn"], "$options": "i"}
     if "village" in request.keys():
@@ -413,8 +413,6 @@ def getPerson(request: dict) -> dict:
         filter["house.floor"] = {"$regex": request["floor"], "$options": "i"}
     if "occupation" in request.keys():
         filter["occupation"] = {"$regex": request["occupation"],"$options": "i"}
-    if "tel" in request.keys():
-        filter["tel"] = {"$regex": request["tel"],"$options": "i"}
     try:
         result = db.people.aggregate([{"$lookup": {"from": "houses", "localField": "hid", "foreignField": "_id", "as": "house"}}, {
                                      "$match": filter}, {"$unwind": "$house"}, {"$project": {"hid": 0}}])
