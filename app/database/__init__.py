@@ -396,7 +396,21 @@ def exportDataAsCSV(btn: str) -> dict:
 def getPerson(request: dict) -> dict:
     filter = {}
     if "name" in request.keys():
-        filter["name"] = {"$regex": request["name"],"$options": "i"}
+        filter["name"] = {"$regex": request["name"], "$options": "i"}
+    if "occupation" in request.keys():
+        filter["occupation"] = {"$regex": request["occupation"], "$options": "i"}
+    if "tel" in request.keys():
+        filter["tel"] = {"$regex": request["tel"], "$options": "i"}
+    if "btn" in request.keys():
+        filter["house.btn"] = {"$regex": request["btn"], "$options": "i"}
+    if "village" in request.keys():
+        filter["house.village"] = {"$regex": request["village"], "$options": "i"}
+    if "mohalla" in request.keys():
+        filter["house.mohalla"] = {"$regex": request["mohalla"], "$options": "i"}
+    if "houseNo" in request.keys():
+        filter["house.house"] = {"$regex": request["houseNo"], "$options": "i"}
+    if "floor" in request.keys():
+        filter["house.floor"] = {"$regex": request["floor"], "$options": "i"}
     if "occupation" in request.keys():
         filter["occupation"] = {"$regex": request["occupation"],"$options": "i"}
     if "tel" in request.keys():
