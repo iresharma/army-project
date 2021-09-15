@@ -7,3 +7,6 @@ pyjwt
 dnspython
 redis
 certifi
+pandas
+openpyxl
+numpy

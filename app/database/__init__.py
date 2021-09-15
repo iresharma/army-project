@@ -1,15 +1,177 @@
 from os import error
-from pymongo import MongoClient,errors
+from pymongo import MongoClient, errors
 from app.constants import DATABASE_NAME, MONGO_URI
 from datetime import datetime as dt
 from hashlib import sha256
 from bson.objectid import ObjectId
 from certifi import where
+from uuid import uuid4
 
 client = MongoClient(MONGO_URI)
 db = client[DATABASE_NAME]
 
 # iresharma, 123
+
+
+def rowTodict(array) -> list:
+    data = []
+    for ind, i in array.iterrows():
+        doc = {
+            "Bn": i[0],
+            "coy": i[1],
+            "village": i[2],
+            "mohalla": i[3],
+            "Hnum": i[4],
+            "name": i[5],
+            "relation": i[6],
+            "sex": i[7],
+            "age": i[8],
+            "occupation": i[9],
+            "tel": i[10],
+            "GR": i[11],
+            "property": i[12],
+            "floor": i[13],
+            "colour": i[14],
+            "nRooms": i[15],
+            "perimeterfence": i[16],
+            "cowshed": i[17],
+            "entryPoints": i[18],
+            "geo": {
+                "lat": i[19].split("/")[0],
+                "long": i[19].split("/")[1][:-1],
+            },
+        }
+        data.append(doc)
+    return data
+
+
+def fileDataToClassifiedData(data: list) -> dict:
+    houses = []
+    villages = []
+    mohallas = []
+
+    houseDocs = []
+    mohallaDocs = []
+    villageDocs = []
+    people = []
+
+    for i in data:
+        hid = str(uuid4()).replace('-', '')
+        mid = str(uuid4()).replace('-', '')
+        vid = str(uuid4()).replace('-', '')
+        pid = str(uuid4()).replace('-', '')
+
+        # create house doc
+        if i['Hnum'] not in houses:
+            houses.append(i['Hnum'])
+            doc = {
+                "_id": hid,
+                "house": i["Hnum"],
+                "btn": i["Bn"],
+                "coy": i["coy"],
+                "village": i["village"],
+                "mohalla": i["mohalla"],
+                "property": i['property'],
+                "floor": i['floor'],
+                "nRooms": i['nRooms'],
+                "GR": i["GR"] if i["GR"] else None,
+                "colour": i["colour"],
+                "perimeterfence": True if i["perimeterfence"] == 'Y' or i["perimeterfence"] == 'y' else False,
+                "cowshed": True if i["cowshed"] == 'Y' or i["cowshed"] == 'y' else False,
+                "entryPoints": i['entryPoints'],
+                "geo": {
+                    "lat": i['geo']['lat'],
+                    "long": i['geo']['long'],
+                },
+                "mother": None,
+                "father": None,
+                "daughter": None,
+                "son": None,
+                "husband": None,
+                "wife": None
+            }
+            people.append({
+                "_id": pid,
+                "name": i['name'],
+                "age": i['age'],
+                "sex": i['sex'],
+                "occupation": i['occupation'],
+                "tel": i['tel'],
+                "hid": hid,
+            })
+            doc[i['relation'].lower()] = pid
+            houseDocs.append(doc)
+
+            # create mohalla document
+            if i['mohalla'] not in mohallas:
+                mohallas.append(i['mohalla'])
+                doc = {
+                    "_id": mid,
+                    "btn": i['Bn'],
+                    "coy": i['coy'],
+                    "village": i['village'],
+                    "mohalla": i['mohalla'],
+                    "houses": [hid]
+                }
+                mohallaDocs.append(doc)
+
+                # create village document
+                if i['village'] not in villages:
+                    villages.append(i['village'])
+                    doc = {
+                        "_id": vid,
+                        "btn": i['Bn'],
+                        "coy": i['coy'],
+                        "village": i['village'],
+                        "houses": [hid],
+                        "mohalla": [mid],
+                    }
+                    villageDocs.append(doc)
+                else:
+                    index = villages.index(i['village'])
+                    villageDocs[index]['houses'].append(hid)
+                    villageDocs[index]['mohalla'].append(mid)
+            else:
+                index = mohallas.index(i['mohalla'])
+                mohallaDocs[index]['houses'].append(hid)
+                if i['village'] not in villages:
+                    villages.append(i['village'])
+                    doc = {
+                        "_id": vid,
+                        "btn": i['Bn'],
+                        "coy": i['coy'],
+                        "village": i['village'],
+                        "houses": [hid],
+                        "mohalla": [mohallaDocs[index]['_id']],
+                    }
+                    villageDocs.append(doc)
+                else:
+                    index = villages.index(i['village'])
+                    villageDocs[index]['houses'].append(hid)
+                    if mohallaDocs[index]['village'] == villageDocs[index]['village']:
+                        villageDocs[index]['mohalla'].append(
+                            mohallaDocs[index]['_id'])
+                        villageDocs[index]['mohalla'] = list(
+                            set(villageDocs[index]['mohalla']))
+        else:
+            index = houses.index(i['Hnum'])
+            person = {
+                "_id": pid,
+                "name": i['name'],
+                "age": i['age'],
+                "sex": i['sex'],
+                "occupation": i['occupation'],
+                "tel": i['tel'],
+                "hid": houseDocs[index]["_id"]
+            }
+            people.append(person)
+            houseDocs[index][i['relation'].lower()] = pid
+    return {
+        'houses': houseDocs,
+        'villages': villageDocs,
+        'mohallas': mohallaDocs,
+        'people': people
+    }
 
 
 def addUser(username: str, password: str, btn: str) -> dict:
@@ -67,6 +229,23 @@ def getGeoLocation(btn: str, queryType=None, value=None) -> list:
     else:
         result = db.houses.find({"btn": btn, queryType: value}, fields)
     return list(result)
+
+
+def fillDB(data: list):
+    objArray = rowTodict(data)
+    classifiedData = fileDataToClassifiedData(objArray)
+    result = db.people.insert_many(classifiedData['people'])
+    print(len(result.inserted_ids))
+
+    result = db.houses.insert_many(classifiedData['houses'])
+    print(len(result.inserted_ids))
+
+    result = db.mohallas.insert_many(classifiedData['mohallas'])
+    print(len(result.inserted_ids))
+
+    result = db.villages.insert_many(classifiedData['villages'])
+    print(len(result.inserted_ids))
+    return
 
 
 def listVillages(coy: str, btn: str) -> list:
@@ -162,7 +341,7 @@ def getHouseList(btn: str, mohalla: str = None) -> list:
     if mohalla != None:
         filter["mohalla"] = mohalla
     try:
-        result = db.houses.aggregate([{"$match":filter}, {"$lookup": {"from": "people", "localField": "husband", "foreignField": "_id", "as": "husbandDocument"}}, {
+        result = db.houses.aggregate([{"$match": filter}, {"$lookup": {"from": "people", "localField": "husband", "foreignField": "_id", "as": "husbandDocument"}}, {
                                      "$unwind": "$husbandDocument"}, {"$project": {"husband": 0}}])
     except Exception as e:
         print(e)
@@ -171,20 +350,19 @@ def getHouseList(btn: str, mohalla: str = None) -> list:
     return list(result)
 
 
-
 def markPersonAsSuspect(id: str, suspectObject: object) -> dict:
     try:
         result = db.people.update_one({"_id": id},
-            {"$set": {"suspect":{
-                    "status": suspectObject['status'],
-                    "data": suspectObject['data'] if suspectObject['status'] else None
-                 }}})
+                                      {"$set": {"suspect": {
+                                          "status": suspectObject['status'],
+                                          "data": suspectObject['data'] if suspectObject['status'] else None
+                                      }}})
         return result
     except Exception as e:
         print(e)
         raise e
 
-        
+
 def exportDataAsCSV(btn: str) -> dict:
     try:
         result = db.houses.find({"btn": btn})
@@ -233,13 +411,18 @@ def getPerson(request: dict) -> dict:
         filter["house.house"] = {"$regex": request["houseNo"], "$options": "i"}
     if "floor" in request.keys():
         filter["house.floor"] = {"$regex": request["floor"], "$options": "i"}
+    if "occupation" in request.keys():
+        filter["occupation"] = {"$regex": request["occupation"],"$options": "i"}
+    if "tel" in request.keys():
+        filter["tel"] = {"$regex": request["tel"],"$options": "i"}
     try:
-        print(filter)
-        result = db.people.aggregate([{"$lookup": {"from": "houses", "localField": "hid", "foreignField": "_id", "as": "house"}},{"$unwind": "$house"}, {"$match": filter}])
+        result = db.people.aggregate([{"$lookup": {"from": "houses", "localField": "hid", "foreignField": "_id", "as": "house"}}, {
+                                     "$match": filter}, {"$unwind": "$house"}, {"$project": {"hid": 0}}])
         return list(result)
     except Exception as e:
         print(e)
         raise e
+
 
 def insertPerson(request: dict) -> dict:
     newPerson = {}
@@ -257,6 +440,7 @@ def insertPerson(request: dict) -> dict:
         return result
     except Exception as e:
         raise e
+
 
 def insertHouse(request: dict) -> dict:
     newHouse = {}
@@ -295,7 +479,8 @@ def insertHouse(request: dict) -> dict:
     try:
         for relative, data in request['relatives'].items():
             if data != None:
-                db.people.update_one({"_id": ObjectId(newHouse[relative])}, {"$set": {"hid": str(result.inserted_id)}})
+                db.people.update_one({"_id": ObjectId(newHouse[relative])}, {
+                                     "$set": {"hid": str(result.inserted_id)}})
     except Exception as e:
         raise e
     return str(result.inserted_id)
